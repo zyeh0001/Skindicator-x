@@ -40,6 +40,14 @@ function HomePage() {
 From the above statistical representation of the line graph, we can observe that in 1982 people by the age of 60, there is 1 out of 86 people has a chance of getting diagnosed with skin cancer, whereas 1 out of 650 people was dying because of skin cancer.
 As of 2020, the chance of death from skin cancer has decreased, with 1 out of 1628 individuals dying from the disease. On the other side, the risk of diagnosis has grown, with 1 out of 64 people being diagnosed with skin cancer."
         />
+        <TableauVisual
+          link="https://public.tableau.com/views/Sachida3/Dashboard3"
+          height="50vh"
+        />
+        <TableauVisual
+          link="https://public.tableau.com/views/Sachida4/Dashboard4"
+          height="50vh"
+        />
       </div>
       <Banner bannerTopic="Time to take actions!" />
       <div className="row aln-center">
