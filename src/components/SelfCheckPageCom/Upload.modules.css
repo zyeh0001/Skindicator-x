@@ -6,6 +6,7 @@
   margin: auto;
   width: 35% !important;
   background-color: #f7f7f7;
+  position:relative
 }
 
 .preview {
@@ -13,4 +14,5 @@
   margin: auto;
   width: 35% !important;
   background-color: #f7f7f7;
+  position:relative
 }

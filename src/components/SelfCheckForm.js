@@ -44,7 +44,7 @@ class SelfCheckForm extends Component {
     this.setState({ [nam]: val });
   };
   render() {
-    return (
+    return (<div classname="col-6 col-12-narrower feature">
       <form onSubmit={this.mySubmitHandler}>
         <h1>Describe your skin condition</h1>
         <label>Age</label>
@@ -88,6 +88,7 @@ class SelfCheckForm extends Component {
         <br />
         <input type="Submit" />
       </form>
+      </div>
     );
   }
 }
