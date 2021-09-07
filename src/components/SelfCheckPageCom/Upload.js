@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import FileBase64 from "react-file-base64";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./Upload.modules.css";
+// const axios = require("axios").default;
 export default class Upload extends Component {
   constructor(props) {
     super();
@@ -32,6 +33,7 @@ export default class Upload extends Component {
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       }
     );
+
     const Result = await response.json();
     this.setState({ Result: Result.body });
     console.log(this.state.Result);
@@ -47,6 +49,28 @@ export default class Upload extends Component {
     ) {
       this.setState({ ifSkin: "Skin photo detected" });
       console.log("skin photo");
+      //get  request for the upload url to s3
+      const response_s3 = await fetch(
+        "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
+      )
+        .then(function (response_s3) {
+          return response_s3.json();
+        })
+        .then(function (data) {
+          const items = data;
+          console.log("Response", items);
+          return items;
+        });
+      console.log(response_s3["uploadURL"]);
+      //PUT REQUEST TO S3
+      const result_s3 = fetch(response_s3["uploadURL"], {
+        method: "PUT",
+        headers: {
+          "Content-type": "image/jpeg",
+        },
+        body: JSON.stringify({ photo: this.state.files["base64"] }),
+      });
+      console.log(result_s3);
     } else {
       this.setState({ ifSkin: "The photo is unclear, Please upload again" });
       console.log("not clear photo");
