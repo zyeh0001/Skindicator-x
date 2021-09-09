@@ -9,7 +9,7 @@ function MapVisual(props) {
         <div className="container">
           <TableauVisual
             link="https://public.tableau.com/views/Sachida/Dashboard1"
-            height="90vh"
+            height="50vh"
           />
         </div>
       </div>
