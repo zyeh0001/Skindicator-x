@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html,
 body,
 div,
@@ -95,6 +96,27 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+.pink{ 
+  color: #c00497;
+}
+
+.green{ 
+  color: #00ff00;
+}
+
+.red{ 
+  color: #ff0000;
+}
+
+.p2{ 
+  color: #8400ff;
+}
+
+.blue{ 
+  color: #0051ff;
+}
+
 
 article,
 aside,
@@ -316,7 +338,7 @@ br.clear {
   font-weight:bold;
   font-size: 1.em;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-bottom: 1.2em;
 }
 
@@ -376,6 +398,13 @@ header.major {
   margin: 0 auto;
   max-width: 80%;
   width: 1200px;
+}
+
+.containerP2 {
+  margin: 0 auto;
+  max-width: 80%;
+  width: 1200px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
@@ -2197,6 +2226,10 @@ button:hover,
 .image-wrapper {
   position: relative;
   max-height: 40%;
+}
+
+.image1-wrapper {
+  margin-top: 50em;
 }
 
 .image-wrapper .image {
