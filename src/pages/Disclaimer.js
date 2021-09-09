@@ -12,7 +12,9 @@ function DisclaimerPage() {
       />
       <div className="featureP">
       <Postscripts
-          text1 = "If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at ylin0078@student.monash.edu. Our Disclaimer was generated with the help of the Disclaimer Generator. " 
+          text1 = "If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at " 
+        text2 = " ylin0078@student.monash.edu. "
+        text3 = "Our Disclaimer was generated with the help of the Disclaimer Generator. "
         />
       <MainTopic
           title = "Disclaimer for Skindicator" 
