@@ -13,6 +13,7 @@ import MedicalSupportPage from "./pages/MedicalSupport";
 import MainNavigation from "./components/common/MainNavigation";
 import Footer from "./components/common/footer";
 // import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div>

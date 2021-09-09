@@ -4,13 +4,14 @@ import FileBase64 from "react-file-base64";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./Upload.modules.css";
 // const axios = require("axios").default;
+const utf8 = require("utf8");
 export default class Upload extends Component {
   constructor(props) {
     super();
-
     this.state = {
       files: [],
       Result: [],
+      predict: "",
       ifSkin: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
@@ -33,7 +34,7 @@ export default class Upload extends Component {
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       }
     );
-
+    console.log(response);
     const Result = await response.json();
     this.setState({ Result: Result.body });
     console.log(this.state.Result);
@@ -49,6 +50,7 @@ export default class Upload extends Component {
     ) {
       this.setState({ ifSkin: "Skin photo detected" });
       console.log("skin photo");
+
       //get  request for the upload url to s3
       const response_s3 = await fetch(
         "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
@@ -61,7 +63,7 @@ export default class Upload extends Component {
           console.log("Response", items);
           return items;
         });
-      console.log(response_s3["uploadURL"]);
+      //   console.log(response_s3["uploadURL"]);
       //PUT REQUEST TO S3
       const result_s3 = fetch(response_s3["uploadURL"], {
         method: "PUT",
@@ -70,27 +72,50 @@ export default class Upload extends Component {
         },
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       });
-      console.log(result_s3);
+      // console.log(result_s3);
+
+      //Post request for model to get result
+      var url = "/default/model-test";
+      const result_response = await fetch(url, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({
+          image: utf8.decode(this.state.files["base64"]),
+        }),
+      });
+      console.log(result_response);
+      const result_response_Result = await result_response.json();
+      console.log(result_response_Result);
+      this.setState({
+        predict:
+          "The posibility of being Malignant is:  " +
+          result_response_Result.output,
+      });
     } else {
-      this.setState({ ifSkin: "The photo is unclear, Please upload again" });
+      this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
       console.log("not clear photo");
     }
   }
   render() {
     const ifSkin = this.state.ifSkin;
+    const predict = this.state.predict;
     return (
-      <div classname = "col-6">
-        <div className="files">
+      <div>
+        <div className="col-6 offset-3 files">
           <FileBase64 multiple={false} onDone={this.getFiles.bind(this)} />
         </div>
 
-        <div className="preview">
+        <div className="col-6 offset-3 preview">
           <img src={this.state.files.base64} width="40%" alt="upload"></img>
         </div>
-        <div className="review">
+        <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.fileUpload} />
         </div>
-        <div>{ifSkin}</div>
+        <div className="col-6 offset-3">{ifSkin}</div>
+        <div className="col-6 offset-3">{predict}</div>
       </div>
     );
   }
