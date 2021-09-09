@@ -1,18 +1,20 @@
 .files {
   outline: 2px dashed #92b0b3;
-  outline-offset: -10px;
-  padding: 80px 60px 50px 50px;
+  outline-offset: -2px;
+  padding: 40px 110px 50px 40px;
   text-align: center !important;
-  margin: auto;
-  width: 35% !important;
+  margin-top: 2em;
+  margin-right:0em;
+  margin-left:-2em;
+  width: 70% !important;
   background-color: #f7f7f7;
   position:relative
 }
 
 .preview {
-  padding: 80px 60px 50px 50px;
+  padding: 50px 0px 50px 0px;
   margin: auto;
-  width: 35% !important;
+  width: 100% !important;
   background-color: #f7f7f7;
   position:relative
 }

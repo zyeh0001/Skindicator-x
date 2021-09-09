@@ -6,8 +6,8 @@ function ImageSection2(props) {
                     src={props.image}
                     alt=""
                     style={{
-                        width: "350px",
-                        height: "250px",
+                        width: "420px",
+                        height: "300px",
                     }}
                 />
             </div>

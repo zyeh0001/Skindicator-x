@@ -79,24 +79,18 @@ export default class Upload extends Component {
   render() {
     const ifSkin = this.state.ifSkin;
     return (
-      <div>
-        <div className="row">
-          <div className="col-6 offset-3">
-            <h4>Self Check form</h4>
-          </div>
-        </div>
-
-        <div className="col-6 offset-3 files">
+      <div classname = "col-6">
+        <div className="files">
           <FileBase64 multiple={false} onDone={this.getFiles.bind(this)} />
         </div>
 
-        <div className="col-6 offset-3 preview">
+        <div className="preview">
           <img src={this.state.files.base64} width="40%" alt="upload"></img>
         </div>
-        <div className="col-6 offset-3 preview">
+        <div className="review">
           <input type="Submit" onClick={this.fileUpload} />
         </div>
-        <div className="col-6 offset-3">{ifSkin}</div>
+        <div>{ifSkin}</div>
       </div>
     );
   }

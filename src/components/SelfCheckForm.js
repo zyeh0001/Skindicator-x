@@ -46,7 +46,6 @@ class SelfCheckForm extends Component {
   render() {
     return (<div classname="col-6 col-12-narrower feature">
       <form onSubmit={this.mySubmitHandler}>
-        <h1>Describe your skin condition</h1>
         <label>Age</label>
         <input type="text" name="age" onChange={this.myChangeHandler} />
         <label>Gender</label>
@@ -60,18 +59,6 @@ class SelfCheckForm extends Component {
           <option value="Male">Male</option>
           <option value="Prefer_not_to_say">Prefer not to say</option>
         </select>
-        <label>State</label>
-        <input type="text" name="state" onChange={this.myChangeHandler} />
-        <label>City</label>
-        <input type="text" name="city" onChange={this.myChangeHandler} />
-        <label>Hobby</label>
-        <input type="text" name="hobby" onChange={this.myChangeHandler} />
-        <label>Places you aften go</label>
-        <input
-          type="text"
-          name="places_you_aften_go"
-          onChange={this.myChangeHandler}
-        />
         <label>Family history of skin cancer</label>
         <input
           type="text"
