@@ -81,7 +81,7 @@ export default class Upload extends Component {
       //Post request for model to get result
       var url = "/default/model-test";
       const result_response = await fetch(url, {
-        method: "PUT",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
