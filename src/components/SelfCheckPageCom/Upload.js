@@ -83,7 +83,8 @@ export default class Upload extends Component {
       const result_response = await fetch(url, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-Requested-With": "XMLHttpRequest",
           Accept: "application/json",
         },
 
