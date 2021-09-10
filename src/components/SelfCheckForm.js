@@ -6,34 +6,22 @@ class SelfCheckForm extends Component {
     this.state = {
       age: null,
       gender: "",
-      state: "",
-      city: "",
-      hobby: "",
-      places_you_aften_go: "",
       family_history: "",
+      position_of_moles:"",
     };
   }
   mySubmitHandler = (event) => {
     event.preventDefault();
     let age = this.state.age;
     let gender = this.state.gender;
-    let state = this.state.state;
-    let city = this.state.city;
-    let hobby = this.state.hobby;
-    let places_you_aften_go = this.state.places_you_aften_go;
     let family_history = this.state.family_history;
+    let position_of_moles = this.state.position_of_moles;
     if (!Number(age)) {
       alert("Your age must be a number");
     } else if (gender === "") {
       alert("Please select your gender");
-    } else if (state === "") {
-      alert("Please enter the state you live in");
-    } else if (city === "") {
-      alert("Please enter the city you live in");
-    } else if (hobby === "") {
-      alert("Please enter your hobby");
-    } else if (places_you_aften_go === "") {
-      alert("Please enter the places you aften go");
+    } else if (position_of_moles === "") {
+      alert("Please enter the your position of moles");
     } else if (family_history === "") {
       alert("Please enter the your family history of skin cancer");
     }
