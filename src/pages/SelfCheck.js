@@ -7,9 +7,7 @@ function SelfCheckPage() {
   return (
     <div>
       <div className="featureP">
-        <MainTopic
-          title="Write your detail and upload your spot image to get classification"
-        />
+        <MainTopic title="Write your detail and upload your spot image to get classification" />
       </div>
       <div className="row aln-center">
         <Upload />
