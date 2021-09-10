@@ -5,6 +5,7 @@ module.exports = function (app) {
     createProxyMiddleware("/default/model-test", {
       target: "https://qur0qdu5dd.execute-api.ap-southeast-2.amazonaws.com",
       changeOrigin: true,
+      pathRewrite: { "^/default/model-test": "" },
     })
   );
 };

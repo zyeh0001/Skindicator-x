@@ -23,13 +23,17 @@ export default class Upload extends Component {
   }
 
   async fileUpload() {
+    var test = JSON.parse(
+      JSON.stringify({ photo: this.state.files["base64"] })
+    );
+    console.log("test", test);
     const response = await fetch(
       "https://3756b7g7oj.execute-api.us-east-1.amazonaws.com/Prod/molesphoto",
       {
         method: "POST",
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json",
-          "Content-type": "application/json",
         },
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       }
@@ -79,15 +83,19 @@ export default class Upload extends Component {
       const result_response = await fetch(url, {
         method: "POST",
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json",
-          "Content-type": "application/json",
         },
+
         body: JSON.stringify({
           image: utf8.decode(this.state.files["base64"]),
         }),
       });
+      //
+      //
       console.log(result_response);
       const result_response_Result = await result_response.json();
+
       console.log(result_response_Result);
       this.setState({
         predict:
