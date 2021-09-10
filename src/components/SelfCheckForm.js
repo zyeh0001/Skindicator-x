@@ -44,37 +44,38 @@ class SelfCheckForm extends Component {
     this.setState({ [nam]: val });
   };
   render() {
-    return (<div classname="col-6 col-12-narrower feature">
-      <form onSubmit={this.mySubmitHandler}>
-        <label>Age</label>
-        <input type="text" name="age" onChange={this.myChangeHandler} />
-        <label>Gender</label>
-        <select
-          value={this.state.gender}
-          name="gender"
-          onChange={this.myChangeHandler}
-        >
-          <option value="Please_select">Please select</option>
-          <option value="Female">Female</option>
-          <option value="Male">Male</option>
-          <option value="Prefer_not_to_say">Prefer not to say</option>
-        </select>
-        <label>Family history of skin cancer</label>
-        <input
-          type="text"
-          name="family_history"
-          onChange={this.myChangeHandler}
-        />
-        <label>Position of the moles on your body</label>
-        <input
-          type="text"
-          name="position_of_moles"
-          onChange={this.myChangeHandler}
-        />
-        <br />
-        <br />
-        <input type="Submit" />
-      </form>
+    return (
+      <div className="col-6 col-12-narrower feature">
+        <form onSubmit={this.mySubmitHandler}>
+          <label>Age</label>
+          <input type="text" name="age" onChange={this.myChangeHandler} />
+          <label>Gender</label>
+          <select
+            value={this.state.gender}
+            name="gender"
+            onChange={this.myChangeHandler}
+          >
+            <option value="Please_select">Please select</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Prefer_not_to_say">Prefer not to say</option>
+          </select>
+          <label>Family history of skin cancer</label>
+          <input
+            type="text"
+            name="family_history"
+            onChange={this.myChangeHandler}
+          />
+          <label>Position of the moles on your body</label>
+          <input
+            type="text"
+            name="position_of_moles"
+            onChange={this.myChangeHandler}
+          />
+          <br />
+          <br />
+          <input type="Submit" />
+        </form>
       </div>
     );
   }
