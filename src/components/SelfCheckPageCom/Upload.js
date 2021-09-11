@@ -47,7 +47,6 @@ export default class Upload extends Component {
         body: JSON.stringify({
           image: utf8.decode(this.state.files["base64"]),
         }),
-        mode: "no-cors",
       }
     );
     console.log(result_response);
