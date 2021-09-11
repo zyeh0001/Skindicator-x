@@ -80,20 +80,17 @@ export default class Upload extends Component {
 
       //Post request for model to get result
 
-      const result_response = await fetch(
-        "https://ot111o86l5.execute-api.us-east-1.amazonaws.com/Prod/molesimage",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
+      const result_response = await fetch("/Prod/molesimage", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
 
-          body: JSON.stringify({
-            image: utf8.decode(this.state.files["base64"]),
-          }),
-        }
-      );
+        body: JSON.stringify({
+          image: utf8.decode(this.state.files["base64"]),
+        }),
+      });
       //
       //
       console.log(result_response);
