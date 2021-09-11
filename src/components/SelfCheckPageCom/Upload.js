@@ -36,6 +36,7 @@ export default class Upload extends Component {
       {
         method: "POST",
         headers: {
+          "Access-Control-Allow-Origin": "*",
           "Content-Type": "application/json",
           Accept: "application/json",
         },
