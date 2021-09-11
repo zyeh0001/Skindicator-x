@@ -30,7 +30,7 @@ export default class Upload extends Component {
     //   image: utf8.decode(img),
     // });
     console.log(img);
-    const result_response = await fetch("/Prod/prediction", {
+    const result_response = await fetch("/molesimage", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

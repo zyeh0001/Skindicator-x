@@ -7,4 +7,10 @@ module.exports = function (app) {
       changeOrigin: true,
     })
   );
+  app.use(
+    createProxyMiddleware("/molesimage", {
+      target: "https://ot111o86l5.execute-api.us-east-1.amazonaws.com/Prod",
+      changeOrigin: true,
+    })
+  );
 };
