@@ -39,8 +39,7 @@ export default class Upload extends Component {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Credentials": "true",
           "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
-          " Access-Control-Allow-Header":
-            "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers",
+          "Access-Control-Allow-Header": "*",
           "Content-Type": "application/json",
           Accept: "application/json",
         },
@@ -48,6 +47,7 @@ export default class Upload extends Component {
         body: JSON.stringify({
           image: utf8.decode(this.state.files["base64"]),
         }),
+        mode: "no-cors",
       }
     );
     console.log(result_response);
