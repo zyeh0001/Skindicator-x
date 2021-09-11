@@ -15,11 +15,31 @@ export default class Upload extends Component {
       ifSkin: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
+    this.sendToModle = this.sendToModle.bind(this);
   }
 
   getFiles(files) {
     this.setState({ files: files });
     console.log(files);
+  }
+
+  async sendToModle() {
+    var test = JSON.stringify({
+      image: utf8.decode(this.state.files["base64"]),
+    });
+    console.log(test);
+    const result_response = await fetch("/Prod/prediction", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+
+      body: JSON.stringify({
+        image: utf8.decode(this.state.files["base64"]),
+      }),
+    });
+    console.log(result_response);
   }
 
   async fileUpload() {
@@ -56,6 +76,7 @@ export default class Upload extends Component {
       console.log("skin photo");
 
       //get  request for the upload url to s3
+
       const response_s3 = await fetch(
         "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
       )
@@ -67,8 +88,10 @@ export default class Upload extends Component {
           console.log("Response", items);
           return items;
         });
+
       //   console.log(response_s3["uploadURL"]);
       //PUT REQUEST TO S3
+
       const result_s3 = fetch(response_s3["uploadURL"], {
         method: "PUT",
         headers: {
@@ -76,11 +99,12 @@ export default class Upload extends Component {
         },
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       });
+
       // console.log(result_s3);
 
       //Post request for model to get result
 
-      const result_response = await fetch("/Prod/molesimage", {
+      const result_response = await fetch("/Prod/prediction", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -92,6 +116,7 @@ export default class Upload extends Component {
         }),
       });
       //
+
       //
       console.log(result_response);
       const result_response_Result = await result_response.json();
@@ -121,6 +146,9 @@ export default class Upload extends Component {
         </div>
         <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.fileUpload} />
+        </div>
+        <div className="col-6 offset-3 preview">
+          <input type="Submit" onClick={this.sendToModle} />
         </div>
         <div className="col-6 offset-3">{ifSkin}</div>
         <div className="col-6 offset-3">{predict}</div>
