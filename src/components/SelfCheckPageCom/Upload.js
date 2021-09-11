@@ -26,11 +26,11 @@ export default class Upload extends Component {
 
   async sendToModle() {
     var img = resizebase64(this.state.files["base64"], 224, 224);
-    // var test = JSON.stringify({
-    //   image: utf8.decode(img),
-    // });
+    var test = JSON.stringify({
+      image: utf8.decode(img),
+    });
     console.log(img);
-    const result_response = await fetch("/molesimage", {
+    const result_response = await fetch("/Prod/detectapi", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -42,6 +42,16 @@ export default class Upload extends Component {
       }),
     });
     console.log(result_response);
+
+    // const data = { image: test };
+
+    // const result_response = await fetch(
+    //   `/Prod/molesimage?image=${encodeURIComponent(data.image)}`,
+    //   {
+    //     method: "GET",
+    //   }
+    // );
+    // console.log(result_response);
   }
 
   async fileUpload() {

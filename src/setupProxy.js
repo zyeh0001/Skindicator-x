@@ -8,8 +8,8 @@ module.exports = function (app) {
     })
   );
   app.use(
-    createProxyMiddleware("/molesimage", {
-      target: "https://ot111o86l5.execute-api.us-east-1.amazonaws.com/Prod",
+    createProxyMiddleware("/Prod/detectapi", {
+      target: "https://ot111o86l5.execute-api.us-east-1.amazonaws.com",
       changeOrigin: true,
     })
   );
