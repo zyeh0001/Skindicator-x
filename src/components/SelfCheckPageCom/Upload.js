@@ -26,9 +26,9 @@ export default class Upload extends Component {
 
   async sendToModle() {
     var img = resizebase64(this.state.files["base64"], 224, 224);
-    var test = JSON.stringify({
-      image: utf8.decode(img),
-    });
+    // var test = JSON.stringify({
+    //   image: utf8.decode(img),
+    // });
     console.log(img);
     const result_response = await fetch("/Prod/prediction", {
       method: "POST",
@@ -102,7 +102,7 @@ export default class Upload extends Component {
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       });
 
-      // console.log(result_s3);
+      console.log(result_s3);
 
       //Post request for model to get result
 
