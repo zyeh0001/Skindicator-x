@@ -79,18 +79,21 @@ export default class Upload extends Component {
       // console.log(result_s3);
 
       //Post request for model to get result
-      var url = "/default/model-test";
-      const result_response = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
 
-        body: JSON.stringify({
-          image: utf8.decode(this.state.files["base64"]),
-        }),
-      });
+      const result_response = await fetch(
+        "https://ot111o86l5.execute-api.us-east-1.amazonaws.com/Prod/molesimage",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+
+          body: JSON.stringify({
+            image: utf8.decode(this.state.files["base64"]),
+          }),
+        }
+      );
       //
       //
       console.log(result_response);
