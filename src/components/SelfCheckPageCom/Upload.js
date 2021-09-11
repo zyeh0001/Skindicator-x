@@ -5,6 +5,7 @@ import FileBase64 from "react-file-base64";
 import "./Upload.modules.css";
 // const axios = require("axios").default;
 const utf8 = require("utf8");
+var resizebase64 = require("resize-base64");
 export default class Upload extends Component {
   constructor(props) {
     super();
@@ -24,10 +25,11 @@ export default class Upload extends Component {
   }
 
   async sendToModle() {
+    var img = resizebase64(this.state.files["base64"], 224, 224);
     var test = JSON.stringify({
-      image: utf8.decode(this.state.files["base64"]),
+      image: utf8.decode(img),
     });
-    console.log(test);
+    console.log(img);
     const result_response = await fetch("/Prod/prediction", {
       method: "POST",
       headers: {
