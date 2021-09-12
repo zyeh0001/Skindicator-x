@@ -60,5 +60,6 @@
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0"
-  }
+  },
+  "proxy": "https://www.skindicator.ga"
 }
