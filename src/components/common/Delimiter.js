@@ -1,11 +1,11 @@
 
 function Delimiter(props) {
     return (
-        <div className="image-wrapper">
+        <div className="image-wrapper2">
             <img
-              src={props.image}
+              src="images/Delimiter.svg"
               alt=""
-              width = "100%"
+              width = "80%"
 
             />
         </div>

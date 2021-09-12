@@ -7,38 +7,65 @@ import HomePage from "./pages/Home";
 import AboutUsPage from "./pages/AboutUs";
 import DisclaimerPage from "./pages/Disclaimer";
 import HealthyTipsPage from "./pages/HealthyTips";
+import FactsPage from "./pages/Facts";
+import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 import SelfCheckPage from "./pages/SelfCheck";
 import SymptomPage from "./pages/Symptom";
 import MedicalSupportPage from "./pages/MedicalSupport";
+import ABCDEsPage from "./pages/ABCDEs";
 import MainNavigation from "./components/common/MainNavigation";
+import SymptomsNav from "./components/common/SymptomsNav";
+import FactsNav from "./components/common/FactsNav";
+import MedicalSupportNav from "./components/common/MedicalSupportNav";
+import SelfCheckNav from "./components/common/SelfCheckNav";
+import CommonNavigation from "./components/common/CommonNavigation";
 import Footer from "./components/common/footer";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
-      <MainNavigation />
+    <MainNavigation />
       <Switch>
-        <Route path="/" exact={true}>
-          <HomePage />
-        </Route>
-        <Route path="/about-us">
-          <AboutUsPage />
-        </Route>
-        <Route path="/disclaimer">
-          <DisclaimerPage />
-        </Route>
-        <Route path="/healthy-tips">
-          <HealthyTipsPage />
-        </Route>
-        <Route path="/self-check">
-          <SelfCheckPage />
-        </Route>
-        <Route path="/symptom">
+        <Route path="/symptoms">
+          <SymptomsNav />
           <SymptomPage />
         </Route>
+        <Route path="/self-check">
+          <SelfCheckNav />
+          <SelfCheckPage />
+        </Route>
         <Route path="/medical-support">
+          <MedicalSupportNav />
           <MedicalSupportPage />
+        </Route>
+        <Route path="/" exact={true}>
+          <MainNavigation />
+          <HomePage />
+        </Route>
+        <Route path="/protection-tips">
+          <CommonNavigation />
+          <HealthyTipsPage />
+        </Route>
+        <Route path="/skin-protection-abcde">
+          <CommonNavigation />
+          <ABCDEsPage />
+        </Route>
+        <Route path="/facts">
+          <FactsNav />
+          <FactsPage />
+        </Route>
+        <Route path="/privacy-policy">
+          <CommonNavigation />
+          <PrivacyPolicyPage />
+        </Route>
+        <Route path="/our-team">
+          <CommonNavigation />
+          <AboutUsPage />
+        </Route>
+        <Route path="/medical-disclaimer">
+          <CommonNavigation />
+          <DisclaimerPage />
         </Route>
       </Switch>
       <div id="react-mount"></div>

@@ -3,46 +3,60 @@ import { Link } from "react-router-dom";
 function MainNavigation() {
   return (
     <div>
-      <div id="header-wrapper">
-        {/* <div id="header" className="container"></div> */}
-        <h1 id="logo">
-          <Link to="/">Skindicator-X</Link>
-        </h1>
+      <nav id="nav">
+        <ul>
+          <li>
+            <Link to="/symptoms">Symptoms</Link>
+          </li>
 
-        <nav id="nav">
-          <ul>
-            <li>
-              <Link to="#">Support</Link>
-              <ul>
-                <li>
-                  <Link to="/medical-support">Medical support</Link>
-                </li>
-                <li>
-                  <Link to="/disclaimer">Disclaimer</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link to="#">Skin Health</Link>
-              <ul>
-                <li>
-                  <Link to="/symptom">Symptoms</Link>
-                </li>
-                <li>
-                  <Link to="/healthy-tips">Healthy Tips</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="break">
-              <Link to="/self-check">Self Check</Link>
-            </li>
-            <li>
-              <Link to="/about-us">About us</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <li>
+            <Link to="/self-check">Self Check</Link>
+          </li>
+
+          <li>
+            <Link to="/medical-support">Medical support</Link>
+          </li>
+
+          <li class="current">
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="#">Skin Protection</Link>
+            <ul>
+              <li>
+                <Link to="/protection-tips">Protection tips</Link>
+              </li>
+              <li>
+                <Link to="/skin-protection-abcde">ABCDEs</Link>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <Link to="/facts">Facts</Link>
+          </li>
+
+          <li>
+            <Link to="#">About us</Link>
+            <ul>
+              <li>
+                <Link to="/privacy-policy">Privacy policy</Link>
+              </li>
+              <li>
+                <Link to="/our-team">Our team</Link>
+              </li>
+              <li>
+                <Link to="/medical-disclaimer">Medical disclaimer</Link>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
     </div>
   );
 }
 export default MainNavigation;
+
+// <Link to="/">Skindicator-X</Link>
