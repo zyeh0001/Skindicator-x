@@ -5,6 +5,7 @@ import FileBase64 from "react-file-base64";
 import "./Upload.modules.css";
 // const axios = require("axios").default;
 const utf8 = require("utf8");
+var resizebase64 = require("resize-base64");
 export default class Upload extends Component {
   constructor(props) {
     super();
@@ -15,6 +16,7 @@ export default class Upload extends Component {
       ifSkin: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
+    this.sendToModle = this.sendToModle.bind(this);
   }
 
   getFiles(files) {
@@ -22,14 +24,41 @@ export default class Upload extends Component {
     console.log(files);
   }
 
+  async sendToModle() {
+    var img = resizebase64(this.state.files["base64"], 224, 224);
+    var test = JSON.stringify({
+      image: utf8.decode(img),
+    });
+
+    const result_response = await fetch(
+      "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: test,
+      }
+    );
+    console.log(result_response);
+    const result_response_Result = await result_response.json();
+    let body = JSON.parse(result_response_Result.body);
+    console.log("result_response_Result", result_response_Result);
+    console.log("body", body.output);
+  }
+
   async fileUpload() {
+    var test = JSON.parse(
+      JSON.stringify({ photo: this.state.files["base64"] })
+    );
+    console.log("test", test);
     const response = await fetch(
       "https://3756b7g7oj.execute-api.us-east-1.amazonaws.com/Prod/molesphoto",
       {
         method: "POST",
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json",
-          "Content-type": "application/json",
         },
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       }
@@ -52,6 +81,7 @@ export default class Upload extends Component {
       console.log("skin photo");
 
       //get  request for the upload url to s3
+
       const response_s3 = await fetch(
         "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
       )
@@ -63,8 +93,10 @@ export default class Upload extends Component {
           console.log("Response", items);
           return items;
         });
+
       //   console.log(response_s3["uploadURL"]);
       //PUT REQUEST TO S3
+
       const result_s3 = fetch(response_s3["uploadURL"], {
         method: "PUT",
         headers: {
@@ -72,27 +104,36 @@ export default class Upload extends Component {
         },
         body: JSON.stringify({ photo: this.state.files["base64"] }),
       });
-      // console.log(result_s3);
+
+      console.log(result_s3);
 
       //Post request for model to get result
-      var url = "/default/model-test";
-      const result_response = await fetch(url, {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "application/json",
-        },
-        body: JSON.stringify({
-          image: utf8.decode(this.state.files["base64"]),
-        }),
+
+      var img = resizebase64(this.state.files["base64"], 300, 300);
+      var test_photo = JSON.stringify({
+        image: utf8.decode(img),
       });
+
+      const result_response = await fetch(
+        "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: test_photo,
+        }
+      );
+
       console.log(result_response);
       const result_response_Result = await result_response.json();
-      console.log(result_response_Result);
+      let body = JSON.parse(result_response_Result.body);
+      console.log("result_response_Result", result_response_Result);
+      console.log(body.output);
+      console.log(typeof body.output);
       this.setState({
         predict:
-          "The posibility of being Malignant is:  " +
-          result_response_Result.output,
+          "The posibility of being Malignant is:  " + body.output.toFixed(2),
       });
     } else {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
@@ -114,6 +155,9 @@ export default class Upload extends Component {
         <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.fileUpload} />
         </div>
+        {/* <div className="col-6 offset-3 preview">
+          <input type="Submit" onClick={this.sendToModle} />
+        </div> */}
         <div className="col-6 offset-3">{ifSkin}</div>
         <div className="col-6 offset-3">{predict}</div>
       </div>
