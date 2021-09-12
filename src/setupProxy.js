@@ -13,4 +13,10 @@ module.exports = function (app) {
       changeOrigin: true,
     })
   );
+  app.use(
+    createProxyMiddleware("/Prod/molesphoto", {
+      target: "https://3756b7g7oj.execute-api.us-east-1.amazonaws.com",
+      changeOrigin: true,
+    })
+  );
 };
