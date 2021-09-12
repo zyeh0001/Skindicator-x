@@ -31,24 +31,23 @@ export default class Upload extends Component {
     // });
 
     console.log(img);
-    const result_response = await fetch(
-      "https://ot111o86l5.execute-api.us-east-1.amazonaws.com/Prod/detectapi",
-      {
-        method: "POST",
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Credentials": "true",
-          "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
-          "Access-Control-Allow-Header": "*",
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
+    // let headers = new Headers();
 
-        body: JSON.stringify({
-          image: utf8.decode(this.state.files["base64"]),
-        }),
-      }
-    );
+    // headers.append("Content-Type", "application/json");
+    // headers.append("Accept", "application/json");
+    // headers.append("Access-Control-Allow-Origin", "*");
+    const result_response = await fetch("/Prod/detectapi", {
+      method: "POST",
+      //   mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+
+      body: JSON.stringify({
+        image: utf8.decode(this.state.files["base64"]),
+      }),
+    });
     console.log(result_response);
 
     // const data = { image: test };
@@ -124,7 +123,7 @@ export default class Upload extends Component {
 
       //Post request for model to get result
 
-      const result_response = await fetch("/Prod/prediction", {
+      const result_response = await fetch("/Prod/molesimage", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
