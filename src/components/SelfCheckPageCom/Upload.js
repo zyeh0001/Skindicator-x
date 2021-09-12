@@ -36,18 +36,19 @@ export default class Upload extends Component {
     // headers.append("Content-Type", "application/json");
     // headers.append("Accept", "application/json");
     // headers.append("Access-Control-Allow-Origin", "*");
-    const result_response = await fetch("/Prod/detectapi", {
-      method: "POST",
-      //   mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-
-      body: JSON.stringify({
-        image: utf8.decode(this.state.files["base64"]),
-      }),
-    });
+    const result_response = await fetch(
+      "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+      {
+        method: "POST",
+        //   mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          image: utf8.decode(this.state.files["base64"]),
+        }),
+      }
+    );
     console.log(result_response);
 
     // const data = { image: test };
@@ -66,14 +67,17 @@ export default class Upload extends Component {
       JSON.stringify({ photo: this.state.files["base64"] })
     );
     console.log("test", test);
-    const response = await fetch("/Prod/molesphoto", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({ photo: this.state.files["base64"] }),
-    });
+    const response = await fetch(
+      "https://3756b7g7oj.execute-api.us-east-1.amazonaws.com/Prod/molesphoto",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({ photo: this.state.files["base64"] }),
+      }
+    );
     console.log(response);
     const Result = await response.json();
     this.setState({ Result: Result.body });
@@ -120,17 +124,19 @@ export default class Upload extends Component {
 
       //Post request for model to get result
 
-      const result_response = await fetch("/Prod/molesimage", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
+      const result_response = await fetch(
+        "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
 
-        body: JSON.stringify({
-          image: utf8.decode(this.state.files["base64"]),
-        }),
-      });
+          body: JSON.stringify({
+            image: utf8.decode(this.state.files["base64"]),
+          }),
+        }
+      );
       //
 
       //
