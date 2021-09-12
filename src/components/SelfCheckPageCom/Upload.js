@@ -26,40 +26,25 @@ export default class Upload extends Component {
 
   async sendToModle() {
     var img = resizebase64(this.state.files["base64"], 224, 224);
-    // var test = JSON.stringify({
-    //   image: utf8.decode(img),
-    // });
+    var test = JSON.stringify({
+      image: utf8.decode(img),
+    });
 
-    console.log(img);
-    // let headers = new Headers();
-
-    // headers.append("Content-Type", "application/json");
-    // headers.append("Accept", "application/json");
-    // headers.append("Access-Control-Allow-Origin", "*");
     const result_response = await fetch(
       "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
       {
         method: "POST",
-        //   mode: "cors",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          image: utf8.decode(this.state.files["base64"]),
-        }),
+        body: test,
       }
     );
     console.log(result_response);
-
-    // const data = { image: test };
-
-    // const result_response = await fetch(
-    //   `/Prod/molesimage?image=${encodeURIComponent(data.image)}`,
-    //   {
-    //     method: "GET",
-    //   }
-    // );
-    // console.log(result_response);
+    const result_response_Result = await result_response.json();
+    let body = JSON.parse(result_response_Result.body);
+    console.log("result_response_Result", result_response_Result);
+    console.log("body", body.output);
   }
 
   async fileUpload() {
@@ -124,6 +109,11 @@ export default class Upload extends Component {
 
       //Post request for model to get result
 
+      var img = resizebase64(this.state.files["base64"], 300, 300);
+      var test_photo = JSON.stringify({
+        image: utf8.decode(img),
+      });
+
       const result_response = await fetch(
         "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
         {
@@ -131,23 +121,19 @@ export default class Upload extends Component {
           headers: {
             "Content-Type": "application/json",
           },
-
-          body: JSON.stringify({
-            image: utf8.decode(this.state.files["base64"]),
-          }),
+          body: test_photo,
         }
       );
-      //
 
-      //
       console.log(result_response);
       const result_response_Result = await result_response.json();
-
-      console.log(result_response_Result);
+      let body = JSON.parse(result_response_Result.body);
+      console.log("result_response_Result", result_response_Result);
+      console.log(body.output);
+      console.log(typeof body.output);
       this.setState({
         predict:
-          "The posibility of being Malignant is:  " +
-          result_response_Result.output,
+          "The posibility of being Malignant is:  " + body.output.toFixed(2),
       });
     } else {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
@@ -169,9 +155,9 @@ export default class Upload extends Component {
         <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.fileUpload} />
         </div>
-        <div className="col-6 offset-3 preview">
+        {/* <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.sendToModle} />
-        </div>
+        </div> */}
         <div className="col-6 offset-3">{ifSkin}</div>
         <div className="col-6 offset-3">{predict}</div>
       </div>
