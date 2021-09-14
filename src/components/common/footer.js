@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
-      <div id="footer-wrapper">
+      <div id="footer">
         {/* <div id="footer" className="container"></div> */}
         <div id="copyright" className="container">
           <ul className="menu">
@@ -10,10 +10,10 @@ function Footer() {
               <Link to="/disclaimer">Medical Disclaimer</Link>
             </li>
             <li>
-              <Link to="/about-us">About us</Link>
+              <Link to="/privacy-policy">Privacy policy</Link>
             </li>
             <li>
-              <Link to="/about-us">Contect us</Link>
+              <Link to="/our-team">Contact us</Link>
             </li>
 
             <li>
@@ -46,6 +46,7 @@ function Footer() {
           </ul>
         </div>
       </div>
+      
     </div>
   );
 }

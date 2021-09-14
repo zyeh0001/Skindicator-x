@@ -15,9 +15,8 @@ function Section3(props) {
           </img>
         </Link>
         <h3><Link to={props.link}>{props.title}</Link></h3>
-        <p>
-          Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-          lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+        <p className="pBottle">
+          {props.text}
         </p>
       </section>
 

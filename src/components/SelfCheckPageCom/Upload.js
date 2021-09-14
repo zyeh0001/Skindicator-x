@@ -150,7 +150,12 @@ export default class Upload extends Component {
         </div>
 
         <div className="col-6 offset-3 preview">
-          <img src={this.state.files.base64} width="40%" alt="upload"></img>
+          <img src={this.state.files.base64} width="40%" alt="upload"style={{
+              width: "210px",
+              height: "150px",
+            }}>
+          
+          </img>
         </div>
         <div className="col-6 offset-3 preview">
           <input type="Submit" onClick={this.fileUpload} />

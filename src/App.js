@@ -15,17 +15,19 @@ import MedicalSupportPage from "./pages/MedicalSupport";
 import ABCDEsPage from "./pages/ABCDEs";
 import MainNavigation from "./components/common/MainNavigation";
 import SymptomsNav from "./components/common/SymptomsNav";
+import AboutUsNav from "./components/common/AboutUsNav";
 import FactsNav from "./components/common/FactsNav";
 import MedicalSupportNav from "./components/common/MedicalSupportNav";
 import SelfCheckNav from "./components/common/SelfCheckNav";
 import CommonNavigation from "./components/common/CommonNavigation";
+import SkinProtectionNav from "./components/common/SkinProtectionNav";
 import Footer from "./components/common/footer";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
-    <MainNavigation />
+    
       <Switch>
         <Route path="/symptoms">
           <SymptomsNav />
@@ -44,11 +46,11 @@ function App() {
           <HomePage />
         </Route>
         <Route path="/protection-tips">
-          <CommonNavigation />
+          <SkinProtectionNav />
           <HealthyTipsPage />
         </Route>
         <Route path="/skin-protection-abcde">
-          <CommonNavigation />
+          <SkinProtectionNav />
           <ABCDEsPage />
         </Route>
         <Route path="/facts">
@@ -56,15 +58,15 @@ function App() {
           <FactsPage />
         </Route>
         <Route path="/privacy-policy">
-          <CommonNavigation />
+          <AboutUsNav />
           <PrivacyPolicyPage />
         </Route>
         <Route path="/our-team">
-          <CommonNavigation />
+          <AboutUsNav />
           <AboutUsPage />
         </Route>
         <Route path="/medical-disclaimer">
-          <CommonNavigation />
+          <AboutUsNav />
           <DisclaimerPage />
         </Route>
       </Switch>
