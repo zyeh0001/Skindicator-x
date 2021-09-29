@@ -5,11 +5,17 @@ import ReactDom from "react-dom";
 
 function Modal({ open, children, onClose, result }) {
   const [isOpen, setIsOpen] = useState(open);
+  const [invalid, setInvalid] = useState(false);
   const [level, setLevel] = useState(result);
   const [section1, setSection1] = useState("what does it mean?");
   const [section2, setSection2] = useState("Things to notice:");
   const [section3, setSection3] = useState("what to do next?");
+  const [title, setTitle] = useState("Your Assessment result is:");
   useEffect(() => {
+    if (result == 1) {
+      setInvalid(true);
+      setTitle("Sorry the photo is Invalid Please upload again.");
+    }
     if (result <= 0.25) {
       setLevel("Low");
       setSection1(
@@ -35,7 +41,7 @@ function Modal({ open, children, onClose, result }) {
         "According to the results of our AI detection, we suggest you to medical support to find nearest skin cancer clinic to check your skin. No matter how，please pay more attention to your moles and do periodic skin examination."
       );
     } else {
-      setLevel("Medium High");
+      setLevel("High");
       setSection1(
         "High means your skin condition is so bad. Based on our our AI picture recognition technology high chance there maybe a problem. Please see gp to get examined and referred to a dermatologist."
       );
@@ -52,29 +58,43 @@ function Modal({ open, children, onClose, result }) {
 
   return ReactDom.createPortal(
     <div className="modalBackground">
-      <div className="modalContainer">
-        <div className="titleCloseBtn">
-          <button onClick={onClose}> X </button>
-        </div>
-        <div className="title">
-          <h1>Your Assessment result is: </h1>
-          <div>{level}</div>
-        </div>
-        <div className="body row aln-center">
-          <div className="subTitle">What does it mean?</div>
-          <div className="content">{section1}</div>
-          <div className="subTitle">Things to notice?</div>
-          <div className="content">{section2}</div>
-          <div className="subTitle">What to do next?</div>
-          <div className="content">{section3}</div>
-        </div>
-        <div className="footer">
+      {invalid && (
+        <div className="invalidContainer">
+          <div className="title">
+            <h1>
+              Sorry the photo is invalid<br></br>Please upload again
+            </h1>
+          </div>
           <button onClick={onClose} id="cancelBtn">
             Close
           </button>
-          <button>Send to email</button>
         </div>
-      </div>
+      )}
+      {!invalid && (
+        <div className="modalContainer">
+          <div className="titleCloseBtn">
+            <button onClick={onClose}> X </button>
+          </div>
+          <div className="title">
+            <h1>{title}</h1>
+          </div>
+          <div className="body row aln-center">
+            <div className="subTitle">What does it mean?</div>
+            <div className="content">{section1}</div>
+            <div className="subTitle">Things to notice?</div>
+            <div className="content">{section2}</div>
+            <div className="subTitle">What to do next?</div>
+            <div className="content">{section3}</div>
+          </div>
+          <div className="footer">
+            <button onClick={onClose} id="cancelBtn">
+              Close
+            </button>
+            <button>Send to email</button>
+          </div>
+        </div>
+      )}
+
       {children}
     </div>,
     document.getElementById("portal")

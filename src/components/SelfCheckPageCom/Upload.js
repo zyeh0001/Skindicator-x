@@ -3,7 +3,6 @@ import FileBase64 from "react-file-base64";
 import "./Upload.modules.css";
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
-// import PopupReport from "./PopupReport";
 import Modal from "./Modal";
 // const axios = require("axios").default;
 const utf8 = require("utf8");
@@ -149,6 +148,7 @@ export default class Upload extends Component {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
       this.setState({ predict: 1 }); // predict = 1 invalid photo
       console.log("not clear photo");
+      this.setState({ flag: true });
     }
   }
   render() {
@@ -177,12 +177,12 @@ export default class Upload extends Component {
             }}
           ></img>
         </div>
-        {/* <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.fileUpload} />
-        </div> */}
         <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.sendToModle} />
+          <input type="Submit" onClick={this.fileUpload} />
         </div>
+        {/* <div className="col-6 offset-3 preview">
+          <input type="Submit" onClick={this.sendToModle} />
+        </div> */}
         {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
         <div>
           {predict !== -1 ? (

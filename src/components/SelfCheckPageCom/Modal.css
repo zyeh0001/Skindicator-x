@@ -26,6 +26,28 @@
   /* padding: 25px; */
 }
 
+.invalidContainer {
+  width: 400px;
+  height: 250px;
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 25px; */
+}
+.invalidContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
 .modalContainer .title {
   display: inline-block;
   text-align: center;
@@ -50,11 +72,11 @@
   justify-content: flex-end;
 }
 
-.titleCloseBtn .button {
+.titleCloseBtn button {
   background-color: transparent;
   border: none;
   font-size: 25px;
-  color: rgba(0, 0, 0, 0.35);
+  color: black;
   cursor: pointer;
 }
 
@@ -75,6 +97,18 @@
 }
 
 .modalContainer .footer button {
+  width: 200px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.invalidContainer button {
   width: 200px;
   height: 45px;
   margin: 10px;

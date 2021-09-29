@@ -6,10 +6,10 @@ import Upload from "../components/SelfCheckPageCom/Upload";
 function SelfCheckPage() {
   return (
     <div>
-      <Upload />
       <div className="featureP">
         <MainTopic title="Write your detail and upload your spot image to get classification" />
       </div>
+      <Upload />
       <div className="row aln-center">
         <SelfCheckForm />
       </div>
