@@ -1,20 +1,22 @@
 .files {
   outline: 2px dashed #92b0b3;
-  outline-offset: -2px;
+  outline-offset: -3px;
   padding: 40px 110px 50px 40px;
   text-align: center !important;
   margin-top: 2em;
-  margin-right:0em;
-  margin-left:-2em;
+  margin-right: 0em;
+  margin-left: 5em;
   width: 70% !important;
   background-color: #f7f7f7;
-  position:relative
+  position: relative;
 }
-
+body.active-modal {
+  overflow-y: hidden;
+}
 .preview {
-  padding: 50px 0px 50px 0px;
-  margin: auto;
+  padding: 30px 0px 50px 0px;
+  margin-left: 5em;
   width: 100% !important;
   background-color: #f7f7f7;
-  position:relative
+  position: relative;
 }

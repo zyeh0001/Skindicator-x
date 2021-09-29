@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.13",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -15,6 +18,7 @@
     "d3": "^7.0.1",
     "d3-queue": "^3.0.7",
     "d3blackbox": "^1.2.0",
+    "http-proxy-middleware": "^2.0.1",
     "image-upload-react": "^1.4.5",
     "queue": "^6.0.2",
     "react": "^17.0.2",
@@ -31,8 +35,7 @@
     "topojson-server": "^3.0.1",
     "topojson-simplify": "^3.0.3",
     "utf8": "^3.0.0",
-    "web-vitals": "^1.1.2",
-    "http-proxy-middleware": "^2.0.1"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

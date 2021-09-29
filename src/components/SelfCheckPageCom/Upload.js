@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-// import { From, Button, FormGroup } from "react-bootstrap";
 import FileBase64 from "react-file-base64";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "./Upload.modules.css";
+import Backdrop from "@mui/material/Backdrop";
+import CircularProgress from "@mui/material/CircularProgress";
+// import PopupReport from "./PopupReport";
+import Modal from "./Modal";
 // const axios = require("axios").default;
 const utf8 = require("utf8");
 var resizebase64 = require("resize-base64");
@@ -12,8 +14,9 @@ export default class Upload extends Component {
     this.state = {
       files: [],
       Result: [],
-      predict: "",
+      predict: 0,
       ifSkin: "",
+      flag: false,
     };
     this.fileUpload = this.fileUpload.bind(this);
     this.sendToModle = this.sendToModle.bind(this);
@@ -25,6 +28,7 @@ export default class Upload extends Component {
   }
 
   async sendToModle() {
+    this.setState({ predict: -1 });
     var img = resizebase64(this.state.files["base64"], 224, 224);
     var test = JSON.stringify({
       image: utf8.decode(img),
@@ -45,13 +49,18 @@ export default class Upload extends Component {
     let body = JSON.parse(result_response_Result.body);
     console.log("result_response_Result", result_response_Result);
     console.log("body", body.output);
+    this.setState({
+      predict: body.output.toFixed(2),
+    });
+    this.setState({ flag: true });
   }
 
   async fileUpload() {
-    var test = JSON.parse(
-      JSON.stringify({ photo: this.state.files["base64"] })
-    );
-    console.log("test", test);
+    this.setState({ predict: -1 });
+    // var test = JSON.parse(
+    //   JSON.stringify({ photo: this.state.files["base64"] })
+    // );
+    // console.log("test", test);
     const response = await fetch(
       "https://3756b7g7oj.execute-api.us-east-1.amazonaws.com/Prod/molesphoto",
       {
@@ -71,6 +80,7 @@ export default class Upload extends Component {
 
     if (labels["Labels"][0] === undefined) {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
+      this.setState({ predict: 1 }); //predict = 1 is invalid photo
       console.log("invalid photo");
     } else if (
       labels["Labels"][0].Name === "Skin" ||
@@ -108,7 +118,7 @@ export default class Upload extends Component {
       console.log(result_s3);
 
       //Post request for model to get result
-
+      //resize image to 300*300
       var img = resizebase64(this.state.files["base64"], 300, 300);
       var test_photo = JSON.stringify({
         image: utf8.decode(img),
@@ -132,39 +142,70 @@ export default class Upload extends Component {
       console.log(body.output);
       console.log(typeof body.output);
       this.setState({
-        predict:
-          "The posibility of being Malignant is:  " + body.output.toFixed(2),
+        predict: body.output.toFixed(2),
       });
+      this.setState({ flag: true });
     } else {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
+      this.setState({ predict: 1 }); // predict = 1 invalid photo
       console.log("not clear photo");
     }
   }
   render() {
     const ifSkin = this.state.ifSkin;
     const predict = this.state.predict;
+    const flag = this.state.flag;
+    //remove the srolling bar id modal shows
+    if (flag) {
+      document.body.classList.add("active-modal");
+    } else {
+      document.body.classList.remove("active-modal");
+    }
     return (
       <div>
         <div className="col-6 offset-3 files">
           <FileBase64 multiple={false} onDone={this.getFiles.bind(this)} />
         </div>
-
         <div className="col-6 offset-3 preview">
-          <img src={this.state.files.base64} width="40%" alt="upload"style={{
+          <img
+            src={this.state.files.base64}
+            width="40%"
+            alt="upload"
+            style={{
               width: "210px",
               height: "150px",
-            }}>
-          
-          </img>
-        </div>
-        <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.fileUpload} />
+            }}
+          ></img>
         </div>
         {/* <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.sendToModle} />
+          <input type="Submit" onClick={this.fileUpload} />
         </div> */}
-        <div className="col-6 offset-3">{ifSkin}</div>
-        <div className="col-6 offset-3">{predict}</div>
+        <div className="col-6 offset-3 preview">
+          <input type="Submit" onClick={this.sendToModle} />
+        </div>
+        {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
+        <div>
+          {predict !== -1 ? (
+            predict
+          ) : (
+            <Backdrop
+              sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+              open
+            >
+              <CircularProgress color="inherit" />
+            </Backdrop>
+          )}
+        </div>
+        {/* {flag && <PopupReport onFlagChange={this.handleFlagChange} />} */}
+        {flag && (
+          <Modal
+            open={flag}
+            onClose={() => this.setState({ flag: false })}
+            result={predict}
+          />
+        )}
+
+        {/* closeModal={this.state.flag} */}
       </div>
     );
   }

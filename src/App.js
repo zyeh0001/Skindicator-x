@@ -19,7 +19,7 @@ import AboutUsNav from "./components/common/AboutUsNav";
 import FactsNav from "./components/common/FactsNav";
 import MedicalSupportNav from "./components/common/MedicalSupportNav";
 import SelfCheckNav from "./components/common/SelfCheckNav";
-import CommonNavigation from "./components/common/CommonNavigation";
+// import CommonNavigation from "./components/common/CommonNavigation";
 import SkinProtectionNav from "./components/common/SkinProtectionNav";
 import Footer from "./components/common/footer";
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,7 +27,6 @@ import Footer from "./components/common/footer";
 function App() {
   return (
     <div>
-    
       <Switch>
         <Route path="/symptoms">
           <SymptomsNav />

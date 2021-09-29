@@ -1,4 +1,4 @@
-import ImageSection2 from "../components/Sections/ImageSection2";
+// import ImageSection2 from "../components/Sections/ImageSection2";
 import BulletList from "../components/Sections/BulletList";
 import BulletParagraph from "../components/Sections/BulletParagraph";
 import BlueBulletParagraph from "../components/Sections/BlueBulletParagraph";
@@ -14,23 +14,15 @@ import Delimiter from "../components/common/Delimiter";
 function ABCDEsPage() {
   return (
     <div>
-      <HeaderImage
-        image="images/abcde.jpg"
-      />
+      <HeaderImage image="images/abcde.jpg" />
       <div className="featureP">
-        <MainTopic
-          title="Know your ABCDEs"
-        />
+        <MainTopic title="Know your ABCDEs" />
       </div>
       <div className="containerP2">
-        <PureParagraph
-          text1="Dermatologists use the ABCDE method to classify melanoma. This method tells you what signs to look for when detecting melanoma."
-        />
+        <PureParagraph text1="Dermatologists use the ABCDE method to classify melanoma. This method tells you what signs to look for when detecting melanoma." />
       </div>
       <div className="containerP">
-        <BulletParagraph
-          text1="The Melanoma Research Foundation provides a handy overview of the method you can reference when performing skin checks:"
-        />
+        <BulletParagraph text1="The Melanoma Research Foundation provides a handy overview of the method you can reference when performing skin checks:" />
         <BlueBulletParagraph
           text1="A – Asymmetrical shape"
           text2="Melanoma lesions are often irregular, or not symmetrical, in shape. Benign moles are usually symmetrical."
@@ -52,11 +44,9 @@ function ABCDEsPage() {
           text2="The evolution of your mole(s) has become the most critical factor to consider when it comes to diagnosing a melanoma. Knowing what is healthy for your body could save your life. If a mole has gone through recent changes in color or size, bring it to the attention of a dermatologist immediately."
         />
       </div>
-      <Delimiter/>
+      <Delimiter />
       <div className="featureP">
-        <MainTopic
-          title="What should I do if I get skin cancer?"
-        />
+        <MainTopic title="What should I do if I get skin cancer?" />
       </div>
       <div className="containerP">
         <BulletList

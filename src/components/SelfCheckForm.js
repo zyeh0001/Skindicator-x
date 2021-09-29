@@ -7,7 +7,7 @@ class SelfCheckForm extends Component {
       age: null,
       gender: "",
       family_history: "",
-      position_of_moles:"",
+      position_of_moles: "",
     };
   }
   mySubmitHandler = (event) => {
@@ -62,7 +62,7 @@ class SelfCheckForm extends Component {
           />
           <br />
           <br />
-          <input type="Submit" />
+          {/* <input type="Submit" /> */}
         </form>
       </div>
     );
