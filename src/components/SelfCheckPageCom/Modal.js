@@ -12,10 +12,6 @@ function Modal({ open, children, onClose, result }) {
   const [section3, setSection3] = useState("what to do next?");
   const [title, setTitle] = useState("Your Assessment result is:");
   useEffect(() => {
-    if (result == 1) {
-      setInvalid(true);
-      setTitle("Sorry the photo is Invalid Please upload again.");
-    }
     if (result <= 0.25) {
       setLevel("Low");
       setSection1(
@@ -77,6 +73,7 @@ function Modal({ open, children, onClose, result }) {
           </div>
           <div className="title">
             <h1>{title}</h1>
+            <h1>{level}</h1>
           </div>
           <div className="body row aln-center">
             <div className="subTitle">What does it mean?</div>

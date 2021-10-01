@@ -7,7 +7,7 @@
   margin-right: 0em;
   margin-left: 5em;
   width: 70% !important;
-  background-color: #f7f7f7;
+  background-color: #f2f5f3;
   position: relative;
 }
 body.active-modal {
@@ -17,6 +17,6 @@ body.active-modal {
   padding: 30px 0px 50px 0px;
   margin-left: 5em;
   width: 100% !important;
-  background-color: #f7f7f7;
+  background-color: #f2f5f3;
   position: relative;
 }

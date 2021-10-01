@@ -62,7 +62,7 @@ class SelfCheckForm extends Component {
           />
           <br />
           <br />
-          {/* <input type="Submit" /> */}
+          <input type="Submit" />
         </form>
       </div>
     );

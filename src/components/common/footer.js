@@ -16,7 +16,7 @@ function Footer() {
               <Link to="/our-team">Contact us</Link>
             </li>
 
-            <li>
+            {/* <li>
               <section className="col-3 col-12-narrower">
                 <div className="row gtr-0">
                   <ul className="divided icons">
@@ -36,7 +36,7 @@ function Footer() {
                   </ul>
                 </div>
               </section>
-            </li>
+            </li> */}
           </ul>
           <ul className="menu">
             <li>&copy; Untitled. All rights reserved.</li>
@@ -46,7 +46,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 }

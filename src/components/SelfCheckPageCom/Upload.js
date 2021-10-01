@@ -13,16 +13,49 @@ export default class Upload extends Component {
     this.state = {
       files: [],
       Result: [],
+      image: false,
       predict: 0,
       ifSkin: "",
       flag: false,
+      age: null,
+      gender: "",
+      family_history: "",
+      position_of_moles: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
     this.sendToModle = this.sendToModle.bind(this);
   }
 
+  mySubmitHandler = (event) => {
+    event.preventDefault();
+    let age = this.state.age;
+    let gender = this.state.gender;
+    let family_history = this.state.family_history;
+    let position_of_moles = this.state.position_of_moles;
+    let image = this.state.image;
+    if (!Number(age)) {
+      alert("Your age must be a number");
+    } else if (gender === "") {
+      alert("Please select your gender");
+    } else if (position_of_moles === "") {
+      alert("Please enter the your position of moles");
+    } else if (family_history === "") {
+      alert("Please enter the your family history of skin cancer");
+    } else if (image === false) {
+      alert("Please upload images!");
+    } else {
+      this.sendToModle();
+      // this.fileUpload();
+    }
+  };
+  myChangeHandler = (event) => {
+    let nam = event.target.name;
+    let val = event.target.value;
+    this.setState({ [nam]: val });
+  };
   getFiles(files) {
     this.setState({ files: files });
+    if (files !== []) this.setState({ image: true });
     console.log(files);
   }
 
@@ -162,50 +195,84 @@ export default class Upload extends Component {
       document.body.classList.remove("active-modal");
     }
     return (
-      <div>
-        <div className="col-6 offset-3 files">
-          <FileBase64 multiple={false} onDone={this.getFiles.bind(this)} />
-        </div>
-        <div className="col-6 offset-3 preview">
-          <img
-            src={this.state.files.base64}
-            width="40%"
-            alt="upload"
-            style={{
-              width: "210px",
-              height: "150px",
-            }}
-          ></img>
-        </div>
-        <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.fileUpload} />
-        </div>
-        {/* <div className="col-6 offset-3 preview">
-          <input type="Submit" onClick={this.sendToModle} />
-        </div> */}
-        {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
-        <div>
-          {predict !== -1 ? (
-            predict
-          ) : (
-            <Backdrop
-              sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
-              open
-            >
-              <CircularProgress color="inherit" />
-            </Backdrop>
-          )}
-        </div>
-        {/* {flag && <PopupReport onFlagChange={this.handleFlagChange} />} */}
-        {flag && (
-          <Modal
-            open={flag}
-            onClose={() => this.setState({ flag: false })}
-            result={predict}
-          />
-        )}
-
-        {/* closeModal={this.state.flag} */}
+      <div className="row aln-center">
+        <form onSubmit={this.mySubmitHandler}>
+          <div className="row aln-center">
+            <div className="col-6 col-12-narrower feature">
+              <label>Age</label>
+              <input type="text" name="age" onChange={this.myChangeHandler} />
+              <label>Gender</label>
+              <select
+                value={this.state.gender}
+                name="gender"
+                onChange={this.myChangeHandler}
+              >
+                <option value="Please_select">Please select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Prefer_not_to_say">Prefer not to say</option>
+              </select>
+              <label>Family history of skin cancer</label>
+              <input
+                type="text"
+                name="family_history"
+                onChange={this.myChangeHandler}
+              />
+              <label>Position of the moles on your body</label>
+              <input
+                type="text"
+                name="position_of_moles"
+                onChange={this.myChangeHandler}
+              />
+            </div>
+            <div className="col-6 col-12-narrower feature">
+              <div className="col-6 offset-3 files">
+                <FileBase64
+                  multiple={false}
+                  onDone={this.getFiles.bind(this)}
+                />
+              </div>
+              <div className="col-6 offset-3 preview">
+                <p>Notice: We only accept JPG format</p>
+                <img
+                  src={this.state.files.base64}
+                  width="40%"
+                  alt="upload"
+                  style={{
+                    width: "210px",
+                    height: "150px",
+                  }}
+                ></img>
+              </div>
+              <div className="col-6 offset-3 preview">
+                <input type="Submit" />
+              </div>
+              {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
+              <div>
+                {predict !== -1 ? (
+                  ""
+                ) : (
+                  <Backdrop
+                    sx={{
+                      color: "#fff",
+                      zIndex: (theme) => theme.zIndex.drawer + 1,
+                    }}
+                    open
+                  >
+                    <CircularProgress color="inherit" />
+                  </Backdrop>
+                )}
+              </div>
+              {flag && (
+                <Modal
+                  open={flag}
+                  onClose={() => this.setState({ flag: false })}
+                  result={predict}
+                />
+              )}
+            </div>
+          </div>
+        </form>
       </div>
     );
   }
