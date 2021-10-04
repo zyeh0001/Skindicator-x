@@ -36,7 +36,7 @@ function Modal({ open, children, onClose, result }) {
       setSection3(
         "According to the results of our AI detection, we suggest you to medical support to find nearest skin cancer clinic to check your skin. No matter how，please pay more attention to your moles and do periodic skin examination."
       );
-    } else {
+    } else if (result > 0.75 && result < 1) {
       setLevel("High");
       setSection1(
         "High means your skin condition is so bad. Based on our our AI picture recognition technology high chance there maybe a problem. Please see gp to get examined and referred to a dermatologist."
@@ -44,6 +44,9 @@ function Modal({ open, children, onClose, result }) {
       setSection3(
         "According to the results of our AI detection, we suggest you to medical support to find nearest skin cancer clinic to check your skin. No matter how，please pay more attention to your moles and do periodic skin examination. "
       );
+    } else {
+      setInvalid(true);
+      console.log("invalid");
     }
     console.log(level);
   }, []);

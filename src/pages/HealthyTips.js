@@ -4,21 +4,15 @@ import Section2 from "../components/Sections/Section2";
 import MainTopic from "../components/Sections/MainTopic";
 import Delimiter from "../components/common/Delimiter";
 
-
 function HealthyTipsPage() {
   return (
     <div>
-      <HeaderImage
-        image="images/protectionTips.jpg"
-      />
+      <HeaderImage image="images/protectionTips.jpg" />
       <div className="featureP">
-        <MainTopic
-          title="Some healthy tips for your skin"
-        />
+        <MainTopic title="Healthy tips for your skin" />
       </div>
       <Delimiter />
       <div className="container">
-
         <div className="row">
           <Section2
             topic="1. Use the correct cleanser for your skin type."

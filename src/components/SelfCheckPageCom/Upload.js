@@ -20,7 +20,7 @@ export default class Upload extends Component {
       age: null,
       gender: "",
       family_history: "",
-      position_of_moles: "",
+      email: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
     this.sendToModle = this.sendToModle.bind(this);
@@ -31,21 +31,21 @@ export default class Upload extends Component {
     let age = this.state.age;
     let gender = this.state.gender;
     let family_history = this.state.family_history;
-    let position_of_moles = this.state.position_of_moles;
+    let email = this.state.email;
     let image = this.state.image;
     if (!Number(age)) {
       alert("Your age must be a number");
     } else if (gender === "") {
       alert("Please select your gender");
-    } else if (position_of_moles === "") {
+    } else if (email === "") {
       alert("Please enter the your position of moles");
     } else if (family_history === "") {
       alert("Please enter the your family history of skin cancer");
     } else if (image === false) {
       alert("Please upload images!");
     } else {
-      this.sendToModle();
-      // this.fileUpload();
+      // this.sendToModle();
+      this.fileUpload();
     }
   };
   myChangeHandler = (event) => {
@@ -124,30 +124,30 @@ export default class Upload extends Component {
 
       //get  request for the upload url to s3
 
-      const response_s3 = await fetch(
-        "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
-      )
-        .then(function (response_s3) {
-          return response_s3.json();
-        })
-        .then(function (data) {
-          const items = data;
-          console.log("Response", items);
-          return items;
-        });
+      // const response_s3 = await fetch(
+      //   "https://fyb57palwk.execute-api.us-east-1.amazonaws.com/default/getPresignedImageURL"
+      // )
+      //   .then(function (response_s3) {
+      //     return response_s3.json();
+      //   })
+      //   .then(function (data) {
+      //     const items = data;
+      //     console.log("Response", items);
+      //     return items;
+      //   });
 
       //   console.log(response_s3["uploadURL"]);
       //PUT REQUEST TO S3
 
-      const result_s3 = fetch(response_s3["uploadURL"], {
-        method: "PUT",
-        headers: {
-          "Content-type": "image/jpeg",
-        },
-        body: JSON.stringify({ photo: this.state.files["base64"] }),
-      });
+      // const result_s3 = fetch(response_s3["uploadURL"], {
+      //   method: "PUT",
+      //   headers: {
+      //     "Content-type": "image/jpeg",
+      //   },
+      //   body: JSON.stringify({ photo: this.state.files["base64"] }),
+      // });
 
-      console.log(result_s3);
+      // console.log(result_s3);
 
       //Post request for model to get result
       //resize image to 300*300
@@ -188,6 +188,7 @@ export default class Upload extends Component {
     const ifSkin = this.state.ifSkin;
     const predict = this.state.predict;
     const flag = this.state.flag;
+    const invalid = this.state.invalid;
     //remove the srolling bar id modal shows
     if (flag) {
       document.body.classList.add("active-modal");
@@ -218,10 +219,10 @@ export default class Upload extends Component {
                 name="family_history"
                 onChange={this.myChangeHandler}
               />
-              <label>Position of the moles on your body</label>
+              <label>Email</label>
               <input
-                type="text"
-                name="position_of_moles"
+                type="email"
+                name="email"
                 onChange={this.myChangeHandler}
               />
             </div>
@@ -232,8 +233,10 @@ export default class Upload extends Component {
                   onDone={this.getFiles.bind(this)}
                 />
               </div>
-              <div className="col-6 offset-3 preview">
+              <div className="col-6 offset-3 pHighlight">
                 <p>Notice: We only accept JPG format</p>
+              </div>
+              <div className="col-6 offset-3 preview">
                 <img
                   src={this.state.files.base64}
                   width="40%"
@@ -244,7 +247,7 @@ export default class Upload extends Component {
                   }}
                 ></img>
               </div>
-              <div className="col-6 offset-3 preview">
+              <div className="col-6 offset-3">
                 <input type="Submit" />
               </div>
               {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
