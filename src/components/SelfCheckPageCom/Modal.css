@@ -13,8 +13,8 @@
 }
 
 .modalContainer {
-  width: 500px;
-  height: 630px;
+  width: 60%;
+  height: 85%;
   top: "50%";
   left: "50%";
   transform: "translate(-50%, -50%)";
@@ -23,7 +23,9 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
-  /* padding: 25px; */
+  justify-content: center;
+  padding: 25px;
+  margin-top: 20px;
 }
 
 .invalidContainer {
@@ -44,28 +46,32 @@
 .invalidContainer .title {
   display: inline-block;
   text-align: center;
-  margin-top: 5px;
   font-size: 25px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.modalContainer .print {
+  margin: 20px;
 }
 
 .modalContainer .title {
-  display: inline-block;
   text-align: center;
-  margin-top: 5px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 10px;
   font-size: 25px;
 }
 
 .modalContainer .subTitle {
-  display: inline-block;
-  text-align: center;
-  margin-top: 5px;
   font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: grey;
 }
 .modalContainer .content {
-  display: inline-block;
-  text-align: center;
-  margin-top: 5px;
-  font-size: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
 .titleCloseBtn {
   display: flex;
@@ -94,12 +100,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .modalContainer .footer button {
   width: 200px;
   height: 45px;
-  margin: 10px;
+  margin: 5px;
   border: none;
   background-color: cornflowerblue;
   color: white;
