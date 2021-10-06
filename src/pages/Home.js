@@ -35,7 +35,7 @@ function HomePage() {
             title="Skin Health"
             text="Do you know the condition of your skin? We can give you descriptions of each symptoms  and additional healthy tips."
             image="images/skinHealth.jpg"
-            link="/protection-tips"
+            link="/protection-tip"
           />
           <Section3
             title="Self Check"

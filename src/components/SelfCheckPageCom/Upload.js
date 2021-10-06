@@ -4,6 +4,7 @@ import "./Upload.modules.css";
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import Modal from "./Modal";
+
 // const axios = require("axios").default;
 const utf8 = require("utf8");
 var resizebase64 = require("resize-base64");
@@ -14,13 +15,13 @@ export default class Upload extends Component {
       files: [],
       Result: [],
       image: false,
+      imageFormat: "jpg",
       predict: 0,
       ifSkin: "",
       flag: false,
       age: null,
       gender: "",
       family_history: "",
-      email: "",
     };
     this.fileUpload = this.fileUpload.bind(this);
     this.sendToModle = this.sendToModle.bind(this);
@@ -31,16 +32,16 @@ export default class Upload extends Component {
     let age = this.state.age;
     let gender = this.state.gender;
     let family_history = this.state.family_history;
-    let email = this.state.email;
     let image = this.state.image;
+    let imageFormat = this.state.imageFormat;
     if (!Number(age)) {
       alert("Your age must be a number");
     } else if (gender === "") {
       alert("Please select your gender");
-    } else if (email === "") {
-      alert("Please enter the your position of moles");
     } else if (family_history === "") {
       alert("Please enter the your family history of skin cancer");
+    } else if (imageFormat !== "jpg") {
+      alert("Please upload JPG format!");
     } else if (image === false) {
       alert("Please upload images!");
     } else {
@@ -55,7 +56,18 @@ export default class Upload extends Component {
   };
   getFiles(files) {
     this.setState({ files: files });
-    if (files !== []) this.setState({ image: true });
+
+    if (!files.name.match(/\.(jpg)$/)) {
+      this.setState({ imageFormat: "not jpg" });
+      // this.setState({ image: false });
+      console.log("not jpg");
+    } else if (files.name.match(/\.(jpg)$/) && files !== []) {
+      this.setState({ imageFormat: "jpg" });
+      this.setState({ image: true });
+      console.log("is jpg");
+    }
+    // if (files !== []) this.setState({ image: true });
+
     console.log(files);
   }
 
@@ -185,10 +197,12 @@ export default class Upload extends Component {
     }
   }
   render() {
-    const ifSkin = this.state.ifSkin;
+    // const ifSkin = this.state.ifSkin;
     const predict = this.state.predict;
     const flag = this.state.flag;
-    const invalid = this.state.invalid;
+    const age = this.state.age;
+    const gender = this.state.gender;
+    // const invalid = this.state.invalid;
     //remove the srolling bar id modal shows
     if (flag) {
       document.body.classList.add("active-modal");
@@ -214,17 +228,22 @@ export default class Upload extends Component {
                 <option value="Prefer_not_to_say">Prefer not to say</option>
               </select>
               <label>Family history of skin cancer</label>
-              <input
-                type="text"
+              <select
+                value={this.state.family_history}
                 name="family_history"
                 onChange={this.myChangeHandler}
-              />
-              <label>Email</label>
+              >
+                <option value="Please_select">Please select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Prefer_not_to_say">Prefer not to say</option>
+              </select>
+              {/* <label>Email</label>
               <input
                 type="email"
                 name="email"
                 onChange={this.myChangeHandler}
-              />
+              /> */}
             </div>
             <div className="col-6 col-12-narrower feature">
               <div className="col-6 offset-3 files">
@@ -271,6 +290,8 @@ export default class Upload extends Component {
                   open={flag}
                   onClose={() => this.setState({ flag: false })}
                   result={predict}
+                  age={age}
+                  gender={gender}
                 />
               )}
             </div>

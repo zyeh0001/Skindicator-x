@@ -21,10 +21,6 @@ function FactsPage() {
       </div>
       <Delimiter />
       <div className="containerH">
-        <GraphDesc
-          title="Skin cancer distribution map of Australia"
-          text4="Each year, nearly 80% of all cancer cases in Australia are skin cancer cases."
-        />
         <TableauVisual
           link="https://public.tableau.com/views/Sachida/Dashboard1"
           height="70vh"
@@ -35,7 +31,7 @@ function FactsPage() {
       </div>
       <Delimiter />
       {/* <Banner image="images/banner.jpeg" /> */}
-      <div className="containerH">
+      {/* <div className="containerH">
         <GraphDesc
           title="Severity of skin cancer in middle-aged people"
           text4="The problem is that some Australians don't realise how serious skin cancer is and how important regular skin check-ups can be."
@@ -47,7 +43,7 @@ function FactsPage() {
       </div>
       <div className="container pTop">
         <PureParagraph text1="With the development of science and technology, the incidence of skin cancer has skyrocketed in recent years, although the death rate has dropped. From the statistical representation of the graph above, one in 1,628 people will die of the disease by 2020. On the other hand, the risk of being diagnosed with skin cancer has also increased, with one in 64 people being diagnosed with skin cancer." />
-      </div>
+      </div> */}
     </div>
   );
 }
