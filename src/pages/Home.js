@@ -9,11 +9,15 @@ import PureParagraph from "../components/Sections/PureParagraph";
 // import Banner from "../components/HomePageCom/Banner";
 // import Delimiter from "../components/common/Delimiter";
 // import MainNavigation from "../components/common/MainNavigation";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
     <div>
       <HomeImage />
+      <div className="featureR">
+          <Link to="/medical-support" className="containerM">Medical disclaimer</Link>
+          </div>
       <div className="container">
         <GraphDesc
           title="Why is there so much skin cancer in Australia?"
@@ -25,17 +29,20 @@ function HomePage() {
           link="https://public.tableau.com/views/Sachida3/Dashboard3"
           height="50vh"
         />
-        <PureParagraph text1="According to this line chart, we can clearly see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! With the development of medical treatment, the death rate of skin cancer has been controlled at a very low level, but if we continue to ignore the harm caused by skin cancer, our life will be greatly affected!" />
+        <PureParagraph text1="According to this line chart, we can clearly see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! " />
+        <div className="featureP">
+        <Link to="/facts" className="buttonB scrolly">Learn more about the facts</Link>
+        </div>
       </div>
 
       <div className="container">
         <GraphDesc title="Time to take actions!" />
         <div className="row">
           <Section3
-            title="Skin Health"
+            title="Skin Protection"
             text="Do you know the condition of your skin? We can give you descriptions of each symptoms  and additional healthy tips."
             image="images/skinHealth.jpg"
-            link="/protection-tip"
+            link="/protection-tips"
           />
           <Section3
             title="Self Check"

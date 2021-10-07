@@ -7,6 +7,7 @@ function SelfCheckNav() {
   return (
     <div>
       <nav id="nav">
+        <img src="images/logo192.png" alt="" />
         <ul>
           <li>
             <Link onClick={renderToOther} to="/symptoms">

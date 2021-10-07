@@ -7,7 +7,7 @@ function Footer() {
         <div id="copyright" className="container">
           <ul className="menu">
             <li>
-              <Link to="/disclaimer">Medical Disclaimer</Link>
+              <Link to="/medical-support">Medical Disclaimer</Link>
             </li>
             <li>
               <Link to="/privacy-policy">Privacy policy</Link>
