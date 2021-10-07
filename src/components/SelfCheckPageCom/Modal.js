@@ -4,7 +4,15 @@ import jsPDF from "jspdf";
 import "./Modal.css";
 import ReactDom from "react-dom";
 import { Link } from "react-router-dom";
-function Modal({ open, children, onClose, result, age, gender }) {
+function Modal({
+  open,
+  children,
+  onClose,
+  result,
+  age,
+  gender,
+  family_history,
+}) {
   const [isOpen, setIsOpen] = useState(open);
   const [invalid, setInvalid] = useState(false);
   const [level, setLevel] = useState(result);
@@ -13,11 +21,12 @@ function Modal({ open, children, onClose, result, age, gender }) {
   const [section3, setSection3] = useState("what to do next?");
   const [title, setTitle] = useState("Your Assessment result is:");
   const [color, setColor] = useState("");
+  const [familySection, setFamilySection] = useState("");
 
   function pdfGenerate() {
     var doc = new jsPDF("landscape", "px", "a4", "false");
     var imageData = "../../../logo512.png";
-    // doc.addImage(imageData, "PNG", 30, 30, 50, 50);
+    doc.addImage(imageData, "PNG", 30, 30, 50, 50);
     doc.html(document.querySelector(".print"), {
       callback: function (doc) {
         doc.save("report.pdf");
@@ -27,49 +36,63 @@ function Modal({ open, children, onClose, result, age, gender }) {
       autoPaging: "text",
     });
   }
-
+  function renderToOther() {
+    document.body.classList.remove("active-modal");
+  }
   useEffect(() => {
-    if (age > 60) {
+    if (age > 50) {
       setSection2(
-        "Analysis by your age and gender, you may have a higher change of getting  diagnosis of skin disease, we suggest you to go to  GP for skin checkup"
+        "According to our statistics, from your given age and gender, we find that you may have a higher chance of being diagnosed with a skin disease."
       );
+      if (gender === "Male") {
+        setSection2(
+          "According to our statistics, men are more likely to be diagnosed with skin cancer than women. From your given age and gender, we find that you may have a higher chance of being diagnosed with a skin disease."
+        );
+      }
     }
 
+    if (family_history === "Yes") {
+      setFamilySection(
+        "Based on your family record of skin cancer, you might need to pay more attention to your moles. Genetics is one of the factors that increased the risk of getting Melanoma."
+      );
+    } else {
+      setFamilySection("");
+    }
     if (result <= 0.25) {
       setColor("green");
       setLevel("Low");
       setSection1(
-        "Low means your skin condition is fine. Based on our our AI picture recognition technology low chance there maybe a problem. But we still suggest you to  see gp to get examined and referred to a dermatologist."
+        "Based on our AI model detection, Low level means your moles appear to be fine. But we still suggest you to go to GP for regular skin check and follow our suggestion down below"
       );
       setSection3(
-        "According to the results of our AI detection, we suggest you to start your skin protection journey below to keep your skin in a good condition. please also check out medical support to find nearest skin-care clinic to do regular skin checkup. No matter how, please pay more attention to your moles and do periodic skin examination."
+        "We suggest you to start your skin protection journey now (link down below) to keep your skin in a good condition. Please check our Medical Support page (link down below) to find nearest skin-care clinic to do regular skin check-ups."
       );
     } else if (result > 0.25 && result <= 0.5) {
       setColor("#f08080");
       setLevel("Medium Low");
       setSection1(
-        "Medium-low means your skin condition is not so bad. Based on our our AI picture recognition technology low chance there maybe a problem. But we still suggest you to  see gp to get examined and referred to a dermatologist."
+        "Based on our AI model detection, Medium-low level means your moles have slightly chance to be malignant. But we still recommend that you have your moles monitored and go to your GP for regular skin check-ups."
       );
       setSection3(
-        "According to the results of our AI detection, we suggest you to start your skin protection journey below to keep your skin in a good condition. But if possible, please go to medical support to find nearest skin cancer clinic to check your skin. No matter how, please pay more attention to your moles and do periodic skin examination."
+        "We suggest you to start your skin protection journey now (link down below) to keep your skin in a good condition. But if possible, please go to our Medical Support (link down below) to find nearest  skin-care clinic to check your moles. Please pay more attention to your moles and do periodic skin examination."
       );
     } else if (result > 0.5 && result <= 0.75) {
       setColor("#dc143c");
       setLevel("Medium High");
       setSection1(
-        "Medium-high means your skin condition is not good. Based on our our AI picture recognition technology high chance there maybe a problem. Please see gp to get examined and referred to a dermatologist."
+        "Based on our AI model detection, Medium-high level means that you should pay more attention on your moles. Please monitor your moles and go to GP to get examined and referred to a dermatologist."
       );
       setSection3(
-        "According to the results of our AI detection, we suggest you to medical support to find nearest skin cancer clinic to check your skin. No matter how, please pay more attention to your moles and do periodic skin examination."
+        "We suggest you to go to our Medical Support page (link down below) to find nearest GP for moles check and reach to dermatologist for further medication. Please pay more attention and monitor any changes of your moles. If there is any doubt, go to see a GP immediately."
       );
     } else if (result > 0.75 && result < 1) {
       setColor("#8b0000");
       setLevel("High");
       setSection1(
-        "High means your skin condition is so bad. Based on our our AI picture recognition technology high chance there maybe a problem. Please see gp to get examined and referred to a dermatologist."
+        "Based on our AI model detection, High level means your moles are likely to be a problem. Please go see the GP immediately and reach to dermatologist for further examination."
       );
       setSection3(
-        "According to the results of our AI detection, we suggest you to medical support to find nearest skin cancer clinic to check your skin. No matter how, please pay more attention to your moles and do periodic skin examination."
+        "We suggest you to go to Medical Support page (link down below) to find nearest GP to check your moles immediately. At the meantime, monitor your moles everyday with the ABCDE method (link down below). If there is any doubt, go to see a GP immediately."
       );
     } else {
       setInvalid(true);
@@ -102,12 +125,20 @@ function Modal({ open, children, onClose, result, age, gender }) {
             <button onClick={onClose}> X </button>
           </div> */}
           <div className="print">
-            <div>
+            <div className="toCenter">
               <p className="title">{title}</p>
               <p className="title" style={{ color: color, fontWeight: "bold" }}>
                 {level}
               </p>
+              <Link
+                onClick={renderToOther}
+                to="/medical-disclaimer"
+                className="Highlight"
+              >
+                Notice: this is not a medical diagnoses
+              </Link>
             </div>
+
             <div>
               <p className="subTitle">What does it mean?</p>
               <p className="content">{section1}</p>
@@ -115,6 +146,7 @@ function Modal({ open, children, onClose, result, age, gender }) {
                 <div>
                   <p className="subTitle">Things to notice?</p>
                   <p className="content">{section2}</p>
+                  <p className="content">{familySection}</p>
                 </div>
               )}
 
@@ -123,8 +155,15 @@ function Modal({ open, children, onClose, result, age, gender }) {
             </div>
           </div>
           <div className="row">
-            <Link to="/medical-support">Check Nearby Clinic</Link>
-            <Link to="/protection-tips">Protect your skin</Link>
+            <Link onClick={renderToOther} to="/medical-support">
+              Check Nearby Clinic
+            </Link>
+            <Link onClick={renderToOther} to="/protection-tips">
+              Protect your skin
+            </Link>
+            <Link onClick={renderToOther} to="/skin-protection-abcde">
+              Moles ABCDE Check
+            </Link>
           </div>
 
           <div className="footer">

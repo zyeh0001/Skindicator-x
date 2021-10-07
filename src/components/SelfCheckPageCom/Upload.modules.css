@@ -1,11 +1,11 @@
 .files {
   outline: 2px dashed #92b0b3;
   outline-offset: -3px;
-  padding: 40px 110px 50px 40px;
+  padding: 40px 310px 50px 40px;
   text-align: center !important;
   /* margin-top: 2em; */
   margin-right: 0em;
-  margin-left: 5em;
+  margin-left: 50px;
   width: 70% !important;
   background-color: #f2f5f3;
   position: relative;
@@ -14,15 +14,18 @@ body.active-modal {
   overflow-y: hidden;
 }
 .preview {
-  padding: 30px 0px 50px 0px;
-  /* margin-left: 5em; */
-  width: 100% !important;
+  /* padding: 0px 0px 50px 0px;
+  margin-left: 50px; */
+  /* width: 100% !important; */
   background-color: #f2f5f3;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  border-radius: 3px;
 }
 
 .pHighlight {
   color: #ff0000;
+  font-size: 15px;
   font-weight: bold;
   margin-left: 50px;
 }

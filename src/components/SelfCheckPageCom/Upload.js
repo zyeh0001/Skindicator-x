@@ -36,6 +36,9 @@ export default class Upload extends Component {
     let imageFormat = this.state.imageFormat;
     if (!Number(age)) {
       alert("Your age must be a number");
+      if (age < 0) {
+        alert("Your age must be a positive number");
+      }
     } else if (gender === "") {
       alert("Please select your gender");
     } else if (family_history === "") {
@@ -202,6 +205,7 @@ export default class Upload extends Component {
     const flag = this.state.flag;
     const age = this.state.age;
     const gender = this.state.gender;
+    const family_history = this.state.family_history;
     // const invalid = this.state.invalid;
     //remove the srolling bar id modal shows
     if (flag) {
@@ -245,18 +249,22 @@ export default class Upload extends Component {
                 onChange={this.myChangeHandler}
               /> */}
             </div>
-            <div className="col-6 col-12-narrower feature">
-              <div className="col-6 offset-3 files">
+            <div className="col-6 col-12-narrower">
+              <div className="col-6 offset-3 files feature">
                 <FileBase64
                   multiple={false}
                   onDone={this.getFiles.bind(this)}
                 />
               </div>
-              <div className="col-6 offset-3 pHighlight">
-                <p>Notice: We only accept JPG format</p>
+              <div className=" col-6 offset-3 pHighlight">
+                <p>
+                  Notice: <br></br>*We only accept JPG format. <br></br>*All the
+                  information is only one-time use
+                </p>
               </div>
-              <div className="col-6 offset-3 preview">
+              <div className="col-6 offset-3 feature">
                 <img
+                  className="preview"
                   src={this.state.files.base64}
                   width="40%"
                   alt="upload"
@@ -266,7 +274,7 @@ export default class Upload extends Component {
                   }}
                 ></img>
               </div>
-              <div className="col-6 offset-3">
+              <div className="col-6 offset-3 feature">
                 <input type="Submit" />
               </div>
               {/* <div className="col-6 offset-3">{ifSkin ? "loading" : ifSkin}</div> */}
@@ -292,6 +300,7 @@ export default class Upload extends Component {
                   result={predict}
                   age={age}
                   gender={gender}
+                  family_history={family_history}
                 />
               )}
             </div>

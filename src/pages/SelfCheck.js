@@ -1,6 +1,5 @@
 //import ImageUploading from "../components/ImageUploading";
 import MainTopic from "../components/Sections/MainTopic";
-import SelfCheckForm from "../components/SelfCheckForm";
 import Upload from "../components/SelfCheckPageCom/Upload";
 
 function SelfCheckPage() {
