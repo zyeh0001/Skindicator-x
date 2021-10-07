@@ -1,4 +1,11 @@
+import React from "react";
+import ClinicMap from "../components/MedicalSupportCom/ClinicMap";
+
 function MedicalSupportPage() {
-  return <div>medical support page will be updated in iteration 3</div>;
+  return (
+    <div>
+      <ClinicMap />
+    </div>
+  );
 }
 export default MedicalSupportPage;

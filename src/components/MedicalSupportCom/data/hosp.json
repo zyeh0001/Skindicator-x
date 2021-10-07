@@ -1,0 +1,5385 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.972136,-37.834298 ]
+    },
+    "properties": {
+    "Hospital_ID":5488,
+    "Formal_Name":"Albert Road Clinic",
+    "Other_Name":"Albert Road Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"31-33 Albert Road",
+    "Suburb":"South Melbourne",
+    "postcode":3205,
+    "Full_Address":"31-33 Albert Road South Melbourne 3205 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.8798654,-36.1319554 ]
+    },
+    "properties": {
+    "Hospital_ID":3485,
+    "Formal_Name":"Albury Wodonga Health",
+    "Other_Name":"Albury Wodonga Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"69 Vermont Street",
+    "Suburb":"Wodonga",
+    "postcode":3690,
+    "Full_Address":"69 Vermont Street Wodonga 3690 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.9308464,-36.0757523 ]
+    },
+    "properties": {
+    "Hospital_ID":12990,
+    "Formal_Name":"Albury Wodonga Health, Albury Campus",
+    "Other_Name":"Albury Wodonga Health, Albury Campus",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Borella",
+    "Suburb":"Albury",
+    "postcode":2640,
+    "Full_Address":"Borella Albury 2640 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.7172472,-37.1940818 ]
+    },
+    "properties": {
+    "Hospital_ID":3491,
+    "Formal_Name":"Alexandra District Health",
+    "Other_Name":"Alexandra District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 Cooper Street",
+    "Suburb":"Alexandra",
+    "postcode":3714,
+    "Full_Address":"20 Cooper Street Alexandra 3714 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9832353,-37.845498 ]
+    },
+    "properties": {
+    "Hospital_ID":11519,
+    "Formal_Name":"Alfred Health",
+    "Other_Name":"Alfred Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Commercial Road",
+    "Suburb":"Melbourne",
+    "postcode":3004,
+    "Full_Address":"Commercial Road Melbourne 3004 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.7293605,-36.5544039 ]
+    },
+    "properties": {
+    "Hospital_ID":5618,
+    "Formal_Name":"Alpine Health",
+    "Other_Name":"Alpine Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"30 O'Donnell Avenue",
+    "Suburb":"Myrtleford",
+    "postcode":3737,
+    "Full_Address":"30 O'Donnell Avenue Myrtleford 3737 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3132882,-37.8989287 ]
+    },
+    "properties": {
+    "Hospital_ID":3483,
+    "Formal_Name":"Angliss Hospital",
+    "Other_Name":"Angliss Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Albert Street",
+    "Suburb":"Upper Ferntree Gully",
+    "postcode":3156,
+    "Full_Address":"Albert Street Upper Ferntree Gully 3156 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.2797671,-36.765123 ]
+    },
+    "properties": {
+    "Hospital_ID":12266,
+    "Formal_Name":"Appearance Medical Centre",
+    "Other_Name":"Appearance Medical Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"57 Garsed Street",
+    "Suburb":"Bendigo",
+    "postcode":3550,
+    "Full_Address":"57 Garsed Street Bendigo 3550 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0592495,-37.7566762 ]
+    },
+    "properties": {
+    "Hospital_ID":3401,
+    "Formal_Name":"Austin Health",
+    "Other_Name":"Austin Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"145 Studley Road",
+    "Suburb":"Heidelberg",
+    "postcode":3084,
+    "Full_Address":"145 Studley Road Heidelberg 3084 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0592495,-37.7566762 ]
+    },
+    "properties": {
+    "Hospital_ID":11733,
+    "Formal_Name":"Austin Health - Austin Hospital",
+    "Other_Name":"Austin Health - Austin Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"145 Studley Road",
+    "Suburb":"Heidelberg",
+    "postcode":3084,
+    "Full_Address":"145 Studley Road Heidelberg 3084 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0464521,-37.7568089 ]
+    },
+    "properties": {
+    "Hospital_ID":11744,
+    "Formal_Name":"Austin Health - Heidelberg Repatriation Hospital",
+    "Other_Name":"Austin Health - Heidelberg Repatriation Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"300 Waterdale Road",
+    "Suburb":"Heidelberg Heights",
+    "postcode":3081,
+    "Full_Address":"300 Waterdale Road Heidelberg Heights 3081 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 147.6077414,-37.8313964 ]
+    },
+    "properties": {
+    "Hospital_ID":6272,
+    "Formal_Name":"Bairnsdale Regional Health Service",
+    "Other_Name":"Bairnsdale Regional Health Service",
+    "Emergency_Capable":"YES",
+    "Location_Address":"122 Day St",
+    "Suburb":"Bairnsdale",
+    "postcode":3875,
+    "Full_Address":"122 Day St Bairnsdale 3875 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.2223559,-37.599855 ]
+    },
+    "properties": {
+    "Hospital_ID":6057,
+    "Formal_Name":"Ballan District Health and Care",
+    "Other_Name":"Ballan District Health and Care",
+    "Emergency_Capable":"NO",
+    "Location_Address":"33 Cowie Street",
+    "Suburb":"Ballan",
+    "postcode":3342,
+    "Full_Address":"33 Cowie Street Ballan 3342 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.8322673,-37.5409425 ]
+    },
+    "properties": {
+    "Hospital_ID":11920,
+    "Formal_Name":"Ballarat Day Procedure Centre",
+    "Other_Name":"Ballarat Day Procedure Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1119/1123 Howitt Street",
+    "Suburb":"Ballarat",
+    "postcode":3355,
+    "Full_Address":"1119/1123 Howitt Street Ballarat 3355 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.8484246,-37.5554488 ]
+    },
+    "properties": {
+    "Hospital_ID":7783,
+    "Formal_Name":"Ballarat Health Services",
+    "Other_Name":"Ballarat Health Services",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Drummond Street North",
+    "Suburb":"Ballarat",
+    "postcode":3353,
+    "Full_Address":"Drummond Street North Ballarat 3353 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3659694,-38.1513036 ]
+    },
+    "properties": {
+    "Hospital_ID":10441,
+    "Formal_Name":"Barwon Health",
+    "Other_Name":"Barwon Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"272-322 Ryrie Street",
+    "Suburb":"Geelong",
+    "postcode":3220,
+    "Full_Address":"272-322 Ryrie Street Geelong 3220 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.581454,-38.6085912 ]
+    },
+    "properties": {
+    "Hospital_ID":6884,
+    "Formal_Name":"Bass Coast Health",
+    "Other_Name":"Bass Coast Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"235 Graham Street",
+    "Suburb":"Wonthaggi",
+    "postcode":3995,
+    "Full_Address":"235 Graham Street Wonthaggi 3995 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.143382,-38.1482553 ]
+    },
+    "properties": {
+    "Hospital_ID":11533,
+    "Formal_Name":"Bayside Day Procedure and Specialist Centre",
+    "Other_Name":"Bayside Day Procedure and Specialist Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"141 Cranbourne Road",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"141 Cranbourne Road Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0367547,-37.9329457 ]
+    },
+    "properties": {
+    "Hospital_ID":10765,
+    "Formal_Name":"Bayside Endoscopy Day Hospital",
+    "Other_Name":"Bayside Endoscopy Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"441 South Road",
+    "Suburb":"Moorabbin",
+    "postcode":3189,
+    "Full_Address":"441 South Road Moorabbin 3189 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2629995,-37.8422484 ]
+    },
+    "properties": {
+    "Hospital_ID":12058,
+    "Formal_Name":"Bayswater Day Procedure and Specialist Centre",
+    "Other_Name":"Bayswater Day Procedure and Specialist Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"664 Mountain Highway",
+    "Suburb":"Bayswater",
+    "postcode":3153,
+    "Full_Address":"664 Mountain Highway Bayswater 3153 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.3824534,-37.4308576 ]
+    },
+    "properties": {
+    "Hospital_ID":3609,
+    "Formal_Name":"Beaufort and Skipton Health Service",
+    "Other_Name":"Beaufort and Skipton Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"28 Havelock Street",
+    "Suburb":"Beaufort",
+    "postcode":3373,
+    "Full_Address":"28 Havelock Street Beaufort 3373 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.6906425,-36.3500151 ]
+    },
+    "properties": {
+    "Hospital_ID":3377,
+    "Formal_Name":"Beechworth Health Service",
+    "Other_Name":"Beechworth Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"52 Sydney Road",
+    "Suburb":"Beechworth",
+    "postcode":3747,
+    "Full_Address":"52 Sydney Road Beechworth 3747 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0487346,-38.2254286 ]
+    },
+    "properties": {
+    "Hospital_ID":2416,
+    "Formal_Name":"Beleura Private Hospital",
+    "Other_Name":"Beleura Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"925 Nepean Highway",
+    "Suburb":"Mornington",
+    "postcode":3931,
+    "Full_Address":"925 Nepean Highway Mornington 3931 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.156104,-37.8333161 ]
+    },
+    "properties": {
+    "Hospital_ID":2418,
+    "Formal_Name":"Bellbird Private Hospital",
+    "Other_Name":"Bellbird Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"198 Canterbury Road",
+    "Suburb":"Blackburn",
+    "postcode":3130,
+    "Full_Address":"198 Canterbury Road Blackburn 3130 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.9936935,-36.5549887 ]
+    },
+    "properties": {
+    "Hospital_ID":3217,
+    "Formal_Name":"Benalla Health",
+    "Other_Name":"Benalla Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"45-63 Coster Street",
+    "Suburb":"Benalla",
+    "postcode":3672,
+    "Full_Address":"45-63 Coster Street Benalla 3672 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.261545,-36.7622016 ]
+    },
+    "properties": {
+    "Hospital_ID":12695,
+    "Formal_Name":"Bendigo Day Surgery",
+    "Other_Name":"Bendigo Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1-7 Chum Street",
+    "Suburb":"Bendigo",
+    "postcode":3550,
+    "Full_Address":"1-7 Chum Street Bendigo 3550 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.284141,-36.7492527 ]
+    },
+    "properties": {
+    "Hospital_ID":3292,
+    "Formal_Name":"Bendigo Health",
+    "Other_Name":"Bendigo Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"62 Lucan St",
+    "Suburb":"Bendigo",
+    "postcode":3550,
+    "Full_Address":"62 Lucan St Bendigo 3550 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0410907,-37.9202672 ]
+    },
+    "properties": {
+    "Hospital_ID":12472,
+    "Formal_Name":"Bentleigh Surgicentre",
+    "Other_Name":"Bentleigh Surgicentre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"155 Jasper Road",
+    "Suburb":"Bentleigh",
+    "postcode":3204,
+    "Full_Address":"155 Jasper Road Bentleigh 3204 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3464527,-38.0336851 ]
+    },
+    "properties": {
+    "Hospital_ID":11462,
+    "Formal_Name":"Berwick Surgicentre",
+    "Other_Name":"Berwick Surgicentre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"22 Langmore Lane",
+    "Suburb":"Berwick",
+    "postcode":3806,
+    "Full_Address":"22 Langmore Lane Berwick 3806 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.7278359,-36.1118062 ]
+    },
+    "properties": {
+    "Hospital_ID":6103,
+    "Formal_Name":"Boort District Health",
+    "Other_Name":"Boort District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"31 Kiniry Street",
+    "Suburb":"Boort",
+    "postcode":3537,
+    "Full_Address":"31 Kiniry Street Boort 3537 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1192459,-37.8137575 ]
+    },
+    "properties": {
+    "Hospital_ID":3403,
+    "Formal_Name":"Box Hill Hospital",
+    "Other_Name":"Box Hill Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"51 Nelson Road",
+    "Suburb":"Box Hill",
+    "postcode":3128,
+    "Full_Address":"51 Nelson Road Box Hill 3128 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9918171,-37.9125596 ]
+    },
+    "properties": {
+    "Hospital_ID":10769,
+    "Formal_Name":"Brighton Plastic Surgery Centre",
+    "Other_Name":"Brighton Plastic Surgery Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"206 New Street",
+    "Suburb":"Brighton",
+    "postcode":3186,
+    "Full_Address":"206 New Street Brighton 3186 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9128414,-37.6843457 ]
+    },
+    "properties": {
+    "Hospital_ID":10815,
+    "Formal_Name":"Broadmeadows Health Service",
+    "Other_Name":"Broadmeadows Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"35 Johnstone St",
+    "Suburb":"Broadmeadows",
+    "postcode":3047,
+    "Full_Address":"35 Johnstone St Broadmeadows 3047 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.972195,-37.756728 ]
+    },
+    "properties": {
+    "Hospital_ID":2517,
+    "Formal_Name":"Brunswick Private Hospital",
+    "Other_Name":"Brunswick Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"82 Moreland Road",
+    "Suburb":"Brunswick",
+    "postcode":3056,
+    "Full_Address":"82 Moreland Road Brunswick 3056 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0543946,-37.7005702 ]
+    },
+    "properties": {
+    "Hospital_ID":3574,
+    "Formal_Name":"Bundoora Extended Care Centre",
+    "Other_Name":"Bundoora Extended Care Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1231 Plenty Road",
+    "Suburb":"Bundoora",
+    "postcode":3083,
+    "Full_Address":"1231 Plenty Road Bundoora 3083 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.991304,-37.9118899 ]
+    },
+    "properties": {
+    "Hospital_ID":2421,
+    "Formal_Name":"Cabrini Brighton",
+    "Other_Name":"Cabrini Brighton",
+    "Emergency_Capable":"NO",
+    "Location_Address":"243 New Street",
+    "Suburb":"Brighton",
+    "postcode":3186,
+    "Full_Address":"243 New Street Brighton 3186 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0091661,-37.88634 ]
+    },
+    "properties": {
+    "Hospital_ID":2445,
+    "Formal_Name":"Cabrini Health Elsternwick Rehabilitation Service",
+    "Other_Name":"Cabrini Health Elsternwick Rehabilitation Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"494 Glenhuntly Road",
+    "Suburb":"Elsternwick",
+    "postcode":3185,
+    "Full_Address":"494 Glenhuntly Road Elsternwick 3185 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0101428,-37.8849908 ]
+    },
+    "properties": {
+    "Hospital_ID":2456,
+    "Formal_Name":"Cabrini Hopetoun Rehabilitation",
+    "Other_Name":"Cabrini Hopetoun Rehabilitation",
+    "Emergency_Capable":"NO",
+    "Location_Address":"2-4 Hopetoun Street",
+    "Suburb":"Elsternwick",
+    "postcode":3185,
+    "Full_Address":"2-4 Hopetoun Street Elsternwick 3185 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0333328,-37.8626027 ]
+    },
+    "properties": {
+    "Hospital_ID":2499,
+    "Formal_Name":"Cabrini Malvern",
+    "Other_Name":"Cabrini Malvern",
+    "Emergency_Capable":"NO",
+    "Location_Address":"181-183 Wattletree Road",
+    "Suburb":"Malvern",
+    "postcode":3144,
+    "Full_Address":"181-183 Wattletree Road Malvern 3144 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0088912,-37.8542859 ]
+    },
+    "properties": {
+    "Hospital_ID":11344,
+    "Formal_Name":"Cabrini Prahran",
+    "Other_Name":"Cabrini Prahran",
+    "Emergency_Capable":"NO",
+    "Location_Address":"646 High Street",
+    "Suburb":"Prahran East",
+    "postcode":3181,
+    "Full_Address":"646 High Street Prahran East 3181 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0132125,-37.8969028 ]
+    },
+    "properties": {
+    "Hospital_ID":3384,
+    "Formal_Name":"Calvary Health Care Bethlehem Ltd.",
+    "Other_Name":"Calvary Health Care Bethlehem Ltd.",
+    "Emergency_Capable":"NO",
+    "Location_Address":"476 Kooyong Road",
+    "Suburb":"Caulfield",
+    "postcode":3162,
+    "Full_Address":"476 Kooyong Road Caulfield 3162 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0156663,-37.8046485 ]
+    },
+    "properties": {
+    "Hospital_ID":3385,
+    "Formal_Name":"Caritas Christi Hospice Ltd",
+    "Other_Name":"Caritas Christi Hospice Ltd",
+    "Emergency_Capable":"NO",
+    "Location_Address":"104 Studley Park Road",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"104 Studley Park Road Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3460756,-38.0423342 ]
+    },
+    "properties": {
+    "Hospital_ID":12280,
+    "Formal_Name":"Casey Hospital",
+    "Other_Name":"Casey Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"52 Kangan Drive",
+    "Suburb":"Berwick",
+    "postcode":3806,
+    "Full_Address":"52 Kangan Drive Berwick 3806 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.3923844,-37.5900903 ]
+    },
+    "properties": {
+    "Hospital_ID":6151,
+    "Formal_Name":"Casterton Memorial Hospital",
+    "Other_Name":"Casterton Memorial Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"63-69 Russell Street",
+    "Suburb":"Casterton",
+    "postcode":3311,
+    "Full_Address":"63-69 Russell Street Casterton 3311 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.2120968,-37.0521393 ]
+    },
+    "properties": {
+    "Hospital_ID":6526,
+    "Formal_Name":"Castlemaine Health",
+    "Other_Name":"Castlemaine Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"142 Cornish Street",
+    "Suburb":"Castlemaine",
+    "postcode":3450,
+    "Full_Address":"142 Cornish Street Castlemaine 3450 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0161829,-37.8826291 ]
+    },
+    "properties": {
+    "Hospital_ID":3397,
+    "Formal_Name":"Caulfield Hospital",
+    "Other_Name":"Caulfield Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"260 Kooyong Road",
+    "Suburb":"Caulfield",
+    "postcode":3162,
+    "Full_Address":"260 Kooyong Road Caulfield 3162 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 147.0808869,-38.1084653 ]
+    },
+    "properties": {
+    "Hospital_ID":11269,
+    "Formal_Name":"Central Gippsland Health Service",
+    "Other_Name":"Central Gippsland Health Service",
+    "Emergency_Capable":"YES",
+    "Location_Address":"155 Guthridge Parade",
+    "Suburb":"Sale",
+    "postcode":3850,
+    "Full_Address":"155 Guthridge Parade Sale 3850 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.1465291,-37.3374196 ]
+    },
+    "properties": {
+    "Hospital_ID":10434,
+    "Formal_Name":"Central Highlands Rural Health",
+    "Other_Name":"Central Highlands Rural Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"13 Hospital Street",
+    "Suburb":"Daylesford",
+    "postcode":3460,
+    "Full_Address":"13 Hospital Street Daylesford 3460 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0569606,-37.9606602 ]
+    },
+    "properties": {
+    "Hospital_ID":5495,
+    "Formal_Name":"Chesterville Day Hospital",
+    "Other_Name":"Chesterville Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"28 Chesterville Road",
+    "Suburb":"Cheltenham",
+    "postcode":3192,
+    "Full_Address":"28 Chesterville Road Cheltenham 3192 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.0761169,-38.3326041 ]
+    },
+    "properties": {
+    "Hospital_ID":2432,
+    "Formal_Name":"Cobden District Health Service Inc.",
+    "Other_Name":"Cobden District Health Service Inc.",
+    "Emergency_Capable":"NO",
+    "Location_Address":"5 Victoria Street",
+    "Suburb":"Cobden",
+    "postcode":3266,
+    "Full_Address":"5 Victoria Street Cobden 3266 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9647329,-37.7451373 ]
+    },
+    "properties": {
+    "Hospital_ID":12057,
+    "Formal_Name":"Coburg Endoscopy Centre",
+    "Other_Name":"Coburg Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"15 Munro Street",
+    "Suburb":"Coburg",
+    "postcode":3058,
+    "Full_Address":"15 Munro Street Coburg 3058 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.214509,-35.8001404 ]
+    },
+    "properties": {
+    "Hospital_ID":3333,
+    "Formal_Name":"Cohuna District Hospital",
+    "Other_Name":"Cohuna District Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"144-158 King George Street",
+    "Suburb":"Cohuna",
+    "postcode":3568,
+    "Full_Address":"144-158 King George Street Cohuna 3568 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.5828752,-38.3409565 ]
+    },
+    "properties": {
+    "Hospital_ID":3463,
+    "Formal_Name":"Colac Area Health",
+    "Other_Name":"Colac Area Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"2-28 Conner St",
+    "Suburb":"Colac",
+    "postcode":3250,
+    "Full_Address":"2-28 Conner St Colac 3250 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 147.9030344,-36.1988504 ]
+    },
+    "properties": {
+    "Hospital_ID":3335,
+    "Formal_Name":"Corryong Health",
+    "Other_Name":"Corryong Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 Kiell Street",
+    "Suburb":"Corryong",
+    "postcode":3707,
+    "Full_Address":"20 Kiell Street Corryong 3707 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.21691,-37.977232 ]
+    },
+    "properties": {
+    "Hospital_ID":12694,
+    "Formal_Name":"Corymbia House",
+    "Other_Name":"Corymbia House",
+    "Emergency_Capable":"NO",
+    "Location_Address":"92-94 David Street",
+    "Suburb":"Dandenong",
+    "postcode":3175,
+    "Full_Address":"92-94 David Street Dandenong 3175 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0480886,-37.8085829 ]
+    },
+    "properties": {
+    "Hospital_ID":2435,
+    "Formal_Name":"Cotham Private Hospital",
+    "Other_Name":"Cotham Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"209 Cotham Road",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"209 Cotham Road Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9140669,-37.5930157 ]
+    },
+    "properties": {
+    "Hospital_ID":12580,
+    "Formal_Name":"Craigieburn Health Service",
+    "Other_Name":"Craigieburn Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"350 Craigieburn Road West",
+    "Suburb":"Craigieburn",
+    "postcode":3064,
+    "Full_Address":"350 Craigieburn Road West Craigieburn 3064 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2810914,-38.1132683 ]
+    },
+    "properties": {
+    "Hospital_ID":12583,
+    "Formal_Name":"Cranbourne Integrated Care Centre",
+    "Other_Name":"Cranbourne Integrated Care Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"140-154 Sladen Street",
+    "Suburb":"Cranbourne",
+    "postcode":3977,
+    "Full_Address":"140-154 Sladen Street Cranbourne 3977 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.223308,-37.9742421 ]
+    },
+    "properties": {
+    "Hospital_ID":2575,
+    "Formal_Name":"Dandenong Eye Clinic",
+    "Other_Name":"Dandenong Eye Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1-3 Falkiner Crescent",
+    "Suburb":"Dandenong",
+    "postcode":3175,
+    "Full_Address":"1-3 Falkiner Crescent Dandenong 3175 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2194476,-37.9767245 ]
+    },
+    "properties": {
+    "Hospital_ID":3405,
+    "Formal_Name":"Dandenong Hospital",
+    "Other_Name":"Dandenong Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"105-135 David Street",
+    "Suburb":"Dandenong",
+    "postcode":3175,
+    "Full_Address":"105-135 David Street Dandenong 3175 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0173668,-37.7810669 ]
+    },
+    "properties": {
+    "Hospital_ID":11880,
+    "Formal_Name":"Darebin Endoscopy Services",
+    "Other_Name":"Darebin Endoscopy Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"42 Station Street",
+    "Suburb":"Fairfield",
+    "postcode":3078,
+    "Full_Address":"42 Station Street Fairfield 3078 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0941548,-37.8565492 ]
+    },
+    "properties": {
+    "Hospital_ID":2439,
+    "Formal_Name":"Delmont Private Hospital",
+    "Other_Name":"Delmont Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"298 Warrigal Road",
+    "Suburb":"Burwood",
+    "postcode":3125,
+    "Full_Address":"298 Warrigal Road Burwood 3125 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9652277,-37.7993667 ]
+    },
+    "properties": {
+    "Hospital_ID":3386,
+    "Formal_Name":"Dental Health Services Victoria",
+    "Other_Name":"Dental Health Services Victoria",
+    "Emergency_Capable":"NO",
+    "Location_Address":"720 Swanston Street",
+    "Suburb":"Carlton",
+    "postcode":3053,
+    "Full_Address":"720 Swanston Street Carlton 3053 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.088389,-37.7030974 ]
+    },
+    "properties": {
+    "Hospital_ID":2440,
+    "Formal_Name":"Diamond Valley Renal Care Centre",
+    "Other_Name":"Diamond Valley Renal Care Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Grimshaw Street",
+    "Suburb":"Greensborough",
+    "postcode":3088,
+    "Full_Address":"Grimshaw Street Greensborough 3088 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2166427,-37.9774213 ]
+    },
+    "properties": {
+    "Hospital_ID":5472,
+    "Formal_Name":"Digestive Health Centre",
+    "Other_Name":"Digestive Health Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"90 David Street",
+    "Suburb":"Dandenong",
+    "postcode":3175,
+    "Full_Address":"90 David Street Dandenong 3175 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.4354371,-37.6760582 ]
+    },
+    "properties": {
+    "Hospital_ID":10435,
+    "Formal_Name":"Djerriwarrh Health Services",
+    "Other_Name":"Djerriwarrh Health Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Lot 4 Grant Street",
+    "Suburb":"Bacchus Marsh",
+    "postcode":3340,
+    "Full_Address":"Lot 4 Grant Street Bacchus Marsh 3340 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1714915,-37.789994 ]
+    },
+    "properties": {
+    "Hospital_ID":2441,
+    "Formal_Name":"Donvale Rehabilitation Hospital",
+    "Other_Name":"Donvale Rehabilitation Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1119-1121 Doncaster Road",
+    "Suburb":"Donvale",
+    "postcode":3111,
+    "Full_Address":"1119-1121 Doncaster Road Donvale 3111 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9476711,-37.7232512 ]
+    },
+    "properties": {
+    "Hospital_ID":2444,
+    "Formal_Name":"Dorset Rehabilitation Centre",
+    "Other_Name":"Dorset Rehabilitation Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"146 Derby Street",
+    "Suburb":"Pascoe Vale",
+    "postcode":3044,
+    "Full_Address":"146 Derby Street Pascoe Vale 3044 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1831856,-37.8570427 ]
+    },
+    "properties": {
+    "Hospital_ID":12197,
+    "Formal_Name":"Dr Walters Vasectomy Centre",
+    "Other_Name":"Dr Walters Vasectomy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"486 Burwood Highway",
+    "Suburb":"Vermont South",
+    "postcode":3133,
+    "Full_Address":"486 Burwood Highway Vermont South 3133 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.9327785,-37.2790462 ]
+    },
+    "properties": {
+    "Hospital_ID":3301,
+    "Formal_Name":"East Grampians Health Service",
+    "Other_Name":"East Grampians Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Lot 5B Girdlestone Street",
+    "Suburb":"Ararat",
+    "postcode":3377,
+    "Full_Address":"Lot 5B Girdlestone Street Ararat 3377 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9863067,-37.8163014 ]
+    },
+    "properties": {
+    "Hospital_ID":11390,
+    "Formal_Name":"East Melbourne Day Procedure Centre",
+    "Other_Name":"East Melbourne Day Procedure Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"116 - 118 Wellington Parade",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"116 - 118 Wellington Parade East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.2468477,-36.609559 ]
+    },
+    "properties": {
+    "Hospital_ID":10433,
+    "Formal_Name":"East Wimmera Health Service",
+    "Other_Name":"East Wimmera Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"52 North Western Road",
+    "Suburb":"St Arnaud",
+    "postcode":3478,
+    "Full_Address":"52 North Western Road St Arnaud 3478 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1184531,-37.814519 ]
+    },
+    "properties": {
+    "Hospital_ID":11518,
+    "Formal_Name":"Eastern Health",
+    "Other_Name":"Eastern Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 4, 5 Arnold Street",
+    "Suburb":"Box Hill",
+    "postcode":3128,
+    "Full_Address":"Level 4, 5 Arnold Street Box Hill 3128 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2276685,-37.8197876 ]
+    },
+    "properties": {
+    "Hospital_ID":11911,
+    "Formal_Name":"Eastside Endoscopy Centre",
+    "Other_Name":"Eastside Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"33 Wantirna Road",
+    "Suburb":"Ringwood",
+    "postcode":3134,
+    "Full_Address":"33 Wantirna Road Ringwood 3134 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.7488192,-36.1381961 ]
+    },
+    "properties": {
+    "Hospital_ID":3052,
+    "Formal_Name":"Echuca Regional Health",
+    "Other_Name":"Echuca Regional Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"9-27 Frances Street",
+    "Suburb":"Echuca",
+    "postcode":3564,
+    "Full_Address":"9-27 Frances Street Echuca 3564 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.2888564,-37.0356098 ]
+    },
+    "properties": {
+    "Hospital_ID":3340,
+    "Formal_Name":"Edenhope and District Hospital",
+    "Other_Name":"Edenhope and District Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"128-134 Elizabeth Street",
+    "Suburb":"Edenhope",
+    "postcode":3318,
+    "Full_Address":"128-134 Elizabeth Street Edenhope 3318 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9876459,-37.8156998 ]
+    },
+    "properties": {
+    "Hospital_ID":2431,
+    "Formal_Name":"Epworth Cliveden",
+    "Other_Name":"Epworth Cliveden",
+    "Emergency_Capable":"NO",
+    "Location_Address":"29 Simpson Street",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"29 Simpson Street East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1190476,-37.8147836 ]
+    },
+    "properties": {
+    "Hospital_ID":2571,
+    "Formal_Name":"Epworth Eastern Hospital",
+    "Other_Name":"Epworth Eastern Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1 Arnold Street",
+    "Suburb":"Box Hill",
+    "postcode":3128,
+    "Full_Address":"1 Arnold Street Box Hill 3128 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9836443,-37.8110345 ]
+    },
+    "properties": {
+    "Hospital_ID":2450,
+    "Formal_Name":"Epworth Freemasons",
+    "Other_Name":"Epworth Freemasons",
+    "Emergency_Capable":"NO",
+    "Location_Address":"166 Clarendon Street",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"166 Clarendon Street East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0029677,-37.9137716 ]
+    },
+    "properties": {
+    "Hospital_ID":2449,
+    "Formal_Name":"Epworth Rehabilitation Brighton",
+    "Other_Name":"Epworth Rehabilitation Brighton",
+    "Emergency_Capable":"NO",
+    "Location_Address":"85-91 Wilson Street",
+    "Suburb":"Brighton",
+    "postcode":3186,
+    "Full_Address":"85-91 Wilson Street Brighton 3186 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0546349,-37.8462889 ]
+    },
+    "properties": {
+    "Hospital_ID":2424,
+    "Formal_Name":"Epworth Rehabilitation Camberwell",
+    "Other_Name":"Epworth Rehabilitation Camberwell",
+    "Emergency_Capable":"NO",
+    "Location_Address":"888 Toorak Road",
+    "Suburb":"Camberwell",
+    "postcode":3124,
+    "Full_Address":"888 Toorak Road Camberwell 3124 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9930475,-37.8177262 ]
+    },
+    "properties": {
+    "Hospital_ID":2447,
+    "Formal_Name":"Epworth Richmond",
+    "Other_Name":"Epworth Richmond",
+    "Emergency_Capable":"YES",
+    "Location_Address":"89 Bridge Road",
+    "Suburb":"Richmond",
+    "postcode":3121,
+    "Full_Address":"89 Bridge Road Richmond 3121 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9237203,-37.7658075 ]
+    },
+    "properties": {
+    "Hospital_ID":12198,
+    "Formal_Name":"Essendon Day Procedure Centre",
+    "Other_Name":"Essendon Day Procedure Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 2, 665 Mount Alexander Road",
+    "Suburb":"Moonee Ponds",
+    "postcode":3039,
+    "Full_Address":"Level 2, 665 Mount Alexander Road Moonee Ponds 3039 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8853926,-37.7484683 ]
+    },
+    "properties": {
+    "Hospital_ID":2415,
+    "Formal_Name":"Essendon Private Clinic",
+    "Other_Name":"Essendon Private Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"33-35 Rosehill Road",
+    "Suburb":"Essendon",
+    "postcode":3040,
+    "Full_Address":"33-35 Rosehill Road Essendon 3040 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.5702708,-36.7593438 ]
+    },
+    "properties": {
+    "Hospital_ID":6290,
+    "Formal_Name":"Euroa Health Inc",
+    "Other_Name":"Euroa Health Inc",
+    "Emergency_Capable":"NO",
+    "Location_Address":"36 Kennedy Street",
+    "Suburb":"Euroa",
+    "postcode":3666,
+    "Full_Address":"36 Kennedy Street Euroa 3666 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8889931,-37.7928754 ]
+    },
+    "properties": {
+    "Hospital_ID":3407,
+    "Formal_Name":"Footscray Hospital",
+    "Other_Name":"Footscray Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"160 Gordon Street",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"160 Gordon Street Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1663683,-37.8361837 ]
+    },
+    "properties": {
+    "Hospital_ID":11996,
+    "Formal_Name":"Forest Hill Dialysis Centre",
+    "Other_Name":"Forest Hill Dialysis Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Shops 26 & 27 Forest Hill Chase, 69 Mahoneys",
+    "Suburb":"Forest Hill",
+    "postcode":3131,
+    "Full_Address":"Shops 26 & 27 Forest Hill Chase, 69 Mahoneys Forest Hill 3131 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.955148,-37.7994985 ]
+    },
+    "properties": {
+    "Hospital_ID":10767,
+    "Formal_Name":"Frances Perry House",
+    "Other_Name":"Frances Perry House",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Levels 6 & 7 Cnr Grattan St & Flemington Rd",
+    "Suburb":"Parkville",
+    "postcode":3052,
+    "Full_Address":"Levels 6 & 7 Cnr Grattan St & Flemington Rd Parkville 3052 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1295737,-38.1501429 ]
+    },
+    "properties": {
+    "Hospital_ID":3465,
+    "Formal_Name":"Frankston Hospital",
+    "Other_Name":"Frankston Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Hastings Rd",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"Hastings Rd Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3659694,-38.1513036 ]
+    },
+    "properties": {
+    "Hospital_ID":10771,
+    "Formal_Name":"Geelong Private Hospital",
+    "Other_Name":"Geelong Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"272 Ryrie St",
+    "Suburb":"Geelong",
+    "postcode":3220,
+    "Full_Address":"272 Ryrie St Geelong 3220 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.9511882,-38.4875755 ]
+    },
+    "properties": {
+    "Hospital_ID":7230,
+    "Formal_Name":"Gippsland Southern Health Service",
+    "Other_Name":"Gippsland Southern Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"66 Koonwarra Road",
+    "Suburb":"Leongatha",
+    "postcode":3953,
+    "Full_Address":"66 Koonwarra Road Leongatha 3953 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0193859,-37.900604 ]
+    },
+    "properties": {
+    "Hospital_ID":12217,
+    "Formal_Name":"Glen Eira Day Surgery",
+    "Other_Name":"Glen Eira Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"554 Hawthorn Road",
+    "Suburb":"Caulfield South",
+    "postcode":3162,
+    "Full_Address":"554 Hawthorn Road Caulfield South 3162 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0313533,-37.8194771 ]
+    },
+    "properties": {
+    "Hospital_ID":12289,
+    "Formal_Name":"Glenferrie Private Hospital",
+    "Other_Name":"Glenferrie Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"25 Linda Crescent",
+    "Suburb":"Hawthorn",
+    "postcode":3122,
+    "Full_Address":"25 Linda Crescent Hawthorn 3122 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.4046543,-36.3626385 ]
+    },
+    "properties": {
+    "Hospital_ID":6333,
+    "Formal_Name":"Goulburn Valley Health",
+    "Other_Name":"Goulburn Valley Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"2 Graham Street",
+    "Suburb":"Shepparton",
+    "postcode":3630,
+    "Full_Address":"2 Graham Street Shepparton 3630 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0303259,-37.8141252 ]
+    },
+    "properties": {
+    "Hospital_ID":2454,
+    "Formal_Name":"Hawthorn Birth and Development Centre",
+    "Other_Name":"Hawthorn Birth and Development Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"144 Barkers Road",
+    "Suburb":"Hawthorn",
+    "postcode":3122,
+    "Full_Address":"144 Barkers Road Hawthorn 3122 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.5289292,-37.6468041 ]
+    },
+    "properties": {
+    "Hospital_ID":3510,
+    "Formal_Name":"Healesville and District Hospital",
+    "Other_Name":"Healesville and District Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"377 Maroondah Highway",
+    "Suburb":"Healesville",
+    "postcode":3777,
+    "Full_Address":"377 Maroondah Highway Healesville 3777 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.7093934,-36.9265035 ]
+    },
+    "properties": {
+    "Hospital_ID":6355,
+    "Formal_Name":"Heathcote Health",
+    "Other_Name":"Heathcote Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"39 Hospital Street",
+    "Suburb":"Heathcote",
+    "postcode":3523,
+    "Full_Address":"39 Hospital Street Heathcote 3523 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0601636,-37.7304903 ]
+    },
+    "properties": {
+    "Hospital_ID":10766,
+    "Formal_Name":"Heidelberg Endoscopy and Day Surgery Centre",
+    "Other_Name":"Heidelberg Endoscopy and Day Surgery Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"177-179 Northern Road",
+    "Suburb":"Heidelberg",
+    "postcode":3081,
+    "Full_Address":"177-179 Northern Road Heidelberg 3081 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.9855197,-38.2432465 ]
+    },
+    "properties": {
+    "Hospital_ID":6873,
+    "Formal_Name":"Hesse Rural Health Service",
+    "Other_Name":"Hesse Rural Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"8 Gosney Street",
+    "Suburb":"Winchelsea",
+    "postcode":3241,
+    "Full_Address":"8 Gosney Street Winchelsea 3241 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.7848442,-37.9761355 ]
+    },
+    "properties": {
+    "Hospital_ID":2455,
+    "Formal_Name":"Heyfield Hospital Inc.",
+    "Other_Name":"Heyfield Hospital Inc.",
+    "Emergency_Capable":"NO",
+    "Location_Address":"21 Tyson Road",
+    "Suburb":"Heyfield",
+    "postcode":3858,
+    "Full_Address":"21 Tyson Road Heyfield 3858 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.6242608,-38.1378252 ]
+    },
+    "properties": {
+    "Hospital_ID":3512,
+    "Formal_Name":"Heywood Rural Health",
+    "Other_Name":"Heywood Rural Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"21 Barclay Street",
+    "Suburb":"Heywood",
+    "postcode":3304,
+    "Full_Address":"21 Barclay Street Heywood 3304 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8283957,-37.8695719 ]
+    },
+    "properties": {
+    "Hospital_ID":10843,
+    "Formal_Name":"Hobsons Bay Endoscopy Centre",
+    "Other_Name":"Hobsons Bay Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"5 Sargood Street",
+    "Suburb":"Altona",
+    "postcode":3018,
+    "Full_Address":"5 Sargood Street Altona 3018 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.6864528,-37.890594 ]
+    },
+    "properties": {
+    "Hospital_ID":12476,
+    "Formal_Name":"Hobson's Bay Werribee Endoscopy Centre",
+    "Other_Name":"Hobson's Bay Werribee Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"179 Princes Highway",
+    "Suburb":"Werribee",
+    "postcode":3030,
+    "Full_Address":"179 Princes Highway Werribee 3030 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3445554,-38.0344359 ]
+    },
+    "properties": {
+    "Hospital_ID":12643,
+    "Formal_Name":"Hyperbaric Health Wound Centre Berwick",
+    "Other_Name":"Hyperbaric Health Wound Centre Berwick",
+    "Emergency_Capable":"NO",
+    "Location_Address":"3 Gibb Street",
+    "Suburb":"Berwick",
+    "postcode":3806,
+    "Full_Address":"3 Gibb Street Berwick 3806 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.8738929,-36.5722632 ]
+    },
+    "properties": {
+    "Hospital_ID":6371,
+    "Formal_Name":"Inglewood and District Health Service",
+    "Other_Name":"Inglewood and District Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"3 Hospital Street",
+    "Suburb":"Inglewood",
+    "postcode":3517,
+    "Full_Address":"3 Hospital Street Inglewood 3517 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.044898,-37.767005 ]
+    },
+    "properties": {
+    "Hospital_ID":10910,
+    "Formal_Name":"Ivanhoe Endoscopy and Day Procedure Centre",
+    "Other_Name":"Ivanhoe Endoscopy and Day Procedure Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"2/226 Upper Heidelberg Road",
+    "Suburb":"Ivanhoe",
+    "postcode":3079,
+    "Full_Address":"2/226 Upper Heidelberg Road Ivanhoe 3079 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1240246,-37.9194208 ]
+    },
+    "properties": {
+    "Hospital_ID":2458,
+    "Formal_Name":"Jessie McPherson Private Hospital",
+    "Other_Name":"Jessie McPherson Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"246 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"246 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9584733,-37.7543904 ]
+    },
+    "properties": {
+    "Hospital_ID":2459,
+    "Formal_Name":"John Fawkner Private Hospital",
+    "Other_Name":"John Fawkner Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"275 Moreland Road",
+    "Suburb":"Coburg",
+    "postcode":3058,
+    "Full_Address":"275 Moreland Road Coburg 3058 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9786716,-37.8167654 ]
+    },
+    "properties": {
+    "Hospital_ID":5477,
+    "Formal_Name":"Jolimont Endoscopy",
+    "Other_Name":"Jolimont Endoscopy",
+    "Emergency_Capable":"NO",
+    "Location_Address":"19/201 Wellington Parade South",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"19/201 Wellington Parade South East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8344738,-37.7197072 ]
+    },
+    "properties": {
+    "Hospital_ID":5493,
+    "Formal_Name":"Keilor Private",
+    "Other_Name":"Keilor Private",
+    "Emergency_Capable":"NO",
+    "Location_Address":"771 Old Calder Highway",
+    "Suburb":"Keilor",
+    "postcode":3036,
+    "Full_Address":"771 Old Calder Highway Keilor 3036 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.9184734,-35.724085 ]
+    },
+    "properties": {
+    "Hospital_ID":3308,
+    "Formal_Name":"Kerang District Health",
+    "Other_Name":"Kerang District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"13 Burgoyne Street",
+    "Suburb":"Kerang",
+    "postcode":3579,
+    "Full_Address":"13 Burgoyne Street Kerang 3579 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0626303,-37.7946623 ]
+    },
+    "properties": {
+    "Hospital_ID":12188,
+    "Formal_Name":"Kew Endoscopy Centre",
+    "Other_Name":"Kew Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Units 4/5, 828 High Street",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"Units 4/5, 828 High Street Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9528104,-37.3004803 ]
+    },
+    "properties": {
+    "Hospital_ID":3346,
+    "Formal_Name":"Kilmore District Health",
+    "Other_Name":"Kilmore District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Rutledge Street",
+    "Suburb":"Kilmore",
+    "postcode":3764,
+    "Full_Address":"Rutledge Street Kilmore 3764 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0787355,-37.9553327 ]
+    },
+    "properties": {
+    "Hospital_ID":3558,
+    "Formal_Name":"Kingston Centre",
+    "Other_Name":"Kingston Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"400 Warrigal Rd",
+    "Suburb":"Cheltenham",
+    "postcode":3192,
+    "Full_Address":"400 Warrigal Rd Cheltenham 3192 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2271502,-37.8493938 ]
+    },
+    "properties": {
+    "Hospital_ID":2460,
+    "Formal_Name":"Knox Private Hospital",
+    "Other_Name":"Knox Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"262 Mountain Highway",
+    "Suburb":"Wantirna",
+    "postcode":3152,
+    "Full_Address":"262 Mountain Highway Wantirna 3152 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.4832219,-38.2024009 ]
+    },
+    "properties": {
+    "Hospital_ID":3550,
+    "Formal_Name":"Kooweerup Regional Health Service",
+    "Other_Name":"Kooweerup Regional Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Rossiter Rd",
+    "Suburb":"Kooweerup",
+    "postcode":3981,
+    "Full_Address":"Rossiter Rd Kooweerup 3981 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0423611,-36.31558 ]
+    },
+    "properties": {
+    "Hospital_ID":6416,
+    "Formal_Name":"Kyabram District Health Service",
+    "Other_Name":"Kyabram District Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"88 Fenaughty Street",
+    "Suburb":"Kyabram",
+    "postcode":3620,
+    "Full_Address":"88 Fenaughty Street Kyabram 3620 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0428975,-37.7168339 ]
+    },
+    "properties": {
+    "Hospital_ID":11042,
+    "Formal_Name":"La Trobe Private Hospital",
+    "Other_Name":"La Trobe Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Cnr Plenty Road & Kingsbury Drive",
+    "Suburb":"Bundoora",
+    "postcode":3083,
+    "Full_Address":"Cnr Plenty Road & Kingsbury Drive Bundoora 3083 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.4715822,-38.2207258 ]
+    },
+    "properties": {
+    "Hospital_ID":6430,
+    "Formal_Name":"Latrobe Regional Hospital",
+    "Other_Name":"Latrobe Regional Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Cnr Princes Highway & Village Avenue",
+    "Suburb":"Traralgon West",
+    "postcode":3844,
+    "Full_Address":"Cnr Princes Highway & Village Avenue Traralgon West 3844 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0031863,-37.9426749 ]
+    },
+    "properties": {
+    "Hospital_ID":2463,
+    "Formal_Name":"Linacre Private Hospital",
+    "Other_Name":"Linacre Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"12-16 Linacre Road",
+    "Suburb":"Hampton",
+    "postcode":3188,
+    "Full_Address":"12-16 Linacre Road Hampton 3188 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.0636284,-36.9910449 ]
+    },
+    "properties": {
+    "Hospital_ID":3349,
+    "Formal_Name":"Maldon Hospital",
+    "Other_Name":"Maldon Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Chapel Street",
+    "Suburb":"Maldon",
+    "postcode":3463,
+    "Full_Address":"Chapel Street Maldon 3463 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.3124152,-35.0745228 ]
+    },
+    "properties": {
+    "Hospital_ID":3476,
+    "Formal_Name":"Mallee Track Health and Community Service",
+    "Other_Name":"Mallee Track Health and Community Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"28 Britt Street",
+    "Suburb":"Ouyen",
+    "postcode":3490,
+    "Full_Address":"28 Britt Street Ouyen 3490 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0306918,-37.8514647 ]
+    },
+    "properties": {
+    "Hospital_ID":12290,
+    "Formal_Name":"Malvern Dialysis Centre",
+    "Other_Name":"Malvern Dialysis Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Ground Floor, 1133 Malvern Road",
+    "Suburb":"Malvern",
+    "postcode":3144,
+    "Full_Address":"Ground Floor, 1133 Malvern Road Malvern 3144 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0607527,-37.8670716 ]
+    },
+    "properties": {
+    "Hospital_ID":2464,
+    "Formal_Name":"Malvern Private Hospital",
+    "Other_Name":"Malvern Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"3-9 Wilton Vale Crescent",
+    "Suburb":"Malvern East",
+    "postcode":3145,
+    "Full_Address":"3-9 Wilton Vale Crescent Malvern East 3145 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1152518,-37.7735889 ]
+    },
+    "properties": {
+    "Hospital_ID":12392,
+    "Formal_Name":"Manningham Day Procedure Centre",
+    "Other_Name":"Manningham Day Procedure Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 3, 200 High Street",
+    "Suburb":"Lower Templestowe",
+    "postcode":3107,
+    "Full_Address":"Level 3, 200 High Street Lower Templestowe 3107 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.0865084,-37.0576048 ]
+    },
+    "properties": {
+    "Hospital_ID":6465,
+    "Formal_Name":"Mansfield District Hospital",
+    "Other_Name":"Mansfield District Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"53 Highett Street",
+    "Suburb":"Mansfield",
+    "postcode":3722,
+    "Full_Address":"53 Highett Street Mansfield 3722 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0076811,-37.8603205 ]
+    },
+    "properties": {
+    "Hospital_ID":11343,
+    "Formal_Name":"Marie Stopes International East St Kilda",
+    "Other_Name":"Marie Stopes International East St Kilda",
+    "Emergency_Capable":"NO",
+    "Location_Address":"338 Dandenong Road",
+    "Suburb":"St Kilda East",
+    "postcode":3182,
+    "Full_Address":"338 Dandenong Road St Kilda East 3182 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2886489,-37.8090897 ]
+    },
+    "properties": {
+    "Hospital_ID":10764,
+    "Formal_Name":"Marie Stopes International Maroondah",
+    "Other_Name":"Marie Stopes International Maroondah",
+    "Emergency_Capable":"NO",
+    "Location_Address":"411 Dorset Road",
+    "Suburb":"Croydon",
+    "postcode":3136,
+    "Full_Address":"411 Dorset Road Croydon 3136 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2555597,-37.8035047 ]
+    },
+    "properties": {
+    "Hospital_ID":3416,
+    "Formal_Name":"Maroondah Hospital",
+    "Other_Name":"Maroondah Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"1-15 Mt Dandenong Rd",
+    "Suburb":"East Ringwood",
+    "postcode":3135,
+    "Full_Address":"1-15 Mt Dandenong Rd East Ringwood 3135 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.7384714,-37.0451603 ]
+    },
+    "properties": {
+    "Hospital_ID":3312,
+    "Formal_Name":"Maryborough District Health Service",
+    "Other_Name":"Maryborough District Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"75-87 Clarendon St",
+    "Suburb":"Maryborough",
+    "postcode":3465,
+    "Full_Address":"75-87 Clarendon St Maryborough 3465 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.4065983,-38.2343425 ]
+    },
+    "properties": {
+    "Hospital_ID":2466,
+    "Formal_Name":"Maryvale Private Hospital",
+    "Other_Name":"Maryvale Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"McDonald Street",
+    "Suburb":"Morwell",
+    "postcode":3840,
+    "Full_Address":"McDonald Street Morwell 3840 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0031526,-37.869686 ]
+    },
+    "properties": {
+    "Hospital_ID":2467,
+    "Formal_Name":"Masada Private Hospital",
+    "Other_Name":"Masada Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"26-28 Balaclava Road",
+    "Suburb":"East St Kilda",
+    "postcode":3183,
+    "Full_Address":"26-28 Balaclava Road East St Kilda 3183 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0304335,-37.8877893 ]
+    },
+    "properties": {
+    "Hospital_ID":10772,
+    "Formal_Name":"Melbourne Day Surgery",
+    "Other_Name":"Melbourne Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"961 Glenhuntly Road",
+    "Suburb":"Caulfield",
+    "postcode":3162,
+    "Full_Address":"961 Glenhuntly Road Caulfield 3162 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9793406,-37.8445923 ]
+    },
+    "properties": {
+    "Hospital_ID":5479,
+    "Formal_Name":"Melbourne Endoscopy Group DPC",
+    "Other_Name":"Melbourne Endoscopy Group DPC",
+    "Emergency_Capable":"NO",
+    "Location_Address":"34/517 St Kilda Road",
+    "Suburb":"Melbourne",
+    "postcode":3000,
+    "Full_Address":"34/517 St Kilda Road Melbourne 3000 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1201252,-37.9214306 ]
+    },
+    "properties": {
+    "Hospital_ID":5478,
+    "Formal_Name":"Melbourne Endoscopy Monash Day Hospital (DPC)",
+    "Other_Name":"Melbourne Endoscopy Monash Day Hospital (DPC)",
+    "Emergency_Capable":"NO",
+    "Location_Address":"277 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"277 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.955973,-37.7986657 ]
+    },
+    "properties": {
+    "Hospital_ID":11520,
+    "Formal_Name":"Melbourne Health",
+    "Other_Name":"Melbourne Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 8 South, RMH, 300 Grattan Street",
+    "Suburb":"Parkville",
+    "postcode":3050,
+    "Full_Address":"Level 8 South, RMH, 300 Grattan Street Parkville 3050 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9714769,-37.8144815 ]
+    },
+    "properties": {
+    "Hospital_ID":12380,
+    "Formal_Name":"Melbourne Oral and Facial Surgery Pty Ltd",
+    "Other_Name":"Melbourne Oral and Facial Surgery Pty Ltd",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 12, 63 Exhibition Street",
+    "Suburb":"Melbourne",
+    "postcode":3000,
+    "Full_Address":"Level 12, 63 Exhibition Street Melbourne 3000 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9572802,-37.7983026 ]
+    },
+    "properties": {
+    "Hospital_ID":5480,
+    "Formal_Name":"Melbourne Private Hospital",
+    "Other_Name":"Melbourne Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1f Royal Parade",
+    "Suburb":"Parkville",
+    "postcode":3050,
+    "Full_Address":"1f Royal Parade Parkville 3050 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.557722,-37.6868562 ]
+    },
+    "properties": {
+    "Hospital_ID":12579,
+    "Formal_Name":"Melton Health",
+    "Other_Name":"Melton Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"195-209 Barries Road",
+    "Suburb":"Melton",
+    "postcode":3337,
+    "Full_Address":"195-209 Barries Road Melton 3337 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.061677,-37.8167426 ]
+    },
+    "properties": {
+    "Hospital_ID":3379,
+    "Formal_Name":"Mercy Health - O'Connell Family Centre",
+    "Other_Name":"Mercy Health - O'Connell Family Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"6 Mont Albert Road",
+    "Suburb":"Canterbury",
+    "postcode":3126,
+    "Full_Address":"6 Mont Albert Road Canterbury 3126 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0611386,-37.7560391 ]
+    },
+    "properties": {
+    "Hospital_ID":11607,
+    "Formal_Name":"Mercy Hospital for Women",
+    "Other_Name":"Mercy Hospital for Women",
+    "Emergency_Capable":"YES",
+    "Location_Address":"163 Studley Road",
+    "Suburb":"Heidelberg",
+    "postcode":3084,
+    "Full_Address":"163 Studley Road Heidelberg 3084 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9936528,-37.8111866 ]
+    },
+    "properties": {
+    "Hospital_ID":3388,
+    "Formal_Name":"Mercy Hospitals Victoria Limited",
+    "Other_Name":"Mercy Hospitals Victoria Limited",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Shelley Street",
+    "Suburb":"Richmond",
+    "postcode":3121,
+    "Full_Address":"Shelley Street Richmond 3121 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.1453702,-34.1850501 ]
+    },
+    "properties": {
+    "Hospital_ID":2470,
+    "Formal_Name":"Mildura Private Hospital",
+    "Other_Name":"Mildura Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"220 Thirteenth Street",
+    "Suburb":"Mildura",
+    "postcode":3500,
+    "Full_Address":"220 Thirteenth Street Mildura 3500 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1949405,-37.8104018 ]
+    },
+    "properties": {
+    "Hospital_ID":2472,
+    "Formal_Name":"Mitcham Private Hospital",
+    "Other_Name":"Mitcham Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"27 Doncaster East Road",
+    "Suburb":"Mitcham",
+    "postcode":3132,
+    "Full_Address":"27 Doncaster East Road Mitcham 3132 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1240246,-37.9194208 ]
+    },
+    "properties": {
+    "Hospital_ID":3289,
+    "Formal_Name":"Monash Health",
+    "Other_Name":"Monash Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"246 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"246 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3636478,-38.1517039 ]
+    },
+    "properties": {
+    "Hospital_ID":12060,
+    "Formal_Name":"Monash IVF Clinic",
+    "Other_Name":"Monash IVF Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"142 Little Ryrie Street",
+    "Suburb":"Geelong",
+    "postcode":3220,
+    "Full_Address":"142 Little Ryrie Street Geelong 3220 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1240246,-37.9194208 ]
+    },
+    "properties": {
+    "Hospital_ID":3390,
+    "Formal_Name":"Monash Medical Centre, Clayton Campus",
+    "Other_Name":"Monash Medical Centre, Clayton Campus",
+    "Emergency_Capable":"YES",
+    "Location_Address":"246 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"246 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0631279,-37.9208177 ]
+    },
+    "properties": {
+    "Hospital_ID":10757,
+    "Formal_Name":"Monash Medical Centre, Moorabbin Campus",
+    "Other_Name":"Monash Medical Centre, Moorabbin Campus",
+    "Emergency_Capable":"NO",
+    "Location_Address":"865 Centre Road",
+    "Suburb":"East Bentleigh",
+    "postcode":3165,
+    "Full_Address":"865 Centre Road East Bentleigh 3165 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.120737,-37.921911 ]
+    },
+    "properties": {
+    "Hospital_ID":2473,
+    "Formal_Name":"Monash Surgical Private Hospital",
+    "Other_Name":"Monash Surgical Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"252-254 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"252-254 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0869529,-38.1681557 ]
+    },
+    "properties": {
+    "Hospital_ID":3572,
+    "Formal_Name":"Mount Eliza Rehabilitation, Aged and Palliative Care",
+    "Other_Name":"Mount Eliza Rehabilitation, Aged and Palliative Care",
+    "Emergency_Capable":"NO",
+    "Location_Address":"33 Jacksons Rd",
+    "Suburb":"Mt Eliza",
+    "postcode":3930,
+    "Full_Address":"33 Jacksons Rd Mt Eliza 3930 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.2275249,-38.383194 ]
+    },
+    "properties": {
+    "Hospital_ID":2403,
+    "Formal_Name":"Moyne Health Services",
+    "Other_Name":"Moyne Health Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Villiers Street",
+    "Suburb":"Port Fairy",
+    "postcode":3284,
+    "Full_Address":"Villiers Street Port Fairy 3284 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2121015,-37.9385903 ]
+    },
+    "properties": {
+    "Hospital_ID":2438,
+    "Formal_Name":"Mulgrave Private Hospital",
+    "Other_Name":"Mulgrave Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"535-559 Police Road",
+    "Suburb":"Mulgrave",
+    "postcode":3170,
+    "Full_Address":"535-559 Police Road Mulgrave 3170 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.8794754,-36.1375053 ]
+    },
+    "properties": {
+    "Hospital_ID":10962,
+    "Formal_Name":"Murray Valley Private Hospital",
+    "Other_Name":"Murray Valley Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"63 Pearce St",
+    "Suburb":"Wodonga",
+    "postcode":3690,
+    "Full_Address":"63 Pearce St Wodonga 3690 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1502842,-36.7806633 ]
+    },
+    "properties": {
+    "Hospital_ID":2480,
+    "Formal_Name":"Nagambie HealthCare",
+    "Other_Name":"Nagambie HealthCare",
+    "Emergency_Capable":"NO",
+    "Location_Address":"22 Church Street",
+    "Suburb":"Nagambie",
+    "postcode":3608,
+    "Full_Address":"22 Church Street Nagambie 3608 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.9540853,-38.0220534 ]
+    },
+    "properties": {
+    "Hospital_ID":2481,
+    "Formal_Name":"Neerim District Soldiers Memorial Hospital",
+    "Other_Name":"Neerim District Soldiers Memorial Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"29 Main Road",
+    "Suburb":"Neerim",
+    "postcode":3831,
+    "Full_Address":"29 Main Road Neerim 3831 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1897207,-37.9671794 ]
+    },
+    "properties": {
+    "Hospital_ID":10763,
+    "Formal_Name":"Noble Park Endoscopy Centre",
+    "Other_Name":"Noble Park Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1304 Heatherton Road",
+    "Suburb":"Noble Park",
+    "postcode":3174,
+    "Full_Address":"1304 Heatherton Road Noble Park 3174 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0313292,-37.7634227 ]
+    },
+    "properties": {
+    "Hospital_ID":2457,
+    "Formal_Name":"North Eastern Rehabilitation Centre",
+    "Other_Name":"North Eastern Rehabilitation Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"134-142 Ford Street",
+    "Suburb":"Ivanhoe",
+    "postcode":3079,
+    "Full_Address":"134-142 Ford Street Ivanhoe 3079 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.3142727,-36.3543538 ]
+    },
+    "properties": {
+    "Hospital_ID":6802,
+    "Formal_Name":"Northeast Health Wangaratta",
+    "Other_Name":"Northeast Health Wangaratta",
+    "Emergency_Capable":"YES",
+    "Location_Address":"35-47 Green Street",
+    "Suburb":"Wangaratta",
+    "postcode":3677,
+    "Full_Address":"35-47 Green Street Wangaratta 3677 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0100486,-37.7461819 ]
+    },
+    "properties": {
+    "Hospital_ID":11517,
+    "Formal_Name":"Northern Health",
+    "Other_Name":"Northern Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"201 Bell Street",
+    "Suburb":"Preston",
+    "postcode":3072,
+    "Full_Address":"201 Bell Street Preston 3072 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0628904,-37.6914695 ]
+    },
+    "properties": {
+    "Hospital_ID":2483,
+    "Formal_Name":"Northpark Private Hospital",
+    "Other_Name":"Northpark Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"10 Greenhills Road",
+    "Suburb":"Bundoora",
+    "postcode":3083,
+    "Full_Address":"10 Greenhills Road Bundoora 3083 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9094233,-37.7712215 ]
+    },
+    "properties": {
+    "Hospital_ID":10761,
+    "Formal_Name":"Northwest Day Hospital",
+    "Other_Name":"Northwest Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"221 Maribyrnong Road",
+    "Suburb":"Ascot Vale",
+    "postcode":3032,
+    "Full_Address":"221 Maribyrnong Road Ascot Vale 3032 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 147.5965744,-37.09818 ]
+    },
+    "properties": {
+    "Hospital_ID":3355,
+    "Formal_Name":"Omeo District Health",
+    "Other_Name":"Omeo District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"12 Easton Street",
+    "Suburb":"Omeo",
+    "postcode":3898,
+    "Full_Address":"12 Easton Street Omeo 3898 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 148.4600671,-37.7006122 ]
+    },
+    "properties": {
+    "Hospital_ID":6582,
+    "Formal_Name":"Orbost Regional Health",
+    "Other_Name":"Orbost Regional Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Boundary Road",
+    "Suburb":"Orbost",
+    "postcode":3888,
+    "Full_Address":"Boundary Road Orbost 3888 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0078748,-37.7454271 ]
+    },
+    "properties": {
+    "Hospital_ID":12168,
+    "Formal_Name":"PANCH Health Service",
+    "Other_Name":"PANCH Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"300 Bell Street",
+    "Suburb":"Preston",
+    "postcode":3072,
+    "Full_Address":"300 Bell Street Preston 3072 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1253838,-38.1528388 ]
+    },
+    "properties": {
+    "Hospital_ID":5482,
+    "Formal_Name":"Peninsula Endoscopy Centre",
+    "Other_Name":"Peninsula Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"17 Yuille Street",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"17 Yuille Street Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1276749,-38.1496875 ]
+    },
+    "properties": {
+    "Hospital_ID":3285,
+    "Formal_Name":"Peninsula Health",
+    "Other_Name":"Peninsula Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"c/- Frankston Hospital, Hastings Road",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"c/- Frankston Hospital, Hastings Road Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1329828,-38.1544689 ]
+    },
+    "properties": {
+    "Hospital_ID":12478,
+    "Formal_Name":"Peninsula Oncology Centre",
+    "Other_Name":"Peninsula Oncology Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"24-28 Frankston-Flinders Road",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"24-28 Frankston-Flinders Road Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.190478,-38.121149 ]
+    },
+    "properties": {
+    "Hospital_ID":2487,
+    "Formal_Name":"Peninsula Private Hospital",
+    "Other_Name":"Peninsula Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"49 McClelland Drive",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"49 McClelland Drive Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1643808,-37.8539914 ]
+    },
+    "properties": {
+    "Hospital_ID":3577,
+    "Formal_Name":"Peter James Centre, The",
+    "Other_Name":"Peter James Centre, The",
+    "Emergency_Capable":"NO",
+    "Location_Address":"321-345 Burwood Hwy",
+    "Suburb":"Forest Hill",
+    "postcode":3131,
+    "Full_Address":"321-345 Burwood Hwy Forest Hill 3131 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9565369,-37.7998834 ]
+    },
+    "properties": {
+    "Hospital_ID":3591,
+    "Formal_Name":"Peter MacCallum Cancer Institute",
+    "Other_Name":"Peter MacCallum Cancer Institute",
+    "Emergency_Capable":"NO",
+    "Location_Address":"305 Grattan Street",
+    "Suburb":"Melbourne",
+    "postcode":3000,
+    "Full_Address":"305 Grattan Street Melbourne 3000 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.6063886,-38.3453172 ]
+    },
+    "properties": {
+    "Hospital_ID":6613,
+    "Formal_Name":"Portland District Health",
+    "Other_Name":"Portland District Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Bentinck Street",
+    "Suburb":"Portland",
+    "postcode":3305,
+    "Full_Address":"Bentinck Street Portland 3305 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1782469,-37.9720639 ]
+    },
+    "properties": {
+    "Hospital_ID":3380,
+    "Formal_Name":"Queen Elizabeth Centre",
+    "Other_Name":"Queen Elizabeth Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"53 Thomas Street",
+    "Suburb":"Noble Park",
+    "postcode":3174,
+    "Full_Address":"53 Thomas Street Noble Park 3174 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9979749,-37.7176593 ]
+    },
+    "properties": {
+    "Hospital_ID":2497,
+    "Formal_Name":"Reservoir Private Hospital",
+    "Other_Name":"Reservoir Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"73-75 Pine Street",
+    "Suburb":"Reservoir",
+    "postcode":3073,
+    "Full_Address":"73-75 Pine Street Reservoir 3073 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.243836,-37.811662 ]
+    },
+    "properties": {
+    "Hospital_ID":2498,
+    "Formal_Name":"Ringwood Private Hospital",
+    "Other_Name":"Ringwood Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"36 Mount Dandenong Road",
+    "Suburb":"Ringwood",
+    "postcode":3135,
+    "Full_Address":"36 Mount Dandenong Road Ringwood 3135 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.7810755,-34.5841137 ]
+    },
+    "properties": {
+    "Hospital_ID":11258,
+    "Formal_Name":"Robinvale District Health Services",
+    "Other_Name":"Robinvale District Health Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"128-132 Latje Road",
+    "Suburb":"Robinvale",
+    "postcode":3549,
+    "Full_Address":"128-132 Latje Road Robinvale 3549 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.6979363,-36.3658135 ]
+    },
+    "properties": {
+    "Hospital_ID":6648,
+    "Formal_Name":"Rochester and Elmore District Health Service",
+    "Other_Name":"Rochester and Elmore District Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1 Pascoe Street",
+    "Suburb":"Rochester",
+    "postcode":3561,
+    "Full_Address":"1 Pascoe Street Rochester 3561 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.883633,-38.361856 ]
+    },
+    "properties": {
+    "Hospital_ID":5475,
+    "Formal_Name":"Rosebud Endoscopy",
+    "Other_Name":"Rosebud Endoscopy",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1537 Point Nepean Road",
+    "Suburb":"Rosebud West",
+    "postcode":3940,
+    "Full_Address":"1537 Point Nepean Road Rosebud West 3940 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8849173,-38.3622539 ]
+    },
+    "properties": {
+    "Hospital_ID":3466,
+    "Formal_Name":"Rosebud Hospital",
+    "Other_Name":"Rosebud Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"1527 Point Nepean Road",
+    "Suburb":"Rosebud",
+    "postcode":3939,
+    "Full_Address":"1527 Point Nepean Road Rosebud 3939 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9552898,-37.7988753 ]
+    },
+    "properties": {
+    "Hospital_ID":3424,
+    "Formal_Name":"Royal Melbourne Hospital - City Campus",
+    "Other_Name":"Royal Melbourne Hospital - City Campus",
+    "Emergency_Capable":"YES",
+    "Location_Address":"300 Grattan Street",
+    "Suburb":"Parkville",
+    "postcode":3050,
+    "Full_Address":"300 Grattan Street Parkville 3050 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9475955,-37.7789873 ]
+    },
+    "properties": {
+    "Hospital_ID":3564,
+    "Formal_Name":"Royal Melbourne Hospital - Royal Park Campus",
+    "Other_Name":"Royal Melbourne Hospital - Royal Park Campus",
+    "Emergency_Capable":"NO",
+    "Location_Address":"34-55 Poplar Road",
+    "Suburb":"Parkville",
+    "postcode":3052,
+    "Full_Address":"34-55 Poplar Road Parkville 3052 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0233079,-37.7895446 ]
+    },
+    "properties": {
+    "Hospital_ID":3402,
+    "Formal_Name":"Royal Talbot Rehabilitation Centre",
+    "Other_Name":"Royal Talbot Rehabilitation Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1 Yarra Boulevard",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"1 Yarra Boulevard Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.3858477,-36.2537338 ]
+    },
+    "properties": {
+    "Hospital_ID":11011,
+    "Formal_Name":"Rural Northwest Health",
+    "Other_Name":"Rural Northwest Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Lot 1 Dimboola Road",
+    "Suburb":"Warracknabeal",
+    "postcode":3393,
+    "Full_Address":"Lot 1 Dimboola Road Warracknabeal 3393 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0182493,-37.9610523 ]
+    },
+    "properties": {
+    "Hospital_ID":3425,
+    "Formal_Name":"Sandringham Hospital",
+    "Other_Name":"Sandringham Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"193 Bluff Road",
+    "Suburb":"Sandringham",
+    "postcode":3191,
+    "Full_Address":"193 Bluff Road Sandringham 3191 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.139496,-37.0186576 ]
+    },
+    "properties": {
+    "Hospital_ID":6675,
+    "Formal_Name":"Seymour Health",
+    "Other_Name":"Seymour Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Lot 2 Bretonneux Street",
+    "Suburb":"Seymour",
+    "postcode":3660,
+    "Full_Address":"Lot 2 Bretonneux Street Seymour 3660 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.4113226,-36.3589924 ]
+    },
+    "properties": {
+    "Hospital_ID":2501,
+    "Formal_Name":"Shepparton Private Hospital",
+    "Other_Name":"Shepparton Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 Fitzgerald Street",
+    "Suburb":"Shepparton",
+    "postcode":3630,
+    "Full_Address":"20 Fitzgerald Street Shepparton 3630 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1213553,-37.9186278 ]
+    },
+    "properties": {
+    "Hospital_ID":5481,
+    "Formal_Name":"Sir John Monash Private Hospital",
+    "Other_Name":"Sir John Monash Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"212-220 Clayton Road",
+    "Suburb":"Clayton",
+    "postcode":3168,
+    "Full_Address":"212-220 Clayton Road Clayton 3168 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1926171,-37.9659683 ]
+    },
+    "properties": {
+    "Hospital_ID":2502,
+    "Formal_Name":"South Eastern Private Hospital",
+    "Other_Name":"South Eastern Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"313-329 Princes Highway",
+    "Suburb":"Noble Park",
+    "postcode":3174,
+    "Full_Address":"313-329 Princes Highway Noble Park 3174 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.2061303,-38.6588006 ]
+    },
+    "properties": {
+    "Hospital_ID":6691,
+    "Formal_Name":"South Gippsland Hospital",
+    "Other_Name":"South Gippsland Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"87 Station Road",
+    "Suburb":"Foster",
+    "postcode":3960,
+    "Full_Address":"87 Station Road Foster 3960 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.4749675,-38.3788959 ]
+    },
+    "properties": {
+    "Hospital_ID":11268,
+    "Formal_Name":"South West Healthcare",
+    "Other_Name":"South West Healthcare",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Ryot Street",
+    "Suburb":"Warrnambool",
+    "postcode":3280,
+    "Full_Address":"Ryot Street Warrnambool 3280 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.138024,-38.2367864 ]
+    },
+    "properties": {
+    "Hospital_ID":2823,
+    "Formal_Name":"South West Healthcare, Camperdown Campus",
+    "Other_Name":"South West Healthcare, Camperdown Campus",
+    "Emergency_Capable":"NO",
+    "Location_Address":"9 Robinson Street",
+    "Suburb":"Camperdown",
+    "postcode":3260,
+    "Full_Address":"9 Robinson Street Camperdown 3260 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.4749675,-38.3788959 ]
+    },
+    "properties": {
+    "Hospital_ID":3451,
+    "Formal_Name":"South West Healthcare, Warrnambool Campus",
+    "Other_Name":"South West Healthcare, Warrnambool Campus",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Ryot Street",
+    "Suburb":"Warrnambool",
+    "postcode":3280,
+    "Full_Address":"Ryot Street Warrnambool 3280 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0529121,-37.6620076 ]
+    },
+    "properties": {
+    "Hospital_ID":11329,
+    "Formal_Name":"Southern Cross Specialist Centre Day Surgery",
+    "Other_Name":"Southern Cross Specialist Centre Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"250 Childs Road",
+    "Suburb":"Mill Park",
+    "postcode":3082,
+    "Full_Address":"250 Childs Road Mill Park 3082 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1321085,-38.1458771 ]
+    },
+    "properties": {
+    "Hospital_ID":10768,
+    "Formal_Name":"Southern Eye Centre, Day Surgery and Laser Centre",
+    "Other_Name":"Southern Eye Centre, Day Surgery and Laser Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"44 Cranbourne Road",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"44 Cranbourne Road Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9413047,-37.8146343 ]
+    },
+    "properties": {
+    "Hospital_ID":12291,
+    "Formal_Name":"Specialist Surgicentre Docklands",
+    "Other_Name":"Specialist Surgicentre Docklands",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Tenancy 2, 22 Rakaia Way",
+    "Suburb":"Docklands",
+    "postcode":3008,
+    "Full_Address":"Tenancy 2, 22 Rakaia Way Docklands 3008 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3664453,-38.1491529 ]
+    },
+    "properties": {
+    "Hospital_ID":12470,
+    "Formal_Name":"Specialist Surgicentre Geelong",
+    "Other_Name":"Specialist Surgicentre Geelong",
+    "Emergency_Capable":"NO",
+    "Location_Address":"200 Malop Street",
+    "Suburb":"Geelong",
+    "postcode":3220,
+    "Full_Address":"200 Malop Street Geelong 3220 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1495907,-37.9495339 ]
+    },
+    "properties": {
+    "Hospital_ID":10760,
+    "Formal_Name":"Springvale Endoscopy Services",
+    "Other_Name":"Springvale Endoscopy Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 Balmoral Avenue",
+    "Suburb":"Springvale",
+    "postcode":3171,
+    "Full_Address":"20 Balmoral Avenue Springvale 3171 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.779381,-37.744028 ]
+    },
+    "properties": {
+    "Hospital_ID":11391,
+    "Formal_Name":"St Alban's Endoscopy Centre",
+    "Other_Name":"St Alban's Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"328-330 Station Road",
+    "Suburb":"St Albans",
+    "postcode":3021,
+    "Full_Address":"328-330 Station Road St Albans 3021 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0534057,-37.8093021 ]
+    },
+    "properties": {
+    "Hospital_ID":3429,
+    "Formal_Name":"St George's Health Service",
+    "Other_Name":"St George's Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"283 Cotham Road",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"283 Cotham Road Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1559507,-38.1530342 ]
+    },
+    "properties": {
+    "Hospital_ID":11504,
+    "Formal_Name":"St John of God Frankston Rehabilitation Hospital",
+    "Other_Name":"St John of God Frankston Rehabilitation Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"255 Cranbourne Road",
+    "Suburb":"Frankston",
+    "postcode":3199,
+    "Full_Address":"255 Cranbourne Road Frankston 3199 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2131907,-37.970056 ]
+    },
+    "properties": {
+    "Hospital_ID":2437,
+    "Formal_Name":"St John of God Hospital Pinelodge Clinic, Dandenong",
+    "Other_Name":"St John of God Hospital Pinelodge Clinic, Dandenong",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1480 Heatherton Road",
+    "Suburb":"Dandenong",
+    "postcode":3175,
+    "Full_Address":"1480 Heatherton Road Dandenong 3175 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.847369,-37.5582887 ]
+    },
+    "properties": {
+    "Hospital_ID":2504,
+    "Formal_Name":"St John of God Hospital, Ballarat",
+    "Other_Name":"St John of God Hospital, Ballarat",
+    "Emergency_Capable":"NO",
+    "Location_Address":"101 Drummond Street North",
+    "Suburb":"Ballarat",
+    "postcode":3350,
+    "Full_Address":"101 Drummond Street North Ballarat 3350 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.2637316,-36.7619463 ]
+    },
+    "properties": {
+    "Hospital_ID":2477,
+    "Formal_Name":"St John of God Hospital, Bendigo",
+    "Other_Name":"St John of God Hospital, Bendigo",
+    "Emergency_Capable":"NO",
+    "Location_Address":"133-145 Lily Street",
+    "Suburb":"Bendigo",
+    "postcode":3550,
+    "Full_Address":"133-145 Lily Street Bendigo 3550 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3457649,-38.0340719 ]
+    },
+    "properties": {
+    "Hospital_ID":5550,
+    "Formal_Name":"St John of God Hospital, Berwick",
+    "Other_Name":"St John of God Hospital, Berwick",
+    "Emergency_Capable":"NO",
+    "Location_Address":"44 Gloucester Avenue",
+    "Suburb":"Berwick",
+    "postcode":3806,
+    "Full_Address":"44 Gloucester Avenue Berwick 3806 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3578621,-38.1512687 ]
+    },
+    "properties": {
+    "Hospital_ID":2503,
+    "Formal_Name":"St John of God Hospital, Geelong",
+    "Other_Name":"St John of God Hospital, Geelong",
+    "Emergency_Capable":"NO",
+    "Location_Address":"80 Myers Street",
+    "Suburb":"Geelong",
+    "postcode":3220,
+    "Full_Address":"80 Myers Street Geelong 3220 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.4783381,-38.3716646 ]
+    },
+    "properties": {
+    "Hospital_ID":2505,
+    "Formal_Name":"St John of God Hospital, Warrnambool",
+    "Other_Name":"St John of God Hospital, Warrnambool",
+    "Emergency_Capable":"NO",
+    "Location_Address":"136 Botanic Road",
+    "Suburb":"Warrnambool",
+    "postcode":3280,
+    "Full_Address":"136 Botanic Road Warrnambool 3280 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9820731,-37.873151 ]
+    },
+    "properties": {
+    "Hospital_ID":12393,
+    "Formal_Name":"St Kilda Day Hospital",
+    "Other_Name":"St Kilda Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"26A Dickens Street",
+    "Suburb":"Elwood",
+    "postcode":3184,
+    "Full_Address":"26A Dickens Street Elwood 3184 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9749946,-37.8075372 ]
+    },
+    "properties": {
+    "Hospital_ID":10694,
+    "Formal_Name":"St Vincent's Health",
+    "Other_Name":"St Vincent's Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"41 Victoria Parade",
+    "Suburb":"Fitzroy",
+    "postcode":3065,
+    "Full_Address":"41 Victoria Parade Fitzroy 3065 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9749946,-37.8075372 ]
+    },
+    "properties": {
+    "Hospital_ID":3432,
+    "Formal_Name":"St Vincent's Hospital (Melbourne) Ltd",
+    "Other_Name":"St Vincent's Hospital (Melbourne) Ltd",
+    "Emergency_Capable":"YES",
+    "Location_Address":"41 Victoria Parade",
+    "Suburb":"Fitzroy",
+    "postcode":3065,
+    "Full_Address":"41 Victoria Parade Fitzroy 3065 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9841093,-37.8118051 ]
+    },
+    "properties": {
+    "Hospital_ID":2469,
+    "Formal_Name":"St Vincent's Private Hospital East Melbourne",
+    "Other_Name":"St Vincent's Private Hospital East Melbourne",
+    "Emergency_Capable":"NO",
+    "Location_Address":"159 Grey Street",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"159 Grey Street East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.976074,-37.8077459 ]
+    },
+    "properties": {
+    "Hospital_ID":5484,
+    "Formal_Name":"St Vincent's Private Hospital Fitzroy",
+    "Other_Name":"St Vincent's Private Hospital Fitzroy",
+    "Emergency_Capable":"NO",
+    "Location_Address":"59 Victoria Parade",
+    "Suburb":"Fitzroy",
+    "postcode":3065,
+    "Full_Address":"59 Victoria Parade Fitzroy 3065 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0237137,-37.8065387 ]
+    },
+    "properties": {
+    "Hospital_ID":2561,
+    "Formal_Name":"St Vincent's Private Hospital Kew",
+    "Other_Name":"St Vincent's Private Hospital Kew",
+    "Emergency_Capable":"NO",
+    "Location_Address":"5 Studley Avenue",
+    "Suburb":"Kew",
+    "postcode":3101,
+    "Full_Address":"5 Studley Avenue Kew 3101 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.7809009,-37.0588492 ]
+    },
+    "properties": {
+    "Hospital_ID":3544,
+    "Formal_Name":"Stawell Regional Health",
+    "Other_Name":"Stawell Regional Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"27-29 Sloane Street",
+    "Suburb":"Stawell",
+    "postcode":3380,
+    "Full_Address":"27-29 Sloane Street Stawell 3380 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.039398,-37.863653 ]
+    },
+    "properties": {
+    "Hospital_ID":11481,
+    "Formal_Name":"Stonnington Day Surgery",
+    "Other_Name":"Stonnington Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 1, 253 Wattletree Road",
+    "Suburb":"Malvern",
+    "postcode":3144,
+    "Full_Address":"Level 1, 253 Wattletree Road Malvern 3144 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.7351341,-37.5799088 ]
+    },
+    "properties": {
+    "Hospital_ID":12992,
+    "Formal_Name":"Sunbury Day Hospital",
+    "Other_Name":"Sunbury Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Macedon",
+    "Suburb":"Sunbury",
+    "postcode":3429,
+    "Full_Address":"Macedon Sunbury 3429 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8171848,-37.759284 ]
+    },
+    "properties": {
+    "Hospital_ID":10582,
+    "Formal_Name":"Sunshine Hospital",
+    "Other_Name":"Sunshine Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"176 Furlong Road",
+    "Suburb":"St Albans",
+    "postcode":3021,
+    "Full_Address":"176 Furlong Road St Albans 3021 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8163697,-37.7610625 ]
+    },
+    "properties": {
+    "Hospital_ID":11443,
+    "Formal_Name":"Sunshine Private Day Surgery",
+    "Other_Name":"Sunshine Private Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"145 Furlong Road",
+    "Suburb":"St Albans",
+    "postcode":3021,
+    "Full_Address":"145 Furlong Road St Albans 3021 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 143.5567697,-35.3399011 ]
+    },
+    "properties": {
+    "Hospital_ID":6739,
+    "Formal_Name":"Swan Hill District Health",
+    "Other_Name":"Swan Hill District Health",
+    "Emergency_Capable":"YES",
+    "Location_Address":"48 Splatt Street",
+    "Suburb":"Swan Hill",
+    "postcode":3585,
+    "Full_Address":"48 Splatt Street Swan Hill 3585 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 147.1826732,-36.2146031 ]
+    },
+    "properties": {
+    "Hospital_ID":6748,
+    "Formal_Name":"Tallangatta Health Service",
+    "Other_Name":"Tallangatta Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Barree Street",
+    "Suburb":"Tallangatta",
+    "postcode":3700,
+    "Full_Address":"Barree Street Tallangatta 3700 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0177706,-37.8701885 ]
+    },
+    "properties": {
+    "Hospital_ID":10762,
+    "Formal_Name":"Tarietta Day Surgery",
+    "Other_Name":"Tarietta Day Surgery",
+    "Emergency_Capable":"NO",
+    "Location_Address":"73 Kooyong Road",
+    "Suburb":"Caulfield North",
+    "postcode":3161,
+    "Full_Address":"73 Kooyong Road Caulfield North 3161 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.902183,-38.2406102 ]
+    },
+    "properties": {
+    "Hospital_ID":3547,
+    "Formal_Name":"Terang and Mortlake Health Service",
+    "Other_Name":"Terang and Mortlake Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1 Austin Avenue",
+    "Suburb":"Terang",
+    "postcode":3264,
+    "Full_Address":"1 Austin Avenue Terang 3264 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9832353,-37.845498 ]
+    },
+    "properties": {
+    "Hospital_ID":10636,
+    "Formal_Name":"The Alfred",
+    "Other_Name":"The Alfred",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Commercial Road",
+    "Suburb":"Melbourne",
+    "postcode":3004,
+    "Full_Address":"Commercial Road Melbourne 3004 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9987927,-37.8549885 ]
+    },
+    "properties": {
+    "Hospital_ID":2509,
+    "Formal_Name":"The Avenue Private Hospital",
+    "Other_Name":"The Avenue Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"40 The Avenue",
+    "Suburb":"Windsor",
+    "postcode":3181,
+    "Full_Address":"40 The Avenue Windsor 3181 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0418601,-38.2240327 ]
+    },
+    "properties": {
+    "Hospital_ID":10865,
+    "Formal_Name":"The Bays Hospital",
+    "Other_Name":"The Bays Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"262-268 Main Street",
+    "Suburb":"Mornington",
+    "postcode":3931,
+    "Full_Address":"262-268 Main Street Mornington 3931 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1902384,-38.3033477 ]
+    },
+    "properties": {
+    "Hospital_ID":2453,
+    "Formal_Name":"The Bays Hospital - Hastings",
+    "Other_Name":"The Bays Hospital - Hastings",
+    "Emergency_Capable":"NO",
+    "Location_Address":"86 Victoria St",
+    "Suburb":"Hastings",
+    "postcode":3915,
+    "Full_Address":"86 Victoria St Hastings 3915 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.3932424,-38.1820626 ]
+    },
+    "properties": {
+    "Hospital_ID":2417,
+    "Formal_Name":"The Geelong Clinic",
+    "Other_Name":"The Geelong Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"98 Townsend Road",
+    "Suburb":"Whittington",
+    "postcode":3219,
+    "Full_Address":"98 Townsend Road Whittington 3219 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1653299,-37.8846623 ]
+    },
+    "properties": {
+    "Hospital_ID":11833,
+    "Formal_Name":"The Glen Endoscopy Centre",
+    "Other_Name":"The Glen Endoscopy Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"302 Springvale Road",
+    "Suburb":"Glen Waverley",
+    "postcode":3150,
+    "Full_Address":"302 Springvale Road Glen Waverley 3150 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2684897,-38.0315896 ]
+    },
+    "properties": {
+    "Hospital_ID":12475,
+    "Formal_Name":"The Hampton Park Women's Health Care Centre",
+    "Other_Name":"The Hampton Park Women's Health Care Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"2 Warana Drive",
+    "Suburb":"Hampton Park",
+    "postcode":3976,
+    "Full_Address":"2 Warana Drive Hampton Park 3976 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9987497,-37.8145753 ]
+    },
+    "properties": {
+    "Hospital_ID":2510,
+    "Formal_Name":"The Melbourne Clinic",
+    "Other_Name":"The Melbourne Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"130 Church Street",
+    "Suburb":"Richmond",
+    "postcode":3121,
+    "Full_Address":"130 Church Street Richmond 3121 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2689362,-37.8552294 ]
+    },
+    "properties": {
+    "Hospital_ID":2478,
+    "Formal_Name":"The Melbourne Eastern Private Hospital",
+    "Other_Name":"The Melbourne Eastern Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"157 Scoresby Road",
+    "Suburb":"Boronia",
+    "postcode":3155,
+    "Full_Address":"157 Scoresby Road Boronia 3155 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0146309,-37.6527315 ]
+    },
+    "properties": {
+    "Hospital_ID":10214,
+    "Formal_Name":"The Northern Hospital",
+    "Other_Name":"The Northern Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"185 Cooper Street",
+    "Suburb":"Epping",
+    "postcode":3076,
+    "Full_Address":"185 Cooper Street Epping 3076 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9491384,-37.7935372 ]
+    },
+    "properties": {
+    "Hospital_ID":3392,
+    "Formal_Name":"The Royal Children's Hospital",
+    "Other_Name":"The Royal Children's Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"50 Flemington Road",
+    "Suburb":"Parkville",
+    "postcode":3052,
+    "Full_Address":"50 Flemington Road Parkville 3052 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.976047,-37.8089722 ]
+    },
+    "properties": {
+    "Hospital_ID":3395,
+    "Formal_Name":"The Royal Victorian Eye and Ear Hospital",
+    "Other_Name":"The Royal Victorian Eye and Ear Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"32 Gisborne Street",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"32 Gisborne Street East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.955148,-37.7994985 ]
+    },
+    "properties": {
+    "Hospital_ID":3394,
+    "Formal_Name":"The Royal Women's Hospital",
+    "Other_Name":"The Royal Women's Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"Levels 6 & 7 Cnr Grattan St & Flemington Rd",
+    "Suburb":"Parkville",
+    "postcode":3052,
+    "Full_Address":"Levels 6 & 7 Cnr Grattan St & Flemington Rd Parkville 3052 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9975553,-37.8474996 ]
+    },
+    "properties": {
+    "Hospital_ID":2518,
+    "Formal_Name":"The Victoria Clinic",
+    "Other_Name":"The Victoria Clinic",
+    "Emergency_Capable":"NO",
+    "Location_Address":"324 Malvern Road",
+    "Suburb":"Prahran",
+    "postcode":3181,
+    "Full_Address":"324 Malvern Road Prahran 3181 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1609529,-37.8978816 ]
+    },
+    "properties": {
+    "Hospital_ID":5489,
+    "Formal_Name":"The Victorian Rehabilitation Centre",
+    "Other_Name":"The Victorian Rehabilitation Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"499 Springvale Road",
+    "Suburb":"Glen Waverley",
+    "postcode":3150,
+    "Full_Address":"499 Springvale Road Glen Waverley 3150 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9979534,-37.8229014 ]
+    },
+    "properties": {
+    "Hospital_ID":11306,
+    "Formal_Name":"The Women's Clinic Day Surgical Centre",
+    "Other_Name":"The Women's Clinic Day Surgical Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"366 Church Street",
+    "Suburb":"Richmond",
+    "postcode":3121,
+    "Full_Address":"366 Church Street Richmond 3121 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.9768246,-38.4861894 ]
+    },
+    "properties": {
+    "Hospital_ID":3548,
+    "Formal_Name":"Timboon and District Healthcare Service",
+    "Other_Name":"Timboon and District Healthcare Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"21 Hospital Road",
+    "Suburb":"Timboon",
+    "postcode":3268,
+    "Full_Address":"21 Hospital Road Timboon 3268 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Multi Purpose Service"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0079609,-37.8413503 ]
+    },
+    "properties": {
+    "Hospital_ID":12267,
+    "Formal_Name":"Toorak Cosmetic Surgery Day Centre",
+    "Other_Name":"Toorak Cosmetic Surgery Day Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"109 Mathoura Rd",
+    "Suburb":"Toorak",
+    "postcode":3142,
+    "Full_Address":"109 Mathoura Rd Toorak 3142 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0282824,-37.8639688 ]
+    },
+    "properties": {
+    "Hospital_ID":12326,
+    "Formal_Name":"Toorak-Malvern Day Surgery Centre",
+    "Other_Name":"Toorak-Malvern Day Surgery Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"30-32 Glenferrie Road",
+    "Suburb":"Malvern",
+    "postcode":3144,
+    "Full_Address":"30-32 Glenferrie Road Malvern 3144 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8874343,-37.7974006 ]
+    },
+    "properties": {
+    "Hospital_ID":2410,
+    "Formal_Name":"Tweddle Child and Family Health Service",
+    "Other_Name":"Tweddle Child and Family Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"53 Adelaide Street",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"53 Adelaide Street Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9749085,-37.808603 ]
+    },
+    "properties": {
+    "Hospital_ID":12471,
+    "Formal_Name":"Victoria Parade Surgery Centre",
+    "Other_Name":"Victoria Parade Surgery Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Level 1, 100 Victoria Parade",
+    "Suburb":"East Melbourne",
+    "postcode":3002,
+    "Full_Address":"Level 1, 100 Victoria Parade East Melbourne 3002 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0616985,-37.6924925 ]
+    },
+    "properties": {
+    "Hospital_ID":12552,
+    "Formal_Name":"Victorian Gut Centre Bundoora",
+    "Other_Name":"Victorian Gut Centre Bundoora",
+    "Emergency_Capable":"NO",
+    "Location_Address":"119 Plenty Road",
+    "Suburb":"Bundoora",
+    "postcode":3083,
+    "Full_Address":"119 Plenty Road Bundoora 3083 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9717339,-37.7885635 ]
+    },
+    "properties": {
+    "Hospital_ID":12642,
+    "Formal_Name":"Victorian Sleep Centre",
+    "Other_Name":"Victorian Sleep Centre",
+    "Emergency_Capable":"NO",
+    "Location_Address":"695-697 Rathdowne Street",
+    "Suburb":"Carlton North",
+    "postcode":3054,
+    "Full_Address":"695-697 Rathdowne Street Carlton North 3054 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0555824,-37.8324449 ]
+    },
+    "properties": {
+    "Hospital_ID":2573,
+    "Formal_Name":"Vision Day Surgery Camberwell",
+    "Other_Name":"Vision Day Surgery Camberwell",
+    "Emergency_Capable":"NO",
+    "Location_Address":"27 Denmark Hill Road",
+    "Suburb":"Hawthorn East",
+    "postcode":3123,
+    "Full_Address":"27 Denmark Hill Road Hawthorn East 3123 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1194355,-37.8177279 ]
+    },
+    "properties": {
+    "Hospital_ID":11672,
+    "Formal_Name":"Vision Day Surgery Eastern",
+    "Other_Name":"Vision Day Surgery Eastern",
+    "Emergency_Capable":"NO",
+    "Location_Address":"852-856 Whitehorse Road",
+    "Suburb":"Box Hill",
+    "postcode":3128,
+    "Full_Address":"852-856 Whitehorse Road Box Hill 3128 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8950337,-37.8006211 ]
+    },
+    "properties": {
+    "Hospital_ID":5476,
+    "Formal_Name":"Vision Day Surgery Footscray",
+    "Other_Name":"Vision Day Surgery Footscray",
+    "Emergency_Capable":"NO",
+    "Location_Address":"89 Paisley Street",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"89 Paisley Street Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9791061,-37.8433671 ]
+    },
+    "properties": {
+    "Hospital_ID":12191,
+    "Formal_Name":"Vision Laser St Kilda Road",
+    "Other_Name":"Vision Laser St Kilda Road",
+    "Emergency_Capable":"NO",
+    "Location_Address":"Ground Floor, 600 St Kilda Rd",
+    "Suburb":"Melbourne",
+    "postcode":3000,
+    "Full_Address":"Ground Floor, 600 St Kilda Rd Melbourne 3000 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.312423,-36.3493 ]
+    },
+    "properties": {
+    "Hospital_ID":5490,
+    "Formal_Name":"Wangaratta Private Hospital",
+    "Other_Name":"Wangaratta Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"134-150 Templeton Street",
+    "Suburb":"Wangaratta",
+    "postcode":3677,
+    "Full_Address":"134-150 Templeton Street Wangaratta 3677 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.2261797,-37.8482591 ]
+    },
+    "properties": {
+    "Hospital_ID":12582,
+    "Formal_Name":"Wantirna Health",
+    "Other_Name":"Wantirna Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"251 Mountain Highway",
+    "Suburb":"Wantirna",
+    "postcode":3152,
+    "Full_Address":"251 Mountain Highway Wantirna 3152 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0606856,-37.7547888 ]
+    },
+    "properties": {
+    "Hospital_ID":2565,
+    "Formal_Name":"Warringal Private Hospital",
+    "Other_Name":"Warringal Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"216 Burgundy Street",
+    "Suburb":"Heidelberg",
+    "postcode":3084,
+    "Full_Address":"216 Burgundy Street Heidelberg 3084 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1465726,-37.880342 ]
+    },
+    "properties": {
+    "Hospital_ID":5491,
+    "Formal_Name":"Waverley Endoscopy Suites",
+    "Other_Name":"Waverley Endoscopy Suites",
+    "Emergency_Capable":"NO",
+    "Location_Address":"301 Blackburn Road",
+    "Suburb":"Mount Waverley",
+    "postcode":3149,
+    "Full_Address":"301 Blackburn Road Mount Waverley 3149 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1455935,-37.8844811 ]
+    },
+    "properties": {
+    "Hospital_ID":2566,
+    "Formal_Name":"Waverley Private Hospital",
+    "Other_Name":"Waverley Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"343-357 Blackburn Road",
+    "Suburb":"Mount Waverley",
+    "postcode":3149,
+    "Full_Address":"343-357 Blackburn Road Mount Waverley 3149 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.6981097,-37.8870576 ]
+    },
+    "properties": {
+    "Hospital_ID":3389,
+    "Formal_Name":"Werribee Mercy Hospital",
+    "Other_Name":"Werribee Mercy Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"300 Princes Highway",
+    "Suburb":"Werribee",
+    "postcode":3030,
+    "Full_Address":"300 Princes Highway Werribee 3030 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Denominational Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.9276797,-38.1729995 ]
+    },
+    "properties": {
+    "Hospital_ID":6833,
+    "Formal_Name":"West Gippsland Healthcare Group",
+    "Other_Name":"West Gippsland Healthcare Group",
+    "Emergency_Capable":"YES",
+    "Location_Address":"41 Landsborough Street",
+    "Suburb":"Warragul",
+    "postcode":3820,
+    "Full_Address":"41 Landsborough Street Warragul 3820 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.6551978,-36.3338821 ]
+    },
+    "properties": {
+    "Hospital_ID":3592,
+    "Formal_Name":"West Wimmera Health Service",
+    "Other_Name":"West Wimmera Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"49 Nelson Street",
+    "Suburb":"Nhill",
+    "postcode":3418,
+    "Full_Address":"49 Nelson Street Nhill 3418 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.0305623,-37.7371413 ]
+    },
+    "properties": {
+    "Hospital_ID":10567,
+    "Formal_Name":"Western District Health Service",
+    "Other_Name":"Western District Health Service",
+    "Emergency_Capable":"YES",
+    "Location_Address":"20 Foster Street",
+    "Suburb":"Hamilton",
+    "postcode":3300,
+    "Full_Address":"20 Foster Street Hamilton 3300 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 141.6920629,-37.5996704 ]
+    },
+    "properties": {
+    "Hospital_ID":3500,
+    "Formal_Name":"Western District Health Service, Coleraine Campus",
+    "Other_Name":"Western District Health Service, Coleraine Campus",
+    "Emergency_Capable":"NO",
+    "Location_Address":"71 McLeod Street",
+    "Suburb":"Coleraine",
+    "postcode":3315,
+    "Full_Address":"71 McLeod Street Coleraine 3315 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8851991,-37.7919698 ]
+    },
+    "properties": {
+    "Hospital_ID":5492,
+    "Formal_Name":"Western Gastroenterology Services",
+    "Other_Name":"Western Gastroenterology Services",
+    "Emergency_Capable":"NO",
+    "Location_Address":"30 Eleanor Street",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"30 Eleanor Street Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8889931,-37.7928754 ]
+    },
+    "properties": {
+    "Hospital_ID":11515,
+    "Formal_Name":"Western Health",
+    "Other_Name":"Western Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"160 Gordon Street",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"160 Gordon Street Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8852539,-37.793006 ]
+    },
+    "properties": {
+    "Hospital_ID":10929,
+    "Formal_Name":"Western Private Hospital",
+    "Other_Name":"Western Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"1-9 Marion St",
+    "Suburb":"Footscray",
+    "postcode":3011,
+    "Full_Address":"1-9 Marion St Footscray 3011 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.6797607,-37.8775594 ]
+    },
+    "properties": {
+    "Hospital_ID":12502,
+    "Formal_Name":"Westpoint Endoscopy Day Hospital",
+    "Other_Name":"Westpoint Endoscopy Day Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"243 Heaths Road",
+    "Suburb":"Werribee",
+    "postcode":3030,
+    "Full_Address":"243 Heaths Road Werribee 3030 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Day Procedure Centre"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8926785,-37.8637396 ]
+    },
+    "properties": {
+    "Hospital_ID":3433,
+    "Formal_Name":"Williamstown Hospital",
+    "Other_Name":"Williamstown Hospital",
+    "Emergency_Capable":"YES",
+    "Location_Address":"77b Railway Crescent",
+    "Suburb":"Williamstown",
+    "postcode":3016,
+    "Full_Address":"77b Railway Crescent Williamstown 3016 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 142.2088201,-36.7126524 ]
+    },
+    "properties": {
+    "Hospital_ID":3595,
+    "Formal_Name":"Wimmera Health Care Group",
+    "Other_Name":"Wimmera Health Care Group",
+    "Emergency_Capable":"YES",
+    "Location_Address":"83 Baillie Street",
+    "Suburb":"Horsham",
+    "postcode":3400,
+    "Full_Address":"83 Baillie Street Horsham 3400 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9982332,-37.8561485 ]
+    },
+    "properties": {
+    "Hospital_ID":5483,
+    "Formal_Name":"Windsor Private Hospital",
+    "Other_Name":"Windsor Private Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 The Avenue",
+    "Suburb":"Windsor",
+    "postcode":3181,
+    "Full_Address":"20 The Avenue Windsor 3181 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Private Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.8455109,-36.3105807 ]
+    },
+    "properties": {
+    "Hospital_ID":2569,
+    "Formal_Name":"Yackandandah Bush Nursing Hospital Inc.",
+    "Other_Name":"Yackandandah Bush Nursing Hospital Inc.",
+    "Emergency_Capable":"NO",
+    "Location_Address":"20 Isaacs Avenue",
+    "Suburb":"Yackandandah",
+    "postcode":3749,
+    "Full_Address":"20 Isaacs Avenue Yackandandah 3749 ",
+    "Access_Point":"",
+    "Category":"PRIVATE",
+    "Agency_Type":"Bush Nursing Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.3513794,-37.756521 ]
+    },
+    "properties": {
+    "Hospital_ID":12581,
+    "Formal_Name":"Yarra Ranges Health",
+    "Other_Name":"Yarra Ranges Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"25 Market Street",
+    "Suburb":"Lilydale",
+    "postcode":3140,
+    "Full_Address":"25 Market Street Lilydale 3140 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.6783055,-38.5571285 ]
+    },
+    "properties": {
+    "Hospital_ID":3324,
+    "Formal_Name":"Yarram and District Health Service",
+    "Other_Name":"Yarram and District Health Service",
+    "Emergency_Capable":"NO",
+    "Location_Address":"85 Commercial Road",
+    "Suburb":"Yarram",
+    "postcode":3971,
+    "Full_Address":"85 Commercial Road Yarram 3971 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 146.0069717,-36.0115157 ]
+    },
+    "properties": {
+    "Hospital_ID":11271,
+    "Formal_Name":"Yarrawonga Health",
+    "Other_Name":"Yarrawonga Health",
+    "Emergency_Capable":"NO",
+    "Location_Address":"33 Piper Street",
+    "Suburb":"Yarrawonga",
+    "postcode":3730,
+    "Full_Address":"33 Piper Street Yarrawonga 3730 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.430981,-37.2135835 ]
+    },
+    "properties": {
+    "Hospital_ID":3554,
+    "Formal_Name":"Yea and District Memorial Hospital",
+    "Other_Name":"Yea and District Memorial Hospital",
+    "Emergency_Capable":"NO",
+    "Location_Address":"45 Station Street",
+    "Suburb":"Yea",
+    "postcode":3717,
+    "Full_Address":"45 Station Street Yea 3717 ",
+    "Access_Point":"",
+    "Category":"PUBLIC",
+    "Agency_Type":"Public Hospital"
+    }
+  }
+]
+}
