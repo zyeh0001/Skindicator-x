@@ -31,7 +31,7 @@ function HomePage() {
         />
         <PureParagraph text1="According to this line chart, we can clearly see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! " />
         <div className="featureP">
-        <Link to="/facts" className="buttonB scrolly">Learn more about the facts</Link>
+        <Link to="/facts" className="button scrolly">Learn more about the facts</Link>
         </div>
       </div>
 
@@ -71,8 +71,8 @@ function HomePage() {
             link="/facts"
           />
           <Section3
-            title="ABCDEs"
-            text="Do you know what is ABCDEs? I will show you the definations of them"
+            title="Know your skin"
+            text="Do you know what is skin ABCDEs? I will show you the definations of them"
             image="images/abcdeHome.jpg"
             link="/skin-protection-abcde"
           />

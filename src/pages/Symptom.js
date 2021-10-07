@@ -4,6 +4,7 @@ import BulletParagraph from "../components/Sections/BulletParagraph";
 import HeaderImage from "../components/Sections/HeaderImage";
 import MainTopic from "../components/Sections/MainTopic";
 import PureParagraph from "../components/Sections/PureParagraph";
+import Gallery from "../components/SymptomsCom/Gallery";
 import Delimiter from "../components/common/Delimiter";
 
 function SymptomPage() {
@@ -84,6 +85,16 @@ function SymptomPage() {
             image="images/sympGallery6.jpg"
           />
         </div>
+        {/* <Gallery
+          image1="images/basal1.jpg"
+          image2="images/basal2.jpg"
+          image3="images/basal3.jpg"
+          image4="images/basal4.jpg"
+          image5="images/basal5.jpg"
+          image6="images/basal6.jpg"
+          image7="images/basal7.jpg"
+          image8="images/basal8.jpg"
+        /> */}
       </div>
       <Delimiter/>
     </div>
