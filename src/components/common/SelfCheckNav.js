@@ -4,6 +4,10 @@ function SelfCheckNav() {
   return (
     <div>
       <nav id="nav">
+        <img
+          src="images/logo192.png"
+          alt=""
+        />
         <ul>
           <li>
             <Link to="/symptoms">Symptoms</Link>
@@ -28,7 +32,7 @@ function SelfCheckNav() {
                 <Link to="/protection-tips">Protection tips</Link>
               </li>
               <li>
-                <Link to="/skin-protection-abcde">ABCDEs</Link>
+                <Link to="/skin-protection-abcde">Know your skin</Link>
               </li>
             </ul>
           </li>
