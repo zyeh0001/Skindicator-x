@@ -24,15 +24,17 @@ function Modal({
   const [familySection, setFamilySection] = useState("");
 
   function pdfGenerate() {
-    var doc = new jsPDF("landscape", "px", "a4", "false");
+    var doc = new jsPDF("landscape", "px", "a3", "false");
     var imageData = "../../../logo512.png";
-    doc.addImage(imageData, "PNG", 30, 30, 50, 50);
+    // doc.addImage(imageData, "PNG", 30, 30, 50, 50);
+
     doc.html(document.querySelector(".print"), {
       callback: function (doc) {
+        // doc.setFontSize(8);
         doc.save("report.pdf");
       },
       margin: 40,
-      width: 700,
+      width: 500,
       autoPaging: "text",
     });
   }
@@ -150,7 +152,13 @@ function Modal({
                 </div>
               )}
 
-              <p className="subTitle">What to do next?</p>
+              <div className="row">
+                <p className="subTitle">What to do next?</p>
+                <p className="content cRed">
+                  Download the report first and follow our suggestions!
+                </p>
+              </div>
+
               <p className="content">{section3}</p>
             </div>
           </div>

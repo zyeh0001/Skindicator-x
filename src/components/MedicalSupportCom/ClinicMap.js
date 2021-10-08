@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import ReactMapGL, { Marker, Popup, GeolocateControl } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-// import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
 import * as hospDate from "./data/hosp.json";
 import "./ClinicMap.css";
+// import Directions from "react-map-gl-directions";
 // import "mapbox-gl/dist/mapbox-gl.css";
 // import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 // import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
+
 import mapboxgl from "mapbox-gl";
 // The following is required to stop "npm build" from transpiling mapbox code.
 // notice the exclamation point in the import.
@@ -34,26 +35,17 @@ export default function App() {
     height: "80vh",
     zoom: 10,
   });
-  //   var directions = new Directions({
-  //     accessToken:
-  //       "pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g",
-  //     unit: "metric",
-  //     profile: "mapbox/cycling",
-  //   });
 
   const [selectedHosp, setSelectedHosp] = useState(null);
 
   useEffect(() => {
-    // var glmap = mapRef.getMap();
     // const directions = new MapboxDirections({
     //   accessToken:
     //     "pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g",
     //   unit: "metric",
     //   profile: "mapbox/driving",
     // });
-    //console.log("123")
-    //addControl(directions, 'top-left');
-    //glmap.addControl(directions, "top-left");
+
     const listener = (e) => {
       if (e.key === "Escape") {
         setSelectedHosp(null);
