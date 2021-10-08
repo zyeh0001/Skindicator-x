@@ -8,3 +8,8 @@
   width: 23px;
   height: 23px;
 }
+
+.mapWrapper {
+  width: 100vw;
+  height: 100vh;
+}

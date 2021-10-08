@@ -13,13 +13,13 @@ function Modal({
   gender,
   family_history,
 }) {
-  const [isOpen, setIsOpen] = useState(open);
+  // const [isOpen, setIsOpen] = useState(open);
   const [invalid, setInvalid] = useState(false);
   const [level, setLevel] = useState(result);
   const [section1, setSection1] = useState("what does it mean?");
   const [section2, setSection2] = useState("");
   const [section3, setSection3] = useState("what to do next?");
-  const [title, setTitle] = useState("Your Assessment result is:");
+  // const [title, setTitle] = useState("Your Assessment result is:");
   const [color, setColor] = useState("");
   const [familySection, setFamilySection] = useState("");
 
@@ -99,7 +99,7 @@ function Modal({
       console.log("invalid");
     }
     console.log(level);
-  }, []);
+  }, [age, family_history, result, level, gender]);
 
   if (!open) {
     return null;
@@ -126,7 +126,7 @@ function Modal({
           </div> */}
           <div className="print">
             <div className="toCenter">
-              <p className="title">{title}</p>
+              <p className="title">Your Assessment result is:</p>
               <p className="title" style={{ color: color, fontWeight: "bold" }}>
                 {level}
               </p>
