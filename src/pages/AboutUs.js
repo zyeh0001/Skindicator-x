@@ -1,12 +1,12 @@
 import Section3Topic from "../components/Sections/Section3Topic";
-import ImageSection1 from "../components/Sections/ImageSection1";
+import HeaderImage from "../components/Sections/HeaderImage";
 import Section5 from "../components/Sections/Section5";
 //import Banner from "../components/HomePageCom/Banner";
 function AboutPage() {
   return (
     <div>
-      <ImageSection1
-        image="images/logo192.png"
+      <HeaderImage
+        image = "images/teamLogoBanner.png"
       />
       <Section3Topic
         title="Our Story"

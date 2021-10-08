@@ -44,7 +44,12 @@ function FactsPage() {
       <div className="container pTop">
         <PureParagraph text1="With the development of science and technology, the incidence of skin cancer has skyrocketed in recent years, although the death rate has dropped. From the statistical representation of the graph above, one in 1,628 people will die of the disease by 2020. On the other hand, the risk of being diagnosed with skin cancer has also increased, with one in 64 people being diagnosed with skin cancer." />
       </div> */}
-
+      <div>
+      <img className="featurePoster"
+            src="images/poster.png"
+            alt=""
+          />
+        </div>
     </div>
   );
 }

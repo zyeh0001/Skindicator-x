@@ -84,6 +84,16 @@ ol, ul {
   margin-bottom: 1.2em;
 }
 
+.featurePoster {
+	font-weight:bold;
+	font-size: 1.em;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 1.2em;
+	max-width:70%;
+	margin-left:15%
+  }
+
 .featureR {
 	text-align: right;
 	margin-top: 1em;
