@@ -3,7 +3,7 @@ import ClinicMap from "../components/MedicalSupportCom/ClinicMap";
 function MedicalSupportPage() {
   return (
     <div>
-      {/* <ClinicMap /> */}
+      <ClinicMap />
     </div>
   );
 }
