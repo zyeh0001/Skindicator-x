@@ -1,14 +1,20 @@
 import React, { useState, useEffect, useRef } from "react";
 import ReactMapGL, { Marker, Popup, GeolocateControl } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-
+// import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
+import * as hospDate from "./data/hosp.json";
+import "./ClinicMap.css";
 // import "mapbox-gl/dist/mapbox-gl.css";
 // import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 // import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
-// import "mapbox-gl/dist/mapbox-gl.css";
-import * as hospDate from "./data/hosp.json";
-import "./ClinicMap.css";
-// var MapboxDirections = require("@mapbox/mapbox-gl-directions");
+import mapboxgl from "mapbox-gl";
+// The following is required to stop "npm build" from transpiling mapbox code.
+// notice the exclamation point in the import.
+// @ts-ignore
+// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
+/* eslint import/no-webpack-loader-syntax: off */
+mapboxgl.workerClass =
+  require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 const geolocateStyle = {
   top: 0,
   left: 0,
