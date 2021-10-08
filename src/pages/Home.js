@@ -16,8 +16,10 @@ function HomePage() {
     <div>
       <HomeImage />
       <div className="featureR">
-          <Link to="/medical-support" className="containerM">Medical disclaimer</Link>
-          </div>
+        <Link to="/medical-support" className="containerM">
+          Medical disclaimer
+        </Link>
+      </div>
       <div className="container">
         <GraphDesc
           title="Why is there so much skin cancer in Australia?"
@@ -31,7 +33,9 @@ function HomePage() {
         />
         <PureParagraph text1="According to this line chart, we can clearly see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! " />
         <div className="featureP">
-        <Link to="/facts" className="button scrolly">Learn more about the facts</Link>
+          <Link to="/facts" className="button scrolly">
+            Learn more about the facts
+          </Link>
         </div>
       </div>
 
@@ -71,7 +75,7 @@ function HomePage() {
             link="/facts"
           />
           <Section3
-            title="Know your skin"
+            title="Know your moles"
             text="Do you know what is skin ABCDEs? I will show you the definations of them"
             image="images/abcdeHome.jpg"
             link="/skin-protection-abcde"
