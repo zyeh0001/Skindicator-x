@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import ReactMapGL, { Marker, Popup, GeolocateControl } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
-import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
-import "mapbox-gl/dist/mapbox-gl.css";
+
+// import "mapbox-gl/dist/mapbox-gl.css";
+// import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
+// import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
+// import "mapbox-gl/dist/mapbox-gl.css";
 import * as hospDate from "./data/hosp.json";
 import "./ClinicMap.css";
 // var MapboxDirections = require("@mapbox/mapbox-gl-directions");
@@ -19,8 +21,8 @@ export default function App() {
   const [viewport, setViewport] = useState({
     latitude: -37.8136276,
     longitude: 144.96305759999998,
-    width: "100vw",
-    height: "100vh",
+    width: "50vw",
+    height: "50vh",
     zoom: 10,
   });
   //   var directions = new Directions({
@@ -34,12 +36,12 @@ export default function App() {
 
   useEffect(() => {
     // var glmap = mapRef.getMap();
-    const directions = new MapboxDirections({
-      accessToken:
-        "pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g",
-      unit: "metric",
-      profile: "mapbox/driving",
-    });
+    // const directions = new MapboxDirections({
+    //   accessToken:
+    //     "pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g",
+    //   unit: "metric",
+    //   profile: "mapbox/driving",
+    // });
     //console.log("123")
     //addControl(directions, 'top-left');
     //glmap.addControl(directions, "top-left");
@@ -60,7 +62,7 @@ export default function App() {
       <ReactMapGL
         {...viewport}
         ref={mapRef}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapboxApiAccessToken="pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g"
         mapStyle="mapbox://styles/mapbox/dark-v9"
         onViewportChange={(viewport) => {
           setViewport(viewport);
