@@ -4,6 +4,7 @@ import BulletParagraph from "../components/Sections/BulletParagraph";
 import HeaderImage from "../components/Sections/HeaderImage";
 import MainTopic from "../components/Sections/MainTopic";
 import PureParagraph from "../components/Sections/PureParagraph";
+import Slideshow from "../components/SymptomsCom/Slideshow";
 import Delimiter from "../components/common/Delimiter";
 
 function SymptomPage() {
@@ -22,7 +23,7 @@ function SymptomPage() {
           text1="There are many types of skin cancer in the world, and if you don't know if your mole is a type of skin cancer, you can scroll down to find out more."
         />
       </div>
-      <Delimiter/>
+      <Delimiter />
       <div className="containerP">
         <BulletParagraph
           text1="Basal cell carcinoma signs and symptoms"
@@ -35,14 +36,11 @@ function SymptomPage() {
           bullet3="· A bleeding or scabbing sore that heals and returns"
         />
         <div className="row aln-center feature">
-          <ImageSection2
-            image="images/sympGallery1.jpg"
-          />
-          <ImageSection2
-            image="images/sympGallery2.jpg"
+          <Slideshow
+            type="basal"
           />
         </div>
-        <Delimiter/>
+        <Delimiter />
         <BulletParagraph
           text1="Squamous cell carcinoma signs and symptoms"
           text2="Generally, squamous cell carcinoma occurs when you expose your skin in the sun, such as your face, ears and hands. Most of the time, squamous cell carcinoma develops in areas of your body that are exposed to the sun, such as your face, ears and hands. People with darker skin are more likely to develop squamous cell carcinoma in areas that are not often exposed to the sun."
@@ -53,14 +51,11 @@ function SymptomPage() {
           bullet2="· A flat lesion with a scaly, crusted surface"
         />
         <div className="row aln-center feature">
-          <ImageSection2
-            image="images/sympGallery3.jpg"
-          />
-          <ImageSection2
-            image="images/sympGallery4.jpg"
+          <Slideshow
+            type="squamous"
           />
         </div>
-        <Delimiter/>
+        <Delimiter />
         <BulletParagraph
           text1="Melanoma signs and symptoms"
           text2="Melanoma can develop anywhere in your body, on otherwise normal skin or on moles that have become cancerous. Melanoma most often appears on the face or torso in men. In women, this type of cancer most often occurs in the lower legs. In both men and women, melanoma can occur on skin that is not exposed to the sun."
@@ -77,15 +72,13 @@ function SymptomPage() {
           bullet5=". Dark lesions on your palms, soles, fingertips or toes, or on mucous membranes lining your mouth, nose, vagina or anus"
         />
         <div className="row aln-center feature">
-          <ImageSection2
-            image="images/sympGallery5.jpg"
-          />
-          <ImageSection2
-            image="images/sympGallery6.jpg"
+          <Slideshow
+            type="melanoma"
           />
         </div>
       </div>
-      <Delimiter/>
+
+      <Delimiter />
     </div>
   );
 }

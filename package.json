@@ -34,6 +34,7 @@
     "react-map-gl": "^6.1.17",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.5.1",
     "react-to-print": "^2.13.0",
     "resize-base64": "^1.0.12",
     "topojson-client": "^3.1.0",

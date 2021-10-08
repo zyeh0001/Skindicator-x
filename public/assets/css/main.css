@@ -302,121 +302,114 @@ input, select, textarea {
     max-width: 80%;
     width: 1200px;
     text-align: center;
-  }  
+  }
+  
+  .containerB{
+	background-color: #D2E9B5;
+	background-position: center; 
+	background-size: contain;
+	width: 60%;
+	text-align: center;
+	margin-left:20%;
+	margin-right:20%;
+  }
 
-  .u-section-1 {
-	background-image: none;
-	min-height: 700px;
+  * {
+	box-sizing: border-box;
   }
   
-  .u-section-1 .u-slider-1 {
-	min-height: 532px;
-	width: 471px;
-	margin: 84px calc(((100% - 1140px) / 2)) 84px auto;
+  /* Position the image container (needed to position the left and right arrows) */
+  .containerG {
+	position: relative;
   }
   
-  .u-section-1 .u-carousel-indicators-1 {
+  .slide-container{
+	height: 500px;
+	width: 650px;
+	margin-bottom:90px;
+  }
+
+  .each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #efefef;
+	background-repeat:no-repeat;
+	
+  }
+  
+  .each-slide span {
+	padding: 250px;
+	font-size: 20px;
+  }
+  
+
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
 	position: absolute;
+	top: 40%;
 	width: auto;
-	height: auto;
-	top: auto;
-	bottom: 40px;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
   }
   
-  .u-section-1 .u-carousel-item-1 {
-	background-image: none;
-  }
-  
-  .u-section-1 .u-container-layout-1 {
-	padding: 40px 80px 45px;
-  }
-  
-  .u-section-1 .u-image-1 {
-	width: 83px;
-	height: 83px;
-	background-image: url("images/sf.jpg");
-	background-position: 50% 50%;
-	margin: 0 auto;
-  }
-  
-  .u-section-1 .u-text-1 {
-	font-size: 1.0625rem;
-	margin: 20px 0 0;
-  }
-  
-  .u-section-1 .u-btn-1 {
-	border-style: none none solid;
-	padding: 0;
-  }
-  
-  .u-section-1 .u-text-2 {
-	width: 191px;
-	font-weight: 700;
-	margin: 35px auto 0;
-  }
-  
-  .u-section-1 .u-text-3 {
-	width: 136px;
-	font-size: 1rem;
-	font-weight: 400;
-	margin: 15px auto 0;
-  }
-  
-  .u-section-1 .u-carousel-item-2 {
-	background-image: none;
-  }
-  
-  .u-section-1 .u-container-layout-2 {
-	padding: 40px 80px 45px;
-  }
-  
-  .u-section-1 .u-image-2 {
-	width: 83px;
-	height: 83px;
-	background-image: url("images/13064dd8-b859-4a0d-8b5b-0944d529a9c2.jpg");
-	background-position: 50% 50%;
-	margin: 0 auto;
-  }
-  
-  .u-section-1 .u-text-4 {
-	font-size: 1.0625rem;
-	margin: 20px 0 0;
-  }
-  
-  .u-section-1 .u-btn-2 {
-	border-style: none none solid;
-	padding: 0;
-  }
-  
-  .u-section-1 .u-text-5 {
-	width: 191px;
-	font-weight: 700;
-	margin: 35px auto 0;
-  }
-  
-  .u-section-1 .u-text-6 {
-	width: 136px;
-	font-size: 1rem;
-	font-weight: 400;
-	margin: 15px auto 0;
-  }
-  
-  .u-section-1 .u-carousel-control-1 {
-	width: 56px;
-	height: 56px;
-	left: 0;
-	position: absolute;
-	right: auto;
-	background-image: none;
-  }
-  
-  .u-section-1 .u-carousel-control-2 {
-	width: 56px;
-	height: 56px;
-	left: auto;
-	position: absolute;
+  /* Position the "next button" to the right */
+  .next {
 	right: 0;
-	background-image: none;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 16.66%;
   }
 
 		@media screen and (max-width: 1680px) {

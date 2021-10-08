@@ -57,6 +57,7 @@ function ABCDEsPage() {
           bullet3=". Early melanin cancer can be excised with surgery, if already transferred to lymphatic or organ inside body, add chemical therapy or immune therapy even."
         />
       </div>
+      <div className="containerB">
       <BottomJump
           question="What else can I do for my skin ?"
           jump1="We recommend you to start from "
@@ -66,6 +67,7 @@ function ABCDEsPage() {
           link2="/self-check"
           jumpDesc2="self check"
       />
+      </div>
     </div>
   );
 }

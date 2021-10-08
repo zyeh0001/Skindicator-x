@@ -4,7 +4,8 @@ function Section2(props) {
     <div className="col-6 col-12-small">
 
       <section className="box feature">
-        <div className="image featured">
+        <div className="featureB">
+
           <img
             src={props.image}
             alt=""
@@ -13,11 +14,12 @@ function Section2(props) {
               height: "250px",
             }}>
           </img>
-        </div>
-        <h3>{props.title}</h3>
+
+        <h3>{props.topic}</h3>
         <p>
           {props.content}
         </p>
+        </div>
       </section>
 
     </div>
