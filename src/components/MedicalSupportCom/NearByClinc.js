@@ -8,7 +8,8 @@ import * as hospDate from "./data/hosp.json";
 
 const data = hospDate.features;
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+mapboxgl.accessToken =
+  "pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g";
 class Clinic extends React.Component {
   constructor(props) {
     super();
@@ -29,8 +30,10 @@ class Clinic extends React.Component {
     });
 
     data.forEach((location) => {
-      console.log(location);
-      var marker = new mapboxgl.Marker()
+      const el = document.createElement("div");
+      el.className = "marker";
+      // console.log(location);
+      var marker = new mapboxgl.Marker(el)
         .setLngLat(location.geometry.coordinates)
         .setPopup(
           new mapboxgl.Popup({ offset: 30 }).setHTML(
