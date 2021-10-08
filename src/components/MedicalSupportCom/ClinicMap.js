@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import ReactMapGL, { Marker, Popup, GeolocateControl } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
+// import "mapbox-gl/dist/mapbox-gl.css";
 import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
-import "mapbox-gl/dist/mapbox-gl.css";
+// import "mapbox-gl/dist/mapbox-gl.css";
 import * as hospDate from "./data/hosp.json";
 import "./ClinicMap.css";
 // var MapboxDirections = require("@mapbox/mapbox-gl-directions");
@@ -60,7 +60,7 @@ export default function App() {
       <ReactMapGL
         {...viewport}
         ref={mapRef}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapboxApiAccessToken="pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g"
         mapStyle="mapbox://styles/mapbox/dark-v9"
         onViewportChange={(viewport) => {
           setViewport(viewport);
