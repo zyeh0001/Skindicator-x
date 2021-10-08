@@ -32,7 +32,7 @@ function AboutUsNav() {
                 <Link to="/protection-tips">Protection tips</Link>
               </li>
               <li>
-                <Link to="/skin-protection-abcde">Know your skin</Link>
+                <Link to="/skin-protection-abcde">Know your moles</Link>
               </li>
             </ul>
           </li>

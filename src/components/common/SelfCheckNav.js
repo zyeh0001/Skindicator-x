@@ -45,7 +45,7 @@ function SelfCheckNav() {
               </li>
               <li>
                 <Link onClick={renderToOther} to="/skin-protection-abcde">
-                  ABCDEs
+                  Know your moles
                 </Link>
               </li>
             </ul>

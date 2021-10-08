@@ -71,7 +71,7 @@ function HomePage() {
             link="/facts"
           />
           <Section3
-            title="Know your skin"
+            title="Know your moles"
             text="Do you know what is skin ABCDEs? I will show you the definations of them"
             image="images/abcdeHome.jpg"
             link="/skin-protection-abcde"
