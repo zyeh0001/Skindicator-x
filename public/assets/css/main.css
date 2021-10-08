@@ -323,6 +323,27 @@ input, select, textarea {
 	position: relative;
   }
   
+  .slide-container{
+	height: 500px;
+	width: 650px;
+	margin-bottom:90px;
+  }
+
+  .each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #efefef;
+	background-repeat:no-repeat;
+	
+  }
+  
+  .each-slide span {
+	padding: 250px;
+	font-size: 20px;
+  }
+  
+
   /* Hide the images by default */
   .mySlides {
 	display: none;
