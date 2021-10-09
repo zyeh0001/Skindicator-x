@@ -10,18 +10,12 @@ import Delimiter from "../components/common/Delimiter";
 function SymptomPage() {
   return (
     <div>
-      <HeaderImage
-        image="images/symptoms.jpg"
-      />
+      <HeaderImage image="images/symptoms.jpg" />
       <div className="featureP">
-        <MainTopic
-          title="Differrent kinds of skin cancers"
-        />
+        <MainTopic title="Differrent kinds of skin cancers" />
       </div>
       <div className="containerP2">
-        <PureParagraph
-          text1="There are many types of skin cancer in the world, and if you don't know if your mole is a type of skin cancer, you can scroll down to find out more."
-        />
+        <PureParagraph text1="There are many types of skin cancer in the world, and if you don't know if your mole is a type of skin cancer, you can scroll down to find out more." />
       </div>
       <Delimiter />
       <div className="containerP">
@@ -36,11 +30,11 @@ function SymptomPage() {
           bullet3="· A bleeding or scabbing sore that heals and returns"
         />
         <div className="row aln-center feature">
-          <Slideshow
-            type="basal"
-          />
+          <Slideshow type="basal" />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="containerP">
         <BulletParagraph
           text1="Squamous cell carcinoma signs and symptoms"
           text2="Generally, squamous cell carcinoma occurs when you expose your skin in the sun, such as your face, ears and hands. Most of the time, squamous cell carcinoma develops in areas of your body that are exposed to the sun, such as your face, ears and hands. People with darker skin are more likely to develop squamous cell carcinoma in areas that are not often exposed to the sun."
@@ -51,18 +45,16 @@ function SymptomPage() {
           bullet2="· A flat lesion with a scaly, crusted surface"
         />
         <div className="row aln-center feature">
-          <Slideshow
-            type="squamous"
-          />
+          <Slideshow type="squamous" />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="containerP">
         <BulletParagraph
           text1="Melanoma signs and symptoms"
           text2="Melanoma can develop anywhere in your body, on otherwise normal skin or on moles that have become cancerous. Melanoma most often appears on the face or torso in men. In women, this type of cancer most often occurs in the lower legs. In both men and women, melanoma can occur on skin that is not exposed to the sun."
         />
-        <PureParagraph
-          text1="Melanoma can affect people of any skin color. For people with darker skin, melanomas tend to develop on the palms or soles of the feet, or under the nails or toenails."
-        />
+        <PureParagraph text1="Melanoma can affect people of any skin color. For people with darker skin, melanomas tend to develop on the palms or soles of the feet, or under the nails or toenails." />
         <BulletList
           description="Melanoma’s symptoms include: "
           bullet1="· A large brownish spot with darker speckles"
@@ -72,9 +64,7 @@ function SymptomPage() {
           bullet5=". Dark lesions on your palms, soles, fingertips or toes, or on mucous membranes lining your mouth, nose, vagina or anus"
         />
         <div className="row aln-center feature">
-          <Slideshow
-            type="melanoma"
-          />
+          <Slideshow type="melanoma" />
         </div>
       </div>
 

@@ -25,7 +25,7 @@ function Modal({
 
   function pdfGenerate() {
     var doc = new jsPDF("landscape", "px", "a3", "false");
-    var imageData = "../../../logo512.png";
+    // var imageData = "../../../logo512.png";
     // doc.addImage(imageData, "PNG", 30, 30, 50, 50);
 
     doc.html(document.querySelector(".print"), {

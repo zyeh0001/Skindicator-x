@@ -21,6 +21,7 @@
     "d3-queue": "^3.0.7",
     "d3blackbox": "^1.2.0",
     "http-proxy-middleware": "^2.0.1",
+    "image-resize": "^1.1.5",
     "image-upload-react": "^1.4.5",
     "jspdf": "^2.4.0",
     "mapbox-gl": "^2.5.1",

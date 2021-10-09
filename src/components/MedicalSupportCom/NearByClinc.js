@@ -33,7 +33,7 @@ class Clinic extends React.Component {
       const el = document.createElement("div");
       el.className = "marker";
       // console.log(location);
-      var marker = new mapboxgl.Marker(el)
+      new mapboxgl.Marker(el)
         .setLngLat(location.geometry.coordinates)
         .setPopup(
           new mapboxgl.Popup({ offset: 30 }).setHTML(
