@@ -1,4 +1,4 @@
-import ImageSection2 from "../components/Sections/ImageSection2";
+import BottomJump from "../components/Sections/BottomJump";
 import BulletList from "../components/Sections/BulletList";
 import BulletParagraph from "../components/Sections/BulletParagraph";
 import HeaderImage from "../components/Sections/HeaderImage";
@@ -69,6 +69,17 @@ function SymptomPage() {
       </div>
 
       <Delimiter />
+      <div>
+        <BottomJump
+          question="Do you want to learn more skin knowledge?  "
+          jump1="Know your skin by yourself:   "
+          link1="/skin-protection-abcde"
+          jumpDesc1=" Know your moles"
+          jump2="Start your skin-care from now:"
+          link2="/protection-tips"
+          jumpDesc2="Skin protection"
+        />
+      </div>
     </div>
   );
 }
