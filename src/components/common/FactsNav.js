@@ -4,10 +4,7 @@ function FactsNav() {
   return (
     <div>
       <nav id="nav">
-        <img
-          src="images/logo192.png"
-          alt=""
-        />
+        <img src="images/logo192.png" alt="" />
         <ul>
           <li>
             <Link to="/symptoms">Symptoms</Link>
@@ -37,7 +34,7 @@ function FactsNav() {
             </ul>
           </li>
 
-          <li class="current">
+          <li className="current">
             <Link to="/facts">Facts</Link>
           </li>
 
@@ -52,7 +49,6 @@ function FactsNav() {
               </li>
             </ul>
           </li>
-
         </ul>
       </nav>
     </div>

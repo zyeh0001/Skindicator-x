@@ -4,10 +4,7 @@ function MainNavigation() {
   return (
     <div>
       <nav id="nav">
-        <img
-          src="images/logo192.png"
-          alt=""
-        />
+        <img src="images/logo192.png" alt="" />
         <ul>
           <li>
             <Link to="/symptoms">Symptoms</Link>
@@ -21,7 +18,7 @@ function MainNavigation() {
             <Link to="/medical-support">Medical support</Link>
           </li>
 
-          <li class="current">
+          <li className="current">
             <Link to="/">Home</Link>
           </li>
 
@@ -52,7 +49,6 @@ function MainNavigation() {
               </li>
             </ul>
           </li>
-
         </ul>
       </nav>
     </div>

@@ -15,7 +15,7 @@ function SelfCheckNav() {
             </Link>
           </li>
 
-          <li class="current">
+          <li className="current">
             <Link onClick={renderToOther} to="/self-check">
               Self Check
             </Link>
@@ -62,8 +62,7 @@ function SelfCheckNav() {
               About us
             </Link>
             <ul>
-              <li>
-              </li>
+              <li></li>
               <li>
                 <Link onClick={renderToOther} to="/our-team">
                   Our team

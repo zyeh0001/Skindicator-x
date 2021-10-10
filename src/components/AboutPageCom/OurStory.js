@@ -1,7 +1,7 @@
 function OurStory() {
   return (
     <div>
-      <div class="container" id="main">
+      <div className="container" id="main">
         <article id="content">
           <header>
             <h2>No Sidebar</h2>

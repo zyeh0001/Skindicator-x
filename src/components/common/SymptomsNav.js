@@ -4,12 +4,9 @@ function SymptomsNav() {
   return (
     <div>
       <nav id="nav">
-        <img
-          src="images/logo192.png"
-          alt=""
-        />
+        <img src="images/logo192.png" alt="" />
         <ul>
-          <li class="current">
+          <li className="current">
             <Link to="/symptoms">Symptoms</Link>
           </li>
 
@@ -52,7 +49,6 @@ function SymptomsNav() {
               </li>
             </ul>
           </li>
-
         </ul>
       </nav>
     </div>

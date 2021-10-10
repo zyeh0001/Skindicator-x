@@ -4,10 +4,7 @@ function SkinProtectionNav() {
   return (
     <div>
       <nav id="nav">
-        <img
-          src="images/logo192.png"
-          alt=""
-        />
+        <img src="images/logo192.png" alt="" />
         <ul>
           <li>
             <Link to="/symptoms">Symptoms</Link>
@@ -25,7 +22,7 @@ function SkinProtectionNav() {
             <Link to="/">Home</Link>
           </li>
 
-          <li class="current">
+          <li className="current">
             <Link to="#">Skin Protection</Link>
             <ul>
               <li>
@@ -52,7 +49,6 @@ function SkinProtectionNav() {
               </li>
             </ul>
           </li>
-
         </ul>
       </nav>
     </div>
