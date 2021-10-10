@@ -45,9 +45,6 @@ function FactsNav() {
             <Link to="#">About us</Link>
             <ul>
               <li>
-                <Link to="/privacy-policy">Privacy policy</Link>
-              </li>
-              <li>
                 <Link to="/our-team">Our team</Link>
               </li>
               <li>

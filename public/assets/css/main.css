@@ -181,6 +181,12 @@ ul {
   margin-right: 2em;
 }
 
+.featureL {
+  text-align: left;
+  margin-top: 1em;
+  margin-right: 2em;
+}
+
 .featureB {
   text-align: center;
 }
@@ -429,6 +435,25 @@ header > p {
   text-align: center;
 }
 
+.containerS2P{
+  max-width: 90%;
+  text-align: center;
+  margin-left:5%
+}
+
+.containerS2I{
+  margin-top:5%
+}
+
+.containerPink{
+  text-align: center;
+  background-color: #ffd4d4;
+  width:100%;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size: 20px;
+}
+
 .containerB {
   background-color: #d2e9b5;
   background-position: center;
@@ -443,6 +468,11 @@ header > p {
   padding-bottom: 0.5px;
 }
 
+.container3P{
+  margin-left:20%;
+  text-align:left
+}
+
 * {
   box-sizing: border-box;
 }
@@ -454,7 +484,7 @@ header > p {
 
 .slide-container {
   height: 500px;
-  width: 600px;
+  width: 1800px;
   margin-bottom: 90px;
   border-radius: 12px;
 }
@@ -2514,6 +2544,8 @@ table.default th {
 
 table.default thead {
   background: #e7eae8;
+  width: "700px";
+  height: "500px";
   color: #fff;
 }
 
@@ -2535,6 +2567,18 @@ table.default thead {
 
 .box.feature {
   text-align: center;
+}
+
+.box.feature2 {
+  text-align: center;
+  background-color:#FFE3E3;
+  width: 500px;
+  height: 650px;
+  margin-bottom:50px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 .box.post header {

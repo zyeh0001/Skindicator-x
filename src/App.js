@@ -22,6 +22,11 @@ import SelfCheckNav from "./components/common/SelfCheckNav";
 // import CommonNavigation from "./components/common/CommonNavigation";
 import SkinProtectionNav from "./components/common/SkinProtectionNav";
 import Footer from "./components/common/footer";
+import WCRF from "./pages/WCRF";
+import AIHW from "./pages/AIHW";
+import SkinVision from "./pages/SkinVision";
+import CancerConcil from "./pages/CancerConcil";
+import HTML5 from "./pages/HTML5";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -67,6 +72,21 @@ function App() {
         <Route path="/medical-disclaimer">
           <AboutUsNav />
           <DisclaimerPage />
+        </Route>
+        <Route path="/WCRF">
+          <WCRF/>
+        </Route>
+        <Route path="/AIHW">
+          <AIHW/>
+        </Route>
+        <Route path="/CancerConcil">
+          <CancerConcil/>
+        </Route>
+        <Route path="/SkinVision">
+          <SkinVision/>
+        </Route>
+        <Route path="/HTML5">
+          <HTML5/>
         </Route>
       </Switch>
       <div id="react-mount"></div>

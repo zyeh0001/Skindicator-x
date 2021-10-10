@@ -63,9 +63,6 @@ function SelfCheckNav() {
             </Link>
             <ul>
               <li>
-                <Link onClick={renderToOther} to="/privacy-policy">
-                  Privacy policy
-                </Link>
               </li>
               <li>
                 <Link onClick={renderToOther} to="/our-team">

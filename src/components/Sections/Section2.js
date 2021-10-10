@@ -3,10 +3,10 @@ function Section2(props) {
   return (
     <div className="col-6 col-12-small">
 
-      <section className="box feature">
+      <section className="box feature2">
         <div className="featureB">
 
-          <img
+          <img className="containerS2I"
             src={props.image}
             alt=""
             style={{
@@ -15,8 +15,8 @@ function Section2(props) {
             }}>
           </img>
 
-        <h3>{props.topic}</h3>
-        <p>
+        <h3 className="containerS2P">{props.topic}</h3>
+        <p className="containerS2P">
           {props.content}
         </p>
         </div>

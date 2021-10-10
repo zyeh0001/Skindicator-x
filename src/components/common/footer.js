@@ -41,7 +41,7 @@ function Footer() {
           <ul className="menu">
             <li>&copy; Untitled. All rights reserved.</li>
             <li>
-              Design: <Link to="http://html5up.net">HTML5 UP</Link>
+              Design: <Link to="/HTML5">HTML5 UP</Link>
             </li>
           </ul>
         </div>

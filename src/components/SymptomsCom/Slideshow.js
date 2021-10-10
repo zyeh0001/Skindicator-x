@@ -4,6 +4,40 @@ import "react-slideshow-image/dist/styles.css";
 
 var slideImages;
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+
+const settings = {
+  arrow:false,
+  dots: true,
+  slidesToShow: 3,
+  pauseOnHover:false,
+  autoplay:true,
+  duration:0,
+  transitionDuration:5000,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />
+};
+
 const Slideshow = (props) => {
   if (props.type === "basal") {
     slideImages = [
@@ -12,19 +46,19 @@ const Slideshow = (props) => {
         caption: " ",
       },
       {
-        url: "images/basal2.jpg",
+        url: "images/basal6.jpg",
         caption: " ",
       },
       {
-        url: "images/basal3.jpg",
+        url: "images/basal7.jpg",
         caption: " ",
       },
       {
-        url: "images/basal4.jpg",
+        url: "images/basal8.jpg",
         caption: " ",
       },
       {
-        url: "images/basal5.jpg",
+        url: "images/basal1.jpg",
         caption: " ",
       },
       {
@@ -59,19 +93,19 @@ const Slideshow = (props) => {
         caption: " ",
       },
       {
-        url: "images/melanoma5.jpg",
+        url: "images/melanoma1.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma6.jpg",
+        url: "images/melanoma2.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma7.jpg",
+        url: "images/melanoma3.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma8.jpg",
+        url: "images/melanoma4.jpg",
         caption: " ",
       },
     ];
@@ -94,26 +128,27 @@ const Slideshow = (props) => {
         caption: " ",
       },
       {
-        url: "images/squamous5.jpg",
+        url: "images/squamous1.jpg",
         caption: " ",
       },
       {
-        url: "images/squamous6.jpg",
+        url: "images/squamous2.jpg",
         caption: " ",
       },
       {
-        url: "images/squamous7.jpg",
+        url: "images/squamous3.jpg",
         caption: " ",
       },
       {
-        url: "images/squamous8.jpg",
+        url: "images/squamous4.jpg",
         caption: " ",
       },
     ];
   }
   return (
     <div className="slide-container">
-      <Slide>
+      <Slide {...settings}>
+      
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
             <div
