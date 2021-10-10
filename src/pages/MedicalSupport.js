@@ -10,24 +10,20 @@ export default MedicalSupportPage;
 function MedicalSupportPage() {
   return (
     <div>
-    <div className="featureP">
-      <HeaderImage
-        image="images/medicalSupport.png"
-      />
-      <div className="containerPink">
-        <MainTopic
-          title="Clinics around you"
-        />
-      </div>
-        <Clinic />
-      <div className="containerPink">
-        <MainTopic
-          title="Third-party services"
-        />
-      </div>
+      <div className="featureP">
+        <HeaderImage image="images/medicalSupport.png" />
+        <div className="containerPink">
+          <MainTopic title="Clinics around you" />
+        </div>
+        <div>
+          <Clinic />
+        </div>
 
-    </div>
-    <ThirdPartyService/>
+        <div className="containerPink">
+          <MainTopic title="Third-party services" />
+        </div>
+      </div>
+      <ThirdPartyService />
     </div>
   );
 }

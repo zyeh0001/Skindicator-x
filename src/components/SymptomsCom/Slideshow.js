@@ -27,15 +27,15 @@ function SamplePrevArrow(props) {
 }
 
 const settings = {
-  arrow:false,
-  dots: true,
+  // arrow: false,
+  // dots: true,
   slidesToShow: 3,
-  pauseOnHover:false,
-  autoplay:true,
-  duration:0,
-  transitionDuration:5000,
+  pauseOnHover: false,
+  autoplay: true,
+  duration: 0,
+  transitionDuration: 5000,
   nextArrow: <SampleNextArrow />,
-  prevArrow: <SamplePrevArrow />
+  prevArrow: <SamplePrevArrow />,
 };
 
 const Slideshow = (props) => {
@@ -93,19 +93,19 @@ const Slideshow = (props) => {
         caption: " ",
       },
       {
-        url: "images/melanoma1.jpg",
+        url: "images/melanoma5.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma2.jpg",
+        url: "images/melanoma6.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma3.jpg",
+        url: "images/melanoma7.jpg",
         caption: " ",
       },
       {
-        url: "images/melanoma4.jpg",
+        url: "images/melanoma8.jpg",
         caption: " ",
       },
     ];
@@ -148,7 +148,6 @@ const Slideshow = (props) => {
   return (
     <div className="slide-container">
       <Slide {...settings}>
-      
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
             <div

@@ -435,22 +435,22 @@ header > p {
   text-align: center;
 }
 
-.containerS2P{
+.containerS2P {
   max-width: 90%;
   text-align: center;
-  margin-left:5%
+  margin-left: 5%;
 }
 
-.containerS2I{
-  margin-top:5%
+.containerS2I {
+  margin-top: 5%;
 }
 
-.containerPink{
+.containerPink {
   text-align: center;
   background-color: #ffd4d4;
-  width:100%;
-  margin-top:50px;
-  margin-bottom:50px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 20px;
 }
 
@@ -468,9 +468,9 @@ header > p {
   padding-bottom: 0.5px;
 }
 
-.container3P{
-  margin-left:20%;
-  text-align:left
+.container3P {
+  margin-left: 20%;
+  text-align: left;
 }
 
 * {
@@ -483,9 +483,9 @@ header > p {
 }
 
 .slide-container {
-  height: 500px;
-  width: 1800px;
-  margin-bottom: 90px;
+  height: 10%;
+  width: 80%;
+  /* margin-bottom: 90px; */
   border-radius: 12px;
 }
 
@@ -2571,12 +2571,12 @@ table.default thead {
 
 .box.feature2 {
   text-align: center;
-  background-color:#FFE3E3;
+  background-color: #ffe3e3;
   width: 500px;
   height: 650px;
-  margin-bottom:50px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   border-radius: 8px;
 }
