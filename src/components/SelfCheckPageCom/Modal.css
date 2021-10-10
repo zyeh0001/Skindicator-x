@@ -144,6 +144,10 @@
   margin: 20px;
 }
 
+.cRed {
+  color: #ff0000;
+}
+
 .toCenter {
   text-align: center;
   justify-content: center;

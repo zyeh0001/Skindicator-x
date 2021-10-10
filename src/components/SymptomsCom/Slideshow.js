@@ -116,7 +116,12 @@ const Slideshow = (props) => {
       <Slide>
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
-            <div style={{ backgroundImage: `url(${slideImage.url})` }}>
+            <div
+              style={{
+                backgroundImage: `url(${slideImage.url})`,
+                borderRadius: 12,
+              }}
+            >
               <span>{slideImage.caption}</span>
             </div>
           </div>
