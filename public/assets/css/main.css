@@ -324,6 +324,18 @@ input, select, textarea {
 	margin-right:20%;
   }
 
+  .containerPink{
+	margin-top:40px;
+	background-color: #FFD4D4;
+	background-position: center; 
+	background-size: contain;
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+
+  }
+
   * {
 	box-sizing: border-box;
   }
