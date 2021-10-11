@@ -48,8 +48,7 @@
     '<div id="titleBar">' +
       '<a href="#navPanel" class="toggle"></a>' +
       '<span class="title">Skindicator-x</span>' +
-      $("#logo").html() +
-      "</span>" +
+      // $("#logo").html() +
       "</div>"
   ).appendTo($body);
 
