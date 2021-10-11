@@ -20,16 +20,7 @@ function FactsPage() {
         />
       </div>
       <Delimiter />
-      <div className="containerH">
-        <TableauVisual
-          link="https://public.tableau.com/views/Sachida/Dashboard1"
-          height="70vh"
-        />
-      </div>
-      <div className="container pTop">
-        <PureParagraph text1="As can be easily seen from the graph above, New South Wales has the highest incidence of skin cancer in Australia. The bright colors represent the number of recorded cases. We need to raise the awareness of Australians to protect their skin. I think it is not difficult to start from the small steps of using sunscreen in daily life! So what exactly should we do? You can follow our guide on how to protect your skin." />
-      </div>
-      <Delimiter />
+
       {/* <Banner image="images/banner.jpeg" /> */}
       {/* <div className="containerH">
         <GraphDesc
@@ -45,11 +36,18 @@ function FactsPage() {
         <PureParagraph text1="With the development of science and technology, the incidence of skin cancer has skyrocketed in recent years, although the death rate has dropped. From the statistical representation of the graph above, one in 1,628 people will die of the disease by 2020. On the other hand, the risk of being diagnosed with skin cancer has also increased, with one in 64 people being diagnosed with skin cancer." />
       </div> */}
       <div>
-      <img className="featurePoster"
-            src="images/poster.png"
-            alt=""
-          />
-        </div>
+        <img className="featurePoster" src="images/poster.png" alt="" />
+      </div>
+      <Delimiter />
+      <div className="containerH">
+        <TableauVisual
+          link="https://public.tableau.com/views/Sachida/Dashboard1"
+          height="70vh"
+        />
+      </div>
+      <div className="container pTop">
+        <PureParagraph text1="As can be easily seen from the graph above, New South Wales has the highest incidence of skin cancer in Australia. The bright colors represent the number of recorded cases. We need to raise the awareness of Australians to protect their skin. I think it is not difficult to start from the small steps of using sunscreen in daily life! So what exactly should we do? You can follow our guide on how to protect your skin." />
+      </div>
     </div>
   );
 }
