@@ -74,19 +74,19 @@ function App() {
           <DisclaimerPage />
         </Route>
         <Route path="/WCRF">
-          <WCRF/>
+          <WCRF />
         </Route>
         <Route path="/AIHW">
-          <AIHW/>
+          <AIHW />
         </Route>
         <Route path="/CancerConcil">
-          <CancerConcil/>
+          <CancerConcil />
         </Route>
         <Route path="/SkinVision">
-          <SkinVision/>
+          <SkinVision />
         </Route>
         <Route path="/HTML5">
-          <HTML5/>
+          <HTML5 />
         </Route>
       </Switch>
       <div id="react-mount"></div>

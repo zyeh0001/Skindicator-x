@@ -1,11 +1,14 @@
 import HeaderImage from "../components/Sections/HeaderImage";
-//import { image } from "d3-fetch";
+import React, { useEffect } from "react";
 import Section2 from "../components/Sections/Section2";
 import MainTopic from "../components/Sections/MainTopic";
 import Delimiter from "../components/common/Delimiter";
 import BottomJump from "../components/Sections/BottomJump";
 
 function HealthyTipsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeaderImage image="images/protectionTips.jpg" />

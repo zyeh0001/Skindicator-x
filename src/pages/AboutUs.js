@@ -1,8 +1,12 @@
 import Section3Topic from "../components/Sections/Section3Topic";
 import HeaderImage from "../components/Sections/HeaderImage";
 import Section5 from "../components/Sections/Section5";
-//import Banner from "../components/HomePageCom/Banner";
+import React, { useEffect } from "react";
+
 function AboutPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeaderImage image="images/teamLogoBanner.png" />

@@ -1,15 +1,14 @@
-// import HomeImage from "../components/HomePageCom/HomeImage";
-// import Section3 from "../components/Sections/Section3";
 import HeaderImage from "../components/Sections/HeaderImage";
 import TableauVisual from "../components/HomePageCom/TableauVisual";
-// import Section3Topic from "../components/Sections/Section3Topic";
-//import StatBanner from "../components/HomePageCom/StatBanner";
 import GraphDesc from "../components/Sections/GraphDesc";
 import PureParagraph from "../components/Sections/PureParagraph";
 import Delimiter from "../components/common/Delimiter";
-//import MainNavigation from "../components/common/MainNavigation";
+import React, { useEffect } from "react";
 
 function FactsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeaderImage image="images/facts.jpg" />

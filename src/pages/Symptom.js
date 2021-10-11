@@ -6,8 +6,12 @@ import MainTopic from "../components/Sections/MainTopic";
 import PureParagraph from "../components/Sections/PureParagraph";
 import Slideshow from "../components/SymptomsCom/Slideshow";
 import Delimiter from "../components/common/Delimiter";
+import { useEffect } from "react";
 
 function SymptomPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeaderImage image="images/symptoms.jpg" />

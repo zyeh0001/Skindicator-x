@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import HeaderImage from "../components/Sections/HeaderImage";
 import MainTopic from "../components/Sections/MainTopic";
@@ -8,6 +8,9 @@ import Clinic from "../components/MedicalSupportCom/NearByClinc";
 export default MedicalSupportPage;
 
 function MedicalSupportPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="featureP">

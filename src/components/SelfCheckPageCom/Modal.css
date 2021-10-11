@@ -14,7 +14,7 @@
 
 .modalContainer {
   width: 60%;
-  height: 85%;
+  height: auto;
   top: "50%";
   left: "50%";
   transform: "translate(-50%, -50%)";
@@ -24,8 +24,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 25px;
-  margin-top: 20px;
+  padding: 15px;
+  /* margin-top: 20px; */
 }
 
 .invalidContainer {
@@ -52,7 +52,7 @@
 }
 
 .modalContainer .print {
-  margin: 20px;
+  margin: 15px;
 }
 
 .modalContainer .link {
@@ -63,7 +63,7 @@
   text-align: center;
   /* justify-content: center; */
   /* align-items: center; */
-  margin: 10px;
+  margin-bottom: 10px;
   font-size: 25px;
 }
 

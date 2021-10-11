@@ -1,4 +1,3 @@
-// import ImageSection2 from "../components/Sections/ImageSection2";
 import BulletList from "../components/Sections/BulletList";
 import BulletParagraph from "../components/Sections/BulletParagraph";
 import BlueBulletParagraph from "../components/Sections/BlueBulletParagraph";
@@ -11,8 +10,12 @@ import MainTopic from "../components/Sections/MainTopic";
 import PureParagraph from "../components/Sections/PureParagraph";
 import Delimiter from "../components/common/Delimiter";
 import BottomJump from "../components/Sections/BottomJump";
+import React, { useEffect } from "react";
 
 function ABCDEsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <HeaderImage image="images/abcde.jpg" />

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import jsPDF from "jspdf";
-// import Backdrop from "@mui/material/Backdrop";
 import "./Modal.css";
 import ReactDom from "react-dom";
 import { Link } from "react-router-dom";

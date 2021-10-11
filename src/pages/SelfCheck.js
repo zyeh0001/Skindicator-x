@@ -1,8 +1,12 @@
 //import ImageUploading from "../components/ImageUploading";
 import MainTopic from "../components/Sections/MainTopic";
 import Upload from "../components/SelfCheckPageCom/Upload";
+import { useEffect } from "react";
 
 function SelfCheckPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="featureP">
