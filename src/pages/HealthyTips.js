@@ -79,16 +79,16 @@ function HealthyTipsPage() {
           />
         </div>
         <div>
-        <BottomJump
-          question="Want to check your skin condition?  "
-          jump1="Go to learn more skin knowledge on: "
-          link1="/skin-protection-abcde"
-          jumpDesc1=" Know your moles"
-          jump2="If you want us to help you, come to "
-          link2="/self-check"
-          jumpDesc2="self check"
-        />
-      </div>
+          <BottomJump
+            question="Want know more of your skin?  "
+            jump1="Go to learn more skin knowledge on: "
+            link1="/skin-protection-abcde"
+            jumpDesc1=" Know your moles"
+            jump2="If you want us to help you, come to "
+            link2="/self-check"
+            jumpDesc2="self check"
+          />
+        </div>
       </div>
     </div>
   );

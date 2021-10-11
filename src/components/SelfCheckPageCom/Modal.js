@@ -137,7 +137,7 @@ function Modal({
                 to="/medical-disclaimer"
                 className="Highlight"
               >
-                Notice: this is not a medical diagnoses
+                Notice:This is not a medical diagnosis.
               </Link>
             </div>
 
