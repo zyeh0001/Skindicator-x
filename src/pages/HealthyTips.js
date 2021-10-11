@@ -26,7 +26,9 @@ function HealthyTipsPage() {
             image="images/tips2.jpg"
           />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="container">
         <div className="row">
           <Section2
             topic="3. Moisturize both day and night."
@@ -39,7 +41,9 @@ function HealthyTipsPage() {
             image="images/tips4.jpg"
           />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="container">
         <div className="row">
           <Section2
             topic="5. Avoid direct heat exposure."
@@ -52,7 +56,9 @@ function HealthyTipsPage() {
             image="images/tips6.jpg"
           />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="container">
         <div className="row">
           <Section2
             topic="7. Maintain a healthy diet."
@@ -65,7 +71,9 @@ function HealthyTipsPage() {
             image="images/tips8.jpg"
           />
         </div>
-        <Delimiter />
+      </div>
+      <Delimiter />
+      <div className="container">
         <div className="row">
           <Section2
             topic="9. Sun protection doesn't stop at sunscreen."
