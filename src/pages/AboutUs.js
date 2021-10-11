@@ -5,12 +5,11 @@ import Section5 from "../components/Sections/Section5";
 function AboutPage() {
   return (
     <div>
-      <HeaderImage
-        image = "images/teamLogoBanner.png"
-      />
+      <HeaderImage image="images/teamLogoBanner.png" />
       <Section3Topic
         title="Our Story"
-        text="Our team is committed to reminding Australians to take good care of their skin. We hope skin cancer will no longer be an Australian label and our project can contribute to it."
+        text="Our team consists of five persons with various technological backgrounds. We want to raise awareness about skin health among Australians, as it has become one of the country's major issues. The AI model for mole classification is one of the main features of our website that we are proud of. Skindicator-X is a free service platform that allows you to check your mole at any time and from any location. You can use our map tool in addition to the mole check; it will help you find the closest hospital to your location and provide a detailed driving route.
+we are COMMITTED TO REMINDING AUSTRALIANS TO TAKE GOOD CARE OF THEIR SKIN. WE HOPE SKIN CANCER WILL NO LONGER BE AN AUSTRALIAN LABEL AND OUR PROJECT CAN CONTRIBUTE TO IT."
       />
       <Section3Topic
         title="Our Team"
