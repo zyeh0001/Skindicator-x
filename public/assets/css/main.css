@@ -2575,7 +2575,7 @@ table.default thead {
 .box.feature2 {
   text-align: center;
   background-color: #ffe3e3;
-  width: 500px;
+  width: auto;
   height: auto;
   padding-bottom: 10px;
   margin-bottom: 50px;
@@ -2877,11 +2877,13 @@ body {
 .image-wrapper {
   position: relative;
   max-height: 40%;
+  width: auto;
 }
 
 .image-wrapper .image {
   position: relative;
   z-index: 2;
+  width: auto;
 }
 
 .image-wrapper.first:before {
