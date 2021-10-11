@@ -9,9 +9,9 @@ function Footer() {
             <li>
               <Link to="/medical-disclaimer">Medical Disclaimer</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/privacy-policy">Privacy policy</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/our-team">Contact us</Link>
             </li>

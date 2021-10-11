@@ -2576,7 +2576,8 @@ table.default thead {
   text-align: center;
   background-color: #ffe3e3;
   width: 500px;
-  height: 650px;
+  height: auto;
+  padding-bottom: 10px;
   margin-bottom: 50px;
   margin-left: 10px;
   margin-right: 10px;
