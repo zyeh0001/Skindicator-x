@@ -22,37 +22,7 @@ function SymptomPage() {
         <PureParagraph text1="There are many types of skin cancer in the world, and if you don't know if your mole is a type of skin cancer, you can scroll down to find out more." />
       </div>
       <Delimiter />
-      <div className="containerP">
-        <BulletParagraph
-          text1="Basal cell carcinoma signs and symptoms"
-          text2="Basal cell carcinoma usually occurs when you expose your skin in the sun, such as your neck or face, even your hands or legs."
-        />
-        <BulletList
-          description="Usually, Basal cell carcinoma’s symptoms may appear as:"
-          bullet1="· A pearly or waxy bump"
-          bullet2="· A flat, flesh-colored or brown scar-like lesion"
-          bullet3="· A bleeding or scabbing sore that heals and returns"
-        />
-        <div className="row aln-center feature">
-          <Slideshow type="basal" />
-        </div>
-      </div>
-      <Delimiter />
-      <div className="containerP">
-        <BulletParagraph
-          text1="Squamous cell carcinoma signs and symptoms"
-          text2="Generally, squamous cell carcinoma occurs when you expose your skin in the sun, such as your face, ears and hands. Most of the time, squamous cell carcinoma develops in areas of your body that are exposed to the sun, such as your face, ears and hands. People with darker skin are more likely to develop squamous cell carcinoma in areas that are not often exposed to the sun."
-        />
-        <BulletList
-          description="Usually, Squamous cell carcinoma’s symptoms may appear as: "
-          bullet1="· A firm, red nodule"
-          bullet2="· A flat lesion with a scaly, crusted surface"
-        />
-        <div className="row aln-center feature">
-          <Slideshow type="squamous" />
-        </div>
-      </div>
-      <Delimiter />
+
       <div className="containerP">
         <BulletParagraph
           text1="Melanoma signs and symptoms"
@@ -72,6 +42,37 @@ function SymptomPage() {
         </div>
       </div>
 
+      <Delimiter />
+      <div className="containerP">
+        <BulletParagraph
+          text1="Squamous cell carcinoma signs and symptoms"
+          text2="Generally, squamous cell carcinoma occurs when you expose your skin in the sun, such as your face, ears and hands. Most of the time, squamous cell carcinoma develops in areas of your body that are exposed to the sun, such as your face, ears and hands. People with darker skin are more likely to develop squamous cell carcinoma in areas that are not often exposed to the sun."
+        />
+        <BulletList
+          description="Usually, Squamous cell carcinoma’s symptoms may appear as: "
+          bullet1="· A firm, red nodule"
+          bullet2="· A flat lesion with a scaly, crusted surface"
+        />
+        <div className="row aln-center feature">
+          <Slideshow type="squamous" />
+        </div>
+      </div>
+      <Delimiter />
+      <div className="containerP">
+        <BulletParagraph
+          text1="Basal cell carcinoma signs and symptoms"
+          text2="Basal cell carcinoma usually occurs when you expose your skin in the sun, such as your neck or face, even your hands or legs."
+        />
+        <BulletList
+          description="Usually, Basal cell carcinoma’s symptoms may appear as:"
+          bullet1="· A pearly or waxy bump"
+          bullet2="· A flat, flesh-colored or brown scar-like lesion"
+          bullet3="· A bleeding or scabbing sore that heals and returns"
+        />
+        <div className="row aln-center feature">
+          <Slideshow type="basal" />
+        </div>
+      </div>
       <Delimiter />
       <div>
         <BottomJump
