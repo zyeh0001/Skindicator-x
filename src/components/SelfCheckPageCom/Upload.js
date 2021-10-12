@@ -82,7 +82,7 @@ export default class Upload extends Component {
     });
 
     const result_response = await fetch(
-      "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+      "https://cqpy0ns6yk.execute-api.us-east-1.amazonaws.com/Prod/api",
       {
         method: "POST",
         headers: {
@@ -127,7 +127,7 @@ export default class Upload extends Component {
 
     if (labels["Labels"][0] === undefined) {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
-      this.setState({ predict: 1 }); //predict = 1 is invalid photo
+      this.setState({ predict: 2 }); //predict = 2 is invalid photo
       console.log("invalid photo");
     } else if (
       labels["Labels"][0].Name === "Skin" ||
@@ -170,9 +170,9 @@ export default class Upload extends Component {
       var test_photo = JSON.stringify({
         image: utf8.decode(img),
       });
-
+      console.log(test_photo);
       const result_response = await fetch(
-        "https://qlgkusi8oj.execute-api.us-east-1.amazonaws.com/test/ai-model",
+        "https://cqpy0ns6yk.execute-api.us-east-1.amazonaws.com/Prod/api",
         {
           method: "POST",
           headers: {
@@ -194,7 +194,7 @@ export default class Upload extends Component {
       this.setState({ flag: true });
     } else {
       this.setState({ ifSkin: "Sorry, the Photo is Invalid." });
-      this.setState({ predict: 1 }); // predict = 1 invalid photo
+      this.setState({ predict: 2 }); // predict = 2 invalid photo
       console.log("not clear photo");
       this.setState({ flag: true });
     }
@@ -260,6 +260,7 @@ export default class Upload extends Component {
                 <p>
                   Notice: <br></br>*We only accept JPG format. <br></br>*All the
                   information is only one-time use
+                  <br></br>*It will take 30 seconds to generate your result
                 </p>
               </div>
               <div className="col-6 offset-3 feature">

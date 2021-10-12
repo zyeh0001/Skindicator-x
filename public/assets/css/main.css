@@ -2915,8 +2915,8 @@ body {
 
 #banner .content {
   position: relative;
-  background-color: rgba(236, 139, 139, 0.137);
-  background-image: url("images/overlay.png"), url("images/highlight.png");
+  /* background-color: rgba(236, 139, 139, 0.2); */
+  background-image: url("images/highlight.png");
   background-position: top left, center center;
   background-size: auto, 100% 250%;
   background-repeat: repeat, no-repeat;

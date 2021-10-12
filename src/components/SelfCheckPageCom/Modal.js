@@ -59,7 +59,7 @@ function Modal({
     } else {
       setFamilySection("");
     }
-    if (result <= 0.25) {
+    if (result >= 0 && result <= 0.25) {
       setColor("green");
       setLevel("Low");
       setSection1(
@@ -86,7 +86,7 @@ function Modal({
       setSection3(
         "We suggest you to go to our Medical Support page (link down below) to find nearest GP for moles check and reach to dermatologist for further medication. Please pay more attention and monitor any changes of your moles. If there is any doubt, go to see a GP immediately."
       );
-    } else if (result > 0.75 && result < 1) {
+    } else if (result > 0.75 && result <= 1) {
       setColor("#8b0000");
       setLevel("High");
       setSection1(

@@ -39,7 +39,7 @@ function FactsPage() {
       </div>
       <Delimiter />
       <div className="containerH">
-        <div className="featureB pHighlight">
+        <div className="aln-center featureB pHighlight">
           Note: Please hover over the map and use slider to select year to get
           specific yearly stats.
         </div>

@@ -16,7 +16,7 @@ function HomePage() {
     <div>
       <HomeImage />
       <div className="featureR">
-        <Link to="/medical-support" className="containerM">
+        <Link to="/medical-disclaimer" className="containerM">
           Medical disclaimer
         </Link>
       </div>
@@ -24,7 +24,7 @@ function HomePage() {
         <GraphDesc
           title="Why is there so much skin cancer in Australia?"
           text4="Skin cancer is one of Australia’s most common cancers.
-          Skin cancer is primarily caused by excessive exposure to ultraviolet (UV) radiation from the sun, causing DNA damage to skin cells. If this damage is not repaired by the body’s internal DNA repair machinery, then faulty cell replication can occur – triggering the abnormal growth of cells – which eventually become cancer.
+          Skin cancer is primarily caused by excessive exposure to ultraviolet (UV) radiation from the sun, causing DNA damage to skin cells. If this damage is not repaired by the body’s internal DNA repair machinery, then faulty cell replication can occur – triggering the abnormal growth of cells – which eventually become cancer, and late detection of skin cancer can even lead to death.
           "
         />
         <TableauVisual
