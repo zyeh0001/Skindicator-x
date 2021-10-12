@@ -4,7 +4,7 @@ import HeaderImage from "../components/Sections/HeaderImage";
 import MainTopic from "../components/Sections/MainTopic";
 import ThirdPartyService from "../components/Sections/ThirdPartyService";
 import Clinic from "../components/MedicalSupportCom/NearByClinc";
-
+import GraphDesc from "../components/Sections/GraphDesc";
 export default MedicalSupportPage;
 
 function MedicalSupportPage() {
@@ -17,6 +17,16 @@ function MedicalSupportPage() {
         <HeaderImage image="images/medicalSupport.png" />
         <div className="containerPink">
           <MainTopic title="Clinics around you" />
+        </div>
+        <div>
+          <GraphDesc
+            title="Map of skin care clinics in Victoria"
+            text4="The map's markers reflect hospitals throughout Victoria. If you have not already seen your GP, please go to the nearest clinic on the map for a skin examination."
+          />
+          <div className="featureB pHighlight">
+            Note: Please click on your current location and the nearest clinic
+            to get a navigation.
+          </div>
         </div>
         <div>
           <Clinic />
