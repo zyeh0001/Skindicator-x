@@ -39,9 +39,13 @@ function FactsPage() {
       </div>
       <Delimiter />
       <div className="containerH">
+        <div className="featureB pHighlight">
+          Note: Please hover over the map and use slider to select year to get
+          specific yearly stats.
+        </div>
         <TableauVisual
           link="https://public.tableau.com/views/Sachida/Dashboard1"
-          height="70vh"
+          height="60vh"
         />
       </div>
       <div className="container pTop">

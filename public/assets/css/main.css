@@ -412,9 +412,11 @@ header > p {
 }
 
 .containerH {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 64em;
+  margin-left: 10%;
+  /* margin-right: 15%; */
+  width: 80%;
+  height: auto;
+  /* width: 64em; */
   text-align: center;
 }
 
