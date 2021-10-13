@@ -4,7 +4,7 @@ function SymptomsNav() {
   return (
     <div>
       <nav id="nav">
-        <img src="images/logo192.png" alt="" />
+        <img src="images/logo192.png" alt="" style={{ borderRadius: 8 }} />
         <ul>
           <li className="current">
             <Link to="/symptoms">Symptoms</Link>
