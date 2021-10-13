@@ -2907,6 +2907,7 @@ body {
   background-image: url("images/overlay.png"), url("images/overlay.png"),
     url("../../images/homeimg.jpg");
   background-position: top left, top left, center center;
+
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
   z-index: 1;
@@ -2914,14 +2915,16 @@ body {
 }
 
 #banner .content {
-  position: relative;
-  /* background-color: rgba(236, 139, 139, 0.2); */
+  /* position: relative; */
+  background-color: rgba(236, 139, 139, 0.2);
   background-image: url("images/highlight.png");
-  background-position: top left, center center;
-  background-size: auto, 100% 250%;
-  background-repeat: repeat, no-repeat;
+  /* background-position: top left, center center; */
+  height: auto;
+  width: auto;
+  /* background-repeat: repeat, no-repeat; */
   text-align: center;
-  margin: 0;
+  margin-left: 20%;
+  margin-right: 20%;
   padding: 4em 0 3.5em 0;
 }
 

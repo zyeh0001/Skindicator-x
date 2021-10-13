@@ -70,7 +70,7 @@ function HomePage() {
           />
           <Section3
             title="Facts"
-            text="Here are some visulizations, click me to know the facts of skin caner that you don’t know."
+            text="Here are some visualizations, click me to know the facts of skin caner that you don’t know."
             image="images/factsHome.jpg"
             link="/facts"
           />
