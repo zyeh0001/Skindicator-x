@@ -77,7 +77,7 @@ function SymptomPage() {
       <div>
         <BottomJump
           question="Do you want to learn more skin knowledge?  "
-          jump1="Know your skin by yourself:   "
+          jump1="Know your moles by yourself:   "
           link1="/skin-protection-abcde"
           jumpDesc1=" Know your moles"
           jump2="Start your skin-care from now:"

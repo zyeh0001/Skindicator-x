@@ -258,9 +258,10 @@ export default class Upload extends Component {
               </div>
               <div className=" col-6 offset-3 pHighlight">
                 <p>
-                  Notice: <br></br>*We only accept JPG format. <br></br>*All the
+                  Note: <br></br>*We only accept JPG format. <br></br>*All the
                   information is only one-time use
-                  <br></br>*It will take 30 seconds to generate your result
+                  <br></br>*It will take up to 30 seconds to generate your
+                  result
                 </p>
               </div>
               <div className="col-6 offset-3 feature">

@@ -14,8 +14,8 @@ function FactsPage() {
       <HeaderImage image="images/facts.jpg" />
       <div className="containerH">
         <GraphDesc
-          title="The fact below will show you the severity of skin cancer..."
-          text4="Actually, only facts tell the truth,  we use some charts to show you guys the importance of skin cancer, Please keep them in mind"
+          title="The fact below will show you the severity of skin cancer"
+          text4="Only facts tell the truth,  we use some charts to show you guys the importance of skin cancer, Please keep them in mind"
         />
       </div>
       <Delimiter />

@@ -21,7 +21,7 @@ function MedicalSupportPage() {
         <div>
           <GraphDesc
             title="Map of skin care clinics in Victoria"
-            text4="The map's markers reflect hospitals throughout Victoria. If you have not already seen your GP, please go to the nearest clinic on the map for a skin examination."
+            text4="The map's markers reflect hospitals throughout Victoria. If you have not seen your GP, please go to the nearest clinic on the map for a skin examination."
           />
           <div className="featureB pHighlight">
             Note: Please click on your current location and the nearest clinic
@@ -33,7 +33,7 @@ function MedicalSupportPage() {
         </div>
 
         <div className="containerPink">
-          <MainTopic title="Third-party services" />
+          <MainTopic title="Get more help here" />
         </div>
       </div>
       <ThirdPartyService />

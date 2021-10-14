@@ -4,7 +4,7 @@ function GraphDesc(props) {
   return (
     <div>
       <article id="content">
-        <p>{props.text}</p>
+        {props.text && <p>{props.text}</p>}
         <header>
           <h2 className="feature">
             <b>{props.title}</b>

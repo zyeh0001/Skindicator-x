@@ -31,7 +31,7 @@ function HomePage() {
           link="https://public.tableau.com/views/Sachida3/Dashboard3"
           height="50vh"
         />
-        <PureParagraph text1="According to this line chart, we can clearly see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! " />
+        <PureParagraph text1="According to this line chart, we can see the high incidence of skin cancer in Australia. In 2017, 45.3% of every 100,000 people developed skin cancer, nearly half! " />
         <div className="featureP">
           <Link to="/facts" className="button scrolly">
             Learn more about the facts
@@ -50,13 +50,13 @@ function HomePage() {
           />
           <Section3
             title="Self Check"
-            text="You can check your skin at any time with just a few easy steps..."
+            text="You can check your skin at any time with just a few easy steps."
             image="images/selfCheck.jpg"
             link="/self-check"
           />
           <Section3
             title="Medical support"
-            text="From here, you can find out the nearest skin health clinic around you..."
+            text="From here, you can find out the nearest skin health clinic around you."
             image="images/support.jpg"
             link="/medical-support"
           />
@@ -64,19 +64,19 @@ function HomePage() {
         <div className="row">
           <Section3
             title="Symptoms"
-            text="You can see three common skin cancers’ symptoms here and know more about them."
+            text="You can see three common skin cancer symptoms here and know more about them."
             image="images/symptomsHome.jpg"
             link="/symptoms"
           />
           <Section3
             title="Facts"
-            text="Here are some visualizations, click me to know the facts of skin caner that you don’t know."
+            text="Here are some visualizations, click me to know the facts of skin cancer that you don’t know."
             image="images/factsHome.jpg"
             link="/facts"
           />
           <Section3
             title="Know your moles"
-            text="Do you know what is skin ABCDEs? I will show you the definations of them"
+            text="Do you know what is skin ABCDEs? I will show you the definitions of them"
             image="images/abcdeHome.jpg"
             link="/skin-protection-abcde"
           />
