@@ -3,8 +3,10 @@ function Section3Topic(props) {
     <div className="container">
       <header className="major">
         <h2>{props.title}</h2>
-        <p className="pGrey">{props.text}</p>
       </header>
+      <p className="pGrey">
+        <b>{props.text}</b>
+      </p>
     </div>
   );
 }

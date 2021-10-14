@@ -1,9 +1,10 @@
-
 function BulletParagraph(props) {
-    return (
+  return (
     <div>
-        <p><b>{props.text1}</b><br/>{props.text2}</p>
+      <h4>{props.text1}</h4>
+      <br />
+      <p>{props.text2}</p>
     </div>
-    );
+  );
 }
 export default BulletParagraph;

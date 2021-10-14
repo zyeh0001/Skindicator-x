@@ -54,10 +54,10 @@ function ABCDEsPage() {
       </div>
       <div className="containerP">
         <BulletList
-          description="If you find a spot on your skin that could be skin cancer, it's time to see a dermatologist. Found early, skin cancer is highly treatable. Often a dermatologist can treat an early skin cancer by removing the cancer and a bit of normal-looking skin."
-          bullet1="· Basal cell carcinoma can be excised surgically, and the cure rate is over 97%."
-          bullet2="· The majority of cell carcinomas require surgical excision, and radiotherapy or chemotherapy is needed for advanced detection."
-          bullet3=". Early melanin cancer can be excised with surgery, if already transferred to lymphatic or organ inside body, add chemical therapy or immune therapy even."
+          description="If you find a spot on your skin that is suspicious, it's time to see a dermatologist. Skin cancer can be cured if caught early. Often dermatologists can treat early skin cancers by removing the cancer and some normal skin."
+          bullet1="* Basal cell carcinoma can be excised surgically, and the cure rate is over 97%."
+          bullet2="* The majority of cell carcinomas require surgical excision, and radiotherapy or chemotherapy is needed for advanced detection."
+          bullet3="* Early melanoma can be removed surgically or, if it has spread to lymph nodes or organs, with chemotherapy or immunotherapy."
         />
       </div>
       <div>

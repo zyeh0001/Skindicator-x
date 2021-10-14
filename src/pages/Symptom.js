@@ -25,7 +25,7 @@ function SymptomPage() {
 
       <div className="containerP">
         <BulletParagraph
-          text1="Melanoma signs and symptoms"
+          text1="Melanoma"
           text2="Melanoma can develop anywhere in your body, on otherwise normal skin or on moles that have become cancerous. Melanoma most often appears on the face or torso in men. In women, this type of cancer most often occurs in the lower legs. In both men and women, melanoma can occur on skin that is not exposed to the sun."
         />
         <PureParagraph text1="Melanoma can affect people of any skin color. For people with darker skin, melanomas tend to develop on the palms or soles of the feet, or under the nails or toenails." />
@@ -45,7 +45,7 @@ function SymptomPage() {
       <Delimiter />
       <div className="containerP">
         <BulletParagraph
-          text1="Squamous cell carcinoma signs and symptoms"
+          text1="Squamous cell carcinoma"
           text2="Generally, squamous cell carcinoma occurs when you expose your skin in the sun, such as your face, ears and hands. Most of the time, squamous cell carcinoma develops in areas of your body that are exposed to the sun, such as your face, ears and hands. People with darker skin are more likely to develop squamous cell carcinoma in areas that are not often exposed to the sun."
         />
         <BulletList
@@ -60,7 +60,7 @@ function SymptomPage() {
       <Delimiter />
       <div className="containerP">
         <BulletParagraph
-          text1="Basal cell carcinoma signs and symptoms"
+          text1="Basal cell carcinoma"
           text2="Basal cell carcinoma usually occurs when you expose your skin in the sun, such as your neck or face, even your hands or legs."
         />
         <BulletList
